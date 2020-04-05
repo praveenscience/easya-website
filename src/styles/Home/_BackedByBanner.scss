@@ -16,15 +16,18 @@
   &-Image {
     width: 65%;
     padding: 36px 15px 0;
+    img {
+      margin: 50px 0 0;
+      display: block;
+      width: 100%;
+    }
     @media screen and (max-width: 575px) {
       padding: 0 15px;
       order: 2;
       width: auto;
-    }
-    img {
-      margin: 0 0 42px;
-      display: block;
-      width: 100%;
+      img {
+        margin: 0 0 42px;
+      }
     }
   }
   &-Text {
