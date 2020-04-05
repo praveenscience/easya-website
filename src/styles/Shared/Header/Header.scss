@@ -1,9 +1,13 @@
 .Header {
-  overflow: hidden;
-  padding: 20px 90px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
-  @media screen and (max-width: 575px) {
-    padding: 16px;
+  &-Wrapper {
+    overflow: hidden;
+    max-width: 1260px;
+    margin: auto;
+    padding: 20px 90px;
+    @media screen and (max-width: 575px) {
+      padding: 16px;
+    }
   }
   @import "Ham";
   @import "Brand";

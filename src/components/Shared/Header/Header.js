@@ -6,9 +6,11 @@ import Ham from "./_Ham";
 const Header = () => {
   return (
     <div className="Header">
-      <Ham />
-      <Brand />
-      <PrimaryNav />
+      <div className="Header-Wrapper">
+        <Ham />
+        <Brand />
+        <PrimaryNav />
+      </div>
     </div>
   );
 };
