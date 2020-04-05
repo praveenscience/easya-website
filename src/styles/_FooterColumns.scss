@@ -1,0 +1,40 @@
+&-Columns {
+  display: flex;
+  ul {
+    width: 200px;
+    margin: 0;
+    color: $nvgum;
+    padding: 0;
+    li {
+      list-style: none;
+      margin: 0;
+      h3 {
+        font-size: 1.8em;
+        margin: 15px 0 35px;
+        font-weight: 600;
+      }
+      a {
+        font-size: 1.5em;
+        line-height: 1.5;
+        letter-spacing: 0.16px;
+        color: $nvgum;
+        margin: 0 0 20px;
+        display: block;
+      }
+    }
+  }
+  @media screen and (max-width: 575px) {
+    flex-wrap: wrap;
+    ul {
+      width: 50%;
+      li {
+        h3 {
+          margin: 15px 0 25px;
+        }
+        a {
+          margin: 0 0 20px;
+        }
+      }
+    }
+  }
+}

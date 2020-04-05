@@ -4,10 +4,10 @@
       padding: 15px 40px;
       border-radius: 25px;
       color: $white;
-      background-color: #f37121;
+      background-color: $tango;
       border: 0;
       font-size: 1.5em;
-      box-shadow: 0 4px 0 0 rgba(#f37121, 0.26);
+      box-shadow: 0 4px 0 0 rgba($tango, 0.26);
       @media screen and (max-width: 575px) {
         font-size: 1.15em;
         padding: 12px 20px;
@@ -17,7 +17,7 @@
       border-radius: 30px;
       padding: 15px 64px;
       background-color: $white;
-      color: #321454;
+      color: $nvgum;
       font-size: 1.5em;
       letter-spacing: 0.6px;
       box-shadow: 0 4px 0 0 rgba($white, 0.55);

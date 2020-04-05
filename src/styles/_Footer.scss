@@ -1,0 +1,12 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 90px;
+  background-color: rgba(160, 153, 166, 0.05);
+  @media screen and (max-width: 575px) {
+    padding: 15px;
+    flex-direction: column;
+  }
+  @import "FooterAbout";
+  @import "FooterColumns";
+}
