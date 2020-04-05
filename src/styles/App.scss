@@ -3,10 +3,19 @@ body {
   $tango: #f37121;
   $white: #fff;
   $black: #000;
+  $supernova: #fcc400;
   margin: 0;
   padding: 0;
   font-family: "Inter";
   font-size: 10px;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "CircularStd";
+  }
   a {
     text-decoration: none;
   }
@@ -14,5 +23,6 @@ body {
     @import "Utils";
     @import "Shared/Header/Header";
     @import "Shared/Footer/Footer";
+    @import "Home/Home";
   }
 }

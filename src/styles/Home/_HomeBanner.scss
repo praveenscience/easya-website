@@ -1,0 +1,92 @@
+&-Banner {
+  background-color: $supernova;
+  border-radius: 20px;
+  overflow: hidden;
+  @media screen and (max-width: 575px) {
+    border-radius: 0;
+  }
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
+  @media screen and (max-width: 575px) {
+    .desktop-only {
+      display: none;
+    }
+    .mobile-only {
+      display: block;
+    }
+  }
+  &-Text {
+    float: left;
+    padding: 115px 92px 115px 115px;
+    @media screen and (max-width: 575px) {
+      float: none;
+      padding: 48px 25px 50px;
+      text-align: center;
+      br {
+        display: none;
+      }
+    }
+    h1 {
+      margin: 5px 0 25px;
+      color: $nvgum;
+      font-size: 8.8em;
+      font-weight: 900;
+      letter-spacing: -1.97px;
+      line-height: 0.9;
+      @media screen and (max-width: 575px) {
+        font-size: 5.65em;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+      }
+    }
+    p {
+      margin: 0;
+      line-height: 1.65;
+      font-size: 1.55em;
+      &.lead {
+        margin: 0 0 30px;
+        font-size: 1.8em;
+        letter-spacing: 0.5px;
+      }
+      @media screen and (max-width: 575px) {
+        margin: 0;
+        line-height: 1.65;
+        font-size: 1.35em;
+      }
+    }
+    .action-button {
+      margin: 33px 0 0;
+      @media screen and (max-width: 575px) {
+        .easya-btn-banner {
+          display: block;
+        }
+      }
+    }
+  }
+  &-Image {
+    float: left;
+    padding: 48px 0 0;
+    @media screen and (max-width: 575px) {
+      padding: 0;
+      position: relative;
+      width: 100%;
+      min-height: 440px;
+      img {
+        position: absolute;
+        left: 56%;
+        width: 410px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+      }
+    }
+    img {
+      max-width: 550px;
+    }
+  }
+}
