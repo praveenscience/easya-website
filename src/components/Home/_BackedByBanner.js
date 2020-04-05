@@ -4,7 +4,7 @@ import BackedInstitutes from "../../assets/backedinstitutes.png";
 
 const BackedByBanner = () => {
   return (
-    <div className="BackedByBanner">
+    <section className="BackedByBanner">
       <div className="BackedByBanner-Image">
         <img src={BackedByPic} alt="Backed By" />
       </div>
@@ -20,7 +20,7 @@ const BackedByBanner = () => {
         className="BackedByBanner-OverlayImage Bottom"
         alt="Backed by Institutes"
       />
-    </div>
+    </section>
   );
 };
 
