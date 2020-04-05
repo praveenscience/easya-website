@@ -11,6 +11,9 @@
     &.Bottom {
       max-width: 385px;
       bottom: 15px;
+      @media screen and (max-width: 575px) {
+        max-width: 295px;
+      }
     }
   }
   &-Image {
@@ -41,11 +44,6 @@
       p {
         margin: 0;
       }
-    }
-  }
-  &-OverlayImage {
-    &.Bottom {
-      max-width: 295px;
     }
   }
 }
