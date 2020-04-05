@@ -5,6 +5,7 @@
   border-radius: 20px;
   @media screen and (max-width: 575px) {
     border-radius: 0;
+    margin-bottom: 115px;
   }
   &-OverlayImage {
     &.Bottom {
@@ -15,8 +16,13 @@
   &-Image {
     width: 65%;
     padding: 36px 15px 0;
+    @media screen and (max-width: 575px) {
+      padding: 0 15px;
+      order: 2;
+      width: auto;
+    }
     img {
-      margin-top: 50px;
+      margin: 0 0 42px;
       display: block;
       width: 100%;
     }
@@ -24,7 +30,19 @@
   &-Text {
     padding: 125px 65px 0;
     @media screen and (max-width: 575px) {
-      padding: 60px 16px;
+      padding: 60px 16px 50px;
+      text-align: left;
+      h2 {
+        margin-right: 25px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  &-OverlayImage {
+    &.Bottom {
+      max-width: 295px;
     }
   }
 }

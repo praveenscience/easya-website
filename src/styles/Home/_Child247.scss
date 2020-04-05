@@ -1,9 +1,5 @@
 &-Child247 {
   @include EasyABanner;
-  @media screen and (max-width: 575px) {
-    margin: 50px 0;
-    flex-direction: column;
-  }
   &-Image {
     padding: 0 105px;
     @media screen and (max-width: 575px) {
@@ -11,6 +7,11 @@
       img {
         max-width: 100%;
       }
+    }
+  }
+  &-Text {
+    @media screen and (max-width: 575px) {
+      order: 2;
     }
   }
 }
