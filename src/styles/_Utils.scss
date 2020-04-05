@@ -8,6 +8,10 @@
       border: 0;
       font-size: 1.5em;
       box-shadow: 0 4px 0 0 rgba(#f37121, 0.26);
+      @media screen and (max-width: 575px) {
+        font-size: 1.15em;
+        padding: 12px 20px;
+      }
     }
     &-banner {
       border-radius: 30px;

@@ -2,6 +2,9 @@
   overflow: hidden;
   padding: 20px 90px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+  @media screen and (max-width: 575px) {
+    padding: 16px;
+  }
   @import "Brand";
   @import "PrimaryNav";
 }

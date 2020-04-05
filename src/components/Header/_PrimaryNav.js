@@ -44,6 +44,9 @@ const PrimaryNav = () => {
         <li>
           <button className="easya-btn-nav">Start for free</button>
         </li>
+        <li className="download">
+          <button className="easya-btn-nav">Download App</button>
+        </li>
       </ul>
     </nav>
   );
