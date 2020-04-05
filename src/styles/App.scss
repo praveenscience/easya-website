@@ -12,7 +12,7 @@ body {
   }
   .App {
     @import "Utils";
-    @import "Header";
-    @import "Footer";
+    @import "Shared/Header/Header";
+    @import "Shared/Footer/Footer";
   }
 }
