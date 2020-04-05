@@ -1,0 +1,30 @@
+.BackedByBanner {
+  @include EasyABanner;
+  background-color: $tango;
+  color: $white;
+  border-radius: 20px;
+  @media screen and (max-width: 575px) {
+    border-radius: 0;
+  }
+  &-OverlayImage {
+    &.Bottom {
+      max-width: 385px;
+      bottom: 15px;
+    }
+  }
+  &-Image {
+    width: 65%;
+    padding: 36px 15px 0;
+    img {
+      margin-top: 50px;
+      display: block;
+      width: 100%;
+    }
+  }
+  &-Text {
+    padding: 125px 65px 0;
+    @media screen and (max-width: 575px) {
+      padding: 60px 16px;
+    }
+  }
+}

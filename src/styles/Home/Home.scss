@@ -1,9 +1,10 @@
 .Home {
-  width: 1260px;
+  max-width: 1260px;
   margin: auto;
   @media screen and (max-width: 575px) {
     width: auto;
   }
   @import "HomeBanner";
   @import "Child247";
+  @import "BackedByBanner";
 }

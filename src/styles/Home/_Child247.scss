@@ -1,62 +1,8 @@
 &-Child247 {
-  margin: 110px 0;
-  display: flex;
-  justify-content: space-between;
+  @include EasyABanner;
   @media screen and (max-width: 575px) {
     margin: 50px 0;
     flex-direction: column;
-  }
-  &-Text {
-    max-width: 585px;
-    h2 {
-      font-size: 5em;
-      font-weight: 600;
-      letter-spacing: -1.12px;
-      line-height: 1.12;
-      margin: 0 0 25px;
-    }
-    p {
-      font-size: 1.8em;
-      letter-spacing: 0.1px;
-      line-height: 1.6;
-      margin-right: 50px;
-    }
-    .action-button {
-      margin: 25px 0;
-      a {
-        padding: 15px 50px;
-        font-weight: 600;
-        display: inline-block;
-      }
-    }
-    @media screen and (max-width: 575px) {
-      order: 2;
-      max-width: none;
-      padding: 25px 5px;
-      text-align: center;
-      h2 {
-        font-size: 3.25em;
-        font-weight: 600;
-        letter-spacing: -1.12px;
-        line-height: 1.2;
-        margin-bottom: 10px;
-      }
-      p {
-        font-size: 1.65em;
-        letter-spacing: 0.1px;
-        line-height: 1.6;
-        margin: 0 20px;
-      }
-      .action-button {
-        margin: 25px 0 0;
-        a {
-          padding: 15px 50px;
-          display: block;
-          margin: 40px 10px 10px;
-          font-size: 1.6em;
-        }
-      }
-    }
   }
   &-Image {
     padding: 0 105px;
