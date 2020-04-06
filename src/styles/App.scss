@@ -20,6 +20,7 @@ body {
   }
   .App {
     @import "Utils";
+    @import "Shared/Sprites";
     @import "Shared/InfoPage";
     @import "Shared/Header/Header";
     @import "Shared/Footer/Footer";
