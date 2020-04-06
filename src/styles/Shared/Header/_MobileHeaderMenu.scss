@@ -1,0 +1,27 @@
+.MobileHeaderMenu {
+  position: fixed;
+  top: 60px;
+  z-index: 5;
+  background-color: rgba($white, 0.95);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  // For some reason, using $seance here doesn't work!
+  border-top: 1px solid rgba(96, 23, 156, 0.2);
+  ul {
+    margin: 0;
+    padding: 15px 0;
+    li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      a {
+        font-size: 2em;
+        font-weight: 500;
+        padding: 15px 40px;
+        display: block;
+        color: $nvgum;
+      }
+    }
+  }
+}
