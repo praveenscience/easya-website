@@ -7,6 +7,9 @@ import HomeParentTestimonial from "./_HomeParentTestimonial";
 import HomePlans from "./_HomePlans";
 
 const Home = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <main className="Home">
       <HomeBanner />

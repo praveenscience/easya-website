@@ -2,6 +2,9 @@ import React from "react";
 import InfoPage from "../Shared/InfoPage/InfoPage";
 
 const Terms = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <InfoPage Heading="Terms">
       <h2>Heading 2</h2>
