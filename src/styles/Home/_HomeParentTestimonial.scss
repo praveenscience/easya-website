@@ -7,7 +7,7 @@
     }
     &-Image {
       width: 32%;
-      padding: 50px 40px;
+      padding: 60px 40px;
       @media screen and (max-width: 575px) {
         padding: 16px;
         width: 100%;
@@ -17,17 +17,21 @@
       }
     }
     &-Text {
-      padding: 125px 65px 0;
+      padding: 80px 65px 0;
+      width: 68%;
+      max-width: none;
       h2 {
         font-size: 3.6em;
         line-height: 1.42;
+        font-weight: normal;
       }
       @media screen and (max-width: 575px) {
         padding: 50px 16px;
+        width: auto;
         text-align: left;
         h2 {
           font-size: 2.8em;
-          margin-right: 25px;
+          margin-right: 0;
         }
         p {
           font-size: 1.8em;
