@@ -4,6 +4,7 @@ $seance: #60179c;
 $white: #fff;
 $black: #000;
 $supernova: #fcc400;
+$mardigras: #240038;
 .easya {
   &-bgc- {
     &nvgum {
@@ -11,6 +12,9 @@ $supernova: #fcc400;
     }
     &seance {
       background-color: $seance;
+    }
+    &mardigras {
+      background-color: $mardigras;
     }
     &tango {
       background-color: $tango;
@@ -34,6 +38,12 @@ $supernova: #fcc400;
       background-color: rgba($seance, 0.2);
       &:hover {
         background-color: $seance;
+      }
+    }
+    &hover-mardigras {
+      background-color: rgba($mardigras, 0.2);
+      &:hover {
+        background-color: $mardigras;
       }
     }
     &hover-tango {
@@ -70,6 +80,9 @@ $supernova: #fcc400;
     }
     &seance {
       color: $seance;
+    }
+    &mardigras {
+      color: $mardigras;
     }
     &white {
       color: $white;
