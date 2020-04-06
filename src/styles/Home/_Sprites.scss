@@ -78,4 +78,12 @@
     background-position: -1906px -1698px;
     @include Square(100px);
   }
+  &MouseBlue {
+    background-position: -1880px -3690px;
+    @include Square(152px);
+  }
+  &MouseGreen {
+    background-position: -2398px -3690px;
+    @include Square(152px);
+  }
 }
