@@ -5,6 +5,7 @@ import Header from "./Shared/Header/Header";
 import Footer from "./Shared/Footer/Footer";
 import Home from "./Home/Home";
 import About from "./About/About";
+import Subjects from "./Subjects/Subjects";
 import Terms from "./InfoPages/Terms";
 import Privacy from "./InfoPages/Privacy";
 
@@ -18,6 +19,9 @@ const App = () => {
         </Route>
         <Route path={Paths.About}>
           <About />
+        </Route>
+        <Route path={Paths.Subjects}>
+          <Subjects />
         </Route>
         <Route path={Paths.Terms}>
           <Terms />

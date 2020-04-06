@@ -16,7 +16,7 @@ const Cols = [
       },
       {
         Label: "Subjects",
-        Link: Paths.Home
+        Link: Paths.Subjects
       },
       {
         Label: "Teaching Methods",
