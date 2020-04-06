@@ -1,0 +1,19 @@
+.BackgroundBannerWithImage {
+  position: relative;
+  &-Img {
+    position: absolute;
+    width: 500px;
+    &.Bottom {
+      bottom: 0;
+    }
+    &.Top {
+      top: 0;
+    }
+    &.Left {
+      left: 0;
+    }
+    &.Right {
+      right: 0;
+    }
+  }
+}

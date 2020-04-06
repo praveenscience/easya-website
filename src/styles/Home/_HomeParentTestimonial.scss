@@ -1,0 +1,39 @@
+&-ParentTestimonial {
+  &-Banner {
+    @include EasyABanner;
+    color: $white;
+    @media screen and (max-width: 575px) {
+      display: block;
+    }
+    &-Image {
+      width: 32%;
+      padding: 50px 40px;
+      @media screen and (max-width: 575px) {
+        padding: 16px;
+        width: 100%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    &-Text {
+      padding: 125px 65px 0;
+      h2 {
+        font-size: 3.6em;
+        line-height: 1.42;
+      }
+      @media screen and (max-width: 575px) {
+        padding: 50px 16px;
+        text-align: left;
+        h2 {
+          font-size: 2.8em;
+          margin-right: 25px;
+        }
+        p {
+          font-size: 1.8em;
+          margin: 32px 0 0;
+        }
+      }
+    }
+  }
+}

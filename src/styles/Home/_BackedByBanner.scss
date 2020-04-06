@@ -2,9 +2,8 @@
   @include EasyABanner;
   background-color: $tango;
   color: $white;
-  border-radius: 20px;
+  overflow: visible;
   @media screen and (max-width: 575px) {
-    border-radius: 0;
     margin-bottom: 115px;
   }
   &-OverlayImage {

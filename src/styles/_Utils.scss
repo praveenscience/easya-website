@@ -32,7 +32,10 @@
   position: relative;
   margin: 110px 0;
   justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
   @media screen and (max-width: 575px) {
+    border-radius: 0;
     margin: 50px 0;
     flex-direction: column;
   }

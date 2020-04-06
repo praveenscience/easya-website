@@ -3,6 +3,7 @@ import HomeBanner from "./_HomeBanner";
 import Child247 from "./_Child247";
 import BackedByBanner from "./_BackedByBanner";
 import HomeSubjects from "./_HomeSubjects";
+import HomeParentTestimonial from "./_HomeParentTestimonial";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Child247 />
       <BackedByBanner />
       <HomeSubjects />
+      <HomeParentTestimonial />
     </main>
   );
 };
