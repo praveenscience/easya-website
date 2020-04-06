@@ -1,9 +1,5 @@
 body {
-  $nvgum: #321454;
-  $tango: #f37121;
-  $white: #fff;
-  $black: #000;
-  $supernova: #fcc400;
+  @import "Colours";
   margin: 0;
   padding: 0;
   font-family: "Inter";

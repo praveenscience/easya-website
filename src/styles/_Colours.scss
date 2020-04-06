@@ -1,0 +1,39 @@
+$nvgum: #321454;
+$tango: #f37121;
+$white: #fff;
+$black: #000;
+$supernova: #fcc400;
+.bgc- {
+  &nvgum {
+    background-color: $nvgum;
+  }
+  &tango {
+    background-color: $tango;
+  }
+  &white {
+    background-color: $white;
+  }
+  &black {
+    background-color: $black;
+  }
+  &supernova {
+    background-color: $supernova;
+  }
+}
+.color- {
+  &nvgum {
+    color: $nvgum;
+  }
+  &tango {
+    color: $tango;
+  }
+  &white {
+    color: $white;
+  }
+  &black {
+    color: $black;
+  }
+  &supernova {
+    color: $supernova;
+  }
+}
