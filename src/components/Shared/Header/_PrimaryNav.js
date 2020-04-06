@@ -1,38 +1,6 @@
 import React from "react";
 
-const PrimaryNav = () => {
-  const List = [
-    {
-      Name: "Features",
-      Path: "/",
-      Active: false,
-      Classes: null
-    },
-    {
-      Name: "Tutors",
-      Path: "/",
-      Active: false,
-      Classes: null
-    },
-    {
-      Name: "Pricing",
-      Path: "/",
-      Active: false,
-      Classes: null
-    },
-    {
-      Name: "Blog",
-      Path: "/",
-      Active: false,
-      Classes: null
-    },
-    {
-      Name: "Login",
-      Path: "/",
-      Active: false,
-      Classes: "Header-Nav-Login"
-    }
-  ];
+const PrimaryNav = ({ List }) => {
   return (
     <nav className="Header-Nav">
       <ul>

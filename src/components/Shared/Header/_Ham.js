@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import MobileHeaderMenu from "./_MobileHeaderMenu";
 
-const Ham = () => {
+const Ham = ({ List }) => {
+  const [MobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const toggleMenu = e => {
+    e.preventDefault();
+    setMobileMenuOpen(!MobileMenuOpen);
+  };
   return (
-    <div className="Header-Ham">
-      <span />
-      <span />
-      <span />
-    </div>
+    <>
+      <div
+        className={"Header-Ham" + (MobileMenuOpen ? " Open" : "")}
+        onClick={toggleMenu}
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+      {MobileMenuOpen && <MobileHeaderMenu List={List} />}
+    </>
   );
 };
 
