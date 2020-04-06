@@ -1,0 +1,62 @@
+.SubjectIcon {
+  background-image: url("../../assets/icons.png");
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 76px;
+  display: inline-block;
+  vertical-align: middle;
+  &Early {
+    background-position: -376px -370px;
+    &:hover {
+      background-position: -376px -990px;
+    }
+  }
+  &Algebra {
+    background-position: -892px -370px;
+    &:hover {
+      background-position: -892px -990px;
+    }
+  }
+  &Geometry {
+    background-position: -1416px -370px;
+    &:hover {
+      background-position: -1416px -990px;
+    }
+  }
+  &Series {
+    background-position: -1918px -370px;
+    &:hover {
+      background-position: -1918px -990px;
+    }
+  }
+  &Stats {
+    background-position: -2436px -370px;
+    &:hover {
+      background-position: -1918px -990px;
+    }
+  }
+  &Trigonometry {
+    background-position: -374px -598px;
+    &:hover {
+      background-position: -374px -1218px;
+    }
+  }
+  &Graphs {
+    background-position: -892px -598px;
+    &:hover {
+      background-position: -892px -1218px;
+    }
+  }
+  &Integration {
+    background-position: -1416px -578px;
+    &:hover {
+      background-position: -1416px -1218px;
+    }
+  }
+  &Differentiation {
+    background-position: -1916px -592px;
+    &:hover {
+      background-position: -1916px -1212px;
+    }
+  }
+}
