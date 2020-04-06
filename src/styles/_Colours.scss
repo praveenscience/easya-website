@@ -1,39 +1,81 @@
 $nvgum: #321454;
 $tango: #f37121;
+$seance: #60179c;
 $white: #fff;
 $black: #000;
 $supernova: #fcc400;
-.bgc- {
-  &nvgum {
-    background-color: $nvgum;
+.easya {
+  &-bgc- {
+    &nvgum {
+      background-color: $nvgum;
+    }
+    &tango {
+      background-color: $tango;
+    }
+    &white {
+      background-color: $white;
+    }
+    &black {
+      background-color: $black;
+    }
+    &supernova {
+      background-color: $supernova;
+    }
+    &hover-nvgum {
+      background-color: rgba($nvgum, 0.2);
+      &:hover {
+        background-color: $nvgum;
+      }
+    }
+    &hover-seance {
+      background-color: rgba($seance, 0.2);
+      &:hover {
+        background-color: $seance;
+      }
+    }
+    &hover-tango {
+      background-color: rgba($tango, 0.2);
+      &:hover {
+        background-color: $tango;
+      }
+    }
+    &hover-white {
+      background-color: rgba($white, 0.2);
+      &:hover {
+        background-color: $white;
+      }
+    }
+    &hover-black {
+      background-color: rgba($black, 0.2);
+      &:hover {
+        background-color: $black;
+      }
+    }
+    &hover-supernova {
+      background-color: rgba($supernova, 0.2);
+      &:hover {
+        background-color: $supernova;
+      }
+    }
   }
-  &tango {
-    background-color: $tango;
-  }
-  &white {
-    background-color: $white;
-  }
-  &black {
-    background-color: $black;
-  }
-  &supernova {
-    background-color: $supernova;
-  }
-}
-.color- {
-  &nvgum {
-    color: $nvgum;
-  }
-  &tango {
-    color: $tango;
-  }
-  &white {
-    color: $white;
-  }
-  &black {
-    color: $black;
-  }
-  &supernova {
-    color: $supernova;
+  &-color- {
+    &nvgum {
+      color: $nvgum;
+    }
+    &tango {
+      color: $tango;
+    }
+    &tango {
+      color: $seance;
+    }
+    &white {
+      color: $white;
+    }
+    &black {
+      color: $black;
+    }
+    &supernova {
+      color: $supernova;
+    }
   }
 }
