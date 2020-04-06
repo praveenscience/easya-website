@@ -33,7 +33,7 @@ const Cols = [
     Links: [
       {
         Label: "About us",
-        Link: Paths.Home
+        Link: Paths.About
       },
       {
         Label: "Tutors",

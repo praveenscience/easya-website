@@ -4,6 +4,7 @@ import Paths from "../constants/Paths";
 import Header from "./Shared/Header/Header";
 import Footer from "./Shared/Footer/Footer";
 import Home from "./Home/Home";
+import About from "./About/About";
 import Terms from "./InfoPages/Terms";
 import Privacy from "./InfoPages/Privacy";
 
@@ -14,6 +15,9 @@ const App = () => {
       <Switch>
         <Route exact path={Paths.Home}>
           <Home />
+        </Route>
+        <Route path={Paths.About}>
+          <About />
         </Route>
         <Route path={Paths.Terms}>
           <Terms />
