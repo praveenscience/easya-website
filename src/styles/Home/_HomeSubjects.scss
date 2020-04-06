@@ -35,8 +35,8 @@
       overflow: hidden;
       cursor: pointer;
       @media screen and (max-width: 575px) {
-        width: 45%;
-        margin: 10px 5px;
+        width: 40%;
+        margin: 10px;
       }
       span {
         font-size: 1.6em;
@@ -48,9 +48,9 @@
             display: block;
             content: "";
             position: absolute;
-            margin: -100px -300px;
+            margin: -125px -300px;
             width: 1000%;
-            height: 400%;
+            height: 520%;
           }
         }
       }
