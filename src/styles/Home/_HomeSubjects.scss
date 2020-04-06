@@ -8,6 +8,10 @@
     line-height: 1.12;
     max-width: 825px;
     margin: 0 auto 70px;
+    @media screen and (max-width: 575px) {
+      font-size: 3.2em;
+      margin-bottom: 36px;
+    }
   }
   &-List {
     margin: 0;
@@ -27,6 +31,9 @@
       position: relative;
       overflow: hidden;
       cursor: pointer;
+      @media screen and (max-width: 575px) {
+        width: 25%;
+      }
       span {
         font-size: 1.6em;
         &:first-child {
@@ -54,10 +61,16 @@
     font-size: 18px;
     letter-spacing: 0.18px;
     line-height: 1.61;
+    @media screen and (max-width: 575px) {
+      margin: 32px 16px;
+    }
   }
   .action-button {
     .easya-btn-nav {
       display: inline-block;
+      @media screen and (max-width: 575px) {
+        font-size: 1.5em;
+      }
     }
   }
 }
