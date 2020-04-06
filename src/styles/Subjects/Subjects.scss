@@ -1,2 +1,12 @@
 .Subjects {
+  max-width: 1260px;
+  margin: 60px auto;
+  padding: 0 95px;
+  @media screen and (max-width: 575px) {
+    max-width: none;
+    margin: 45px auto;
+    padding: 0 16px;
+  }
+  @import "SubjectsIntro";
+  @import "SubjectBlock";
 }

@@ -1,0 +1,96 @@
+&-Block {
+  position: relative;
+  padding-left: 105px;
+  margin: 60px 0;
+  &::before {
+    content: "";
+    display: block;
+    height: 1px;
+    opacity: 0.2;
+    background-color: $nvgum;
+    margin-left: -105px;
+    margin-bottom: 45px;
+    @media screen and (max-width: 575px) {
+      margin-left: 0;
+    }
+  }
+  &:first-child {
+    &::before {
+      display: none;
+    }
+    .Subjects-Block-Icon {
+      top: 0;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    padding-left: 0;
+  }
+  &-Icon {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    .RoundIconMouse {
+      transform: scale(0.5);
+      transform-origin: top left;
+    }
+    @media screen and (max-width: 575px) {
+      .RoundIconMouse {
+        transform: scale(0.4);
+        transform-origin: top left;
+      }
+    }
+  }
+  &-Content {
+    overflow: hidden;
+    color: $nvgum;
+    h3 {
+      font-size: 5em;
+      font-weight: 600;
+      line-height: 1.12;
+      letter-spacing: -1.12px;
+      margin: 10px 0 50px;
+    }
+    &-List {
+      margin: 0;
+      padding: 0;
+      font-size: 1.8em;
+      columns: 2;
+      overflow: hidden;
+      @media screen and (max-width: 575px) {
+        columns: 1;
+        font-size: 1.6em;
+      }
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin: 0 0 30px;
+        position: relative;
+        padding-left: 35px;
+        padding-top: 2px;
+        @media screen and (max-width: 575px) {
+          padding-top: 0;
+          margin: 0 0 20px;
+        }
+        .RoundIconTick {
+          position: absolute;
+          left: 0;
+          top: 0;
+          transform: scale(0.2605);
+          transform-origin: top left;
+          @media screen and (max-width: 575px) {
+            transform: scale(0.20829);
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 575px) {
+      h3 {
+        font-size: 3.2em;
+        letter-spacing: -0.72px;
+        line-height: 1.28;
+        padding-left: 80px;
+      }
+    }
+  }
+}

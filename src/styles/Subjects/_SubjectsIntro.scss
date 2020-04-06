@@ -1,0 +1,40 @@
+h1 {
+  color: $nvgum;
+  font-size: 7em;
+  font-weight: 600;
+  margin-bottom: 60px;
+  letter-spacing: -1.56px;
+}
+&-Banner {
+  margin-bottom: 40px;
+  background-color: $seance;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+p {
+  font-size: 1.8em;
+  line-height: 1.61;
+  color: $nvgum;
+  a {
+    color: $tango;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 3.2em;
+    margin-bottom: 24px;
+    letter-spacing: -0.72px;
+  }
+  &-Banner {
+    margin-bottom: 32px;
+    img {
+      height: 150px;
+      width: auto;
+    }
+  }
+}
