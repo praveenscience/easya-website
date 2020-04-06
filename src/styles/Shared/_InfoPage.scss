@@ -1,0 +1,63 @@
+.InfoPage {
+  max-width: 1260px;
+  margin: 90px auto;
+  padding: 0 95px;
+  color: $nvgum;
+  h1 {
+    font-size: 7em;
+    line-height: 1.1;
+    margin: 0 0 60px;
+  }
+  article {
+    border-radius: 20px;
+    background-color: $shellpeach;
+    padding: 50px;
+    h2 {
+      font-size: 2.2em;
+    }
+    h3 {
+      font-size: 1.8em;
+    }
+    h4 {
+      font-size: 1.6em;
+    }
+    h2,
+    h3,
+    h4 {
+      margin: 2em 0 0;
+      font-weight: 600;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    p,
+    ul,
+    ol {
+      margin-top: 1em;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    p,
+    li {
+      font-weight: normal;
+      font-size: 1.4em;
+      line-height: 1.7;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    width: auto;
+    margin: 45px auto;
+    padding: 0 16px;
+    h1 {
+      font-size: 3.6em;
+      line-height: 1.27;
+      margin: 0 0 45px;
+    }
+    article {
+      border-radius: 0;
+      padding: 36px 16px;
+      margin: 0 -16px;
+    }
+  }
+}
