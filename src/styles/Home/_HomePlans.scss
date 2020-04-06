@@ -1,2 +1,80 @@
 &-Plans {
+  margin: 135px 0;
+  h2 {
+    font-size: 5em;
+    text-align: center;
+    max-width: 735px;
+    margin: 0 auto 90px;
+  }
+  &-List {
+    @media screen and (max-width: 575px) {
+      display: block;
+    }
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 22.5%;
+      text-align: center;
+      span.RoundIconTick {
+        transform: scale(0.5);
+        transform-origin: top center;
+        margin-bottom: -50px;
+      }
+      p {
+        margin-top: 20px;
+        line-height: 1.45;
+        font-weight: 600;
+        color: $mardigras;
+      }
+      @media screen and (max-width: 575px) {
+        width: auto;
+        display: block;
+        text-align: left;
+        position: relative;
+        padding-left: 70px;
+        margin-bottom: 32px;
+        span {
+          position: absolute;
+          left: -25px;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .action-button {
+    text-align: center;
+    margin-top: 16px;
+    .easya-btn-nav {
+      display: inline-block;
+      font-size: 1.6em;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    margin: 55px 16px;
+    h2 {
+      font-size: 3.2em;
+      line-height: 1.28;
+      margin: 0 0 36px;
+    }
+    &-List {
+      display: block;
+      li {
+      }
+    }
+    .action-button {
+      text-align: left;
+      margin-top: 12px;
+      .easya-btn-nav {
+        text-align: center;
+        width: 200px;
+      }
+    }
+  }
 }
