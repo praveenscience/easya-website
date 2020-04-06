@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Paths from "../../../constants/Paths";
 
 const Cols = [
   {
@@ -6,23 +8,23 @@ const Cols = [
     Links: [
       {
         Label: "How it works",
-        Link: "#"
+        Link: Paths.Home
       },
       {
         Label: "Pricing",
-        Link: "#"
+        Link: Paths.Home
       },
       {
         Label: "Subjects",
-        Link: "#"
+        Link: Paths.Home
       },
       {
         Label: "Teaching Methods",
-        Link: "#"
+        Link: Paths.Home
       },
       {
         Label: "Will my child learn?",
-        Link: "#"
+        Link: Paths.Home
       }
     ]
   },
@@ -31,15 +33,15 @@ const Cols = [
     Links: [
       {
         Label: "About us",
-        Link: "#"
+        Link: Paths.Home
       },
       {
         Label: "Tutors",
-        Link: "#"
+        Link: Paths.Home
       },
       {
         Label: "Testimonials",
-        Link: "#"
+        Link: Paths.Home
       }
     ]
   },
@@ -48,15 +50,15 @@ const Cols = [
     Links: [
       {
         Label: "Blogs",
-        Link: "#"
+        Link: Paths.Home
       },
       {
         Label: "Privacy Policies",
-        Link: "#"
+        Link: Paths.Privacy
       },
       {
         Label: "Terms & Conditions",
-        Link: "#"
+        Link: Paths.Terms
       }
     ]
   }
@@ -71,7 +73,7 @@ const FooterColumns = () => {
           </li>
           {col.Links.map((l, k) => (
             <li key={k}>
-              <a href={l.Link}>{l.Label}</a>
+              <Link to={l.Link}>{l.Label}</Link>
             </li>
           ))}
         </ul>

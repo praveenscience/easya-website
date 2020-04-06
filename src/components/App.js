@@ -1,8 +1,9 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
+import Paths from "../constants/Paths";
 import Header from "./Shared/Header/Header";
 import Footer from "./Shared/Footer/Footer";
 import Home from "./Home/Home";
-import { Switch, Route } from "react-router-dom";
 import Terms from "./InfoPages/Terms";
 import Privacy from "./InfoPages/Privacy";
 
@@ -11,13 +12,13 @@ const App = () => {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path={Paths.Home}>
           <Home />
         </Route>
-        <Route path="/terms">
+        <Route path={Paths.Terms}>
           <Terms />
         </Route>
-        <Route path="/privacy">
+        <Route path={Paths.Privacy}>
           <Privacy />
         </Route>
       </Switch>

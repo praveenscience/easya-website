@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PrimaryNav = ({ List }) => {
   return (
@@ -6,7 +7,7 @@ const PrimaryNav = ({ List }) => {
       <ul>
         {List.map((item, key) => (
           <li key={key} className={item.Classes}>
-            <a href={item.Path}>{item.Name}</a>
+            <Link to={item.Path}>{item.Name}</Link>
           </li>
         ))}
         <li>

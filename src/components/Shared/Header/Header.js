@@ -1,4 +1,5 @@
 import React from "react";
+import Paths from "../../../constants/Paths";
 import Brand from "./_Brand";
 import PrimaryNav from "./_PrimaryNav";
 import Ham from "./_Ham";
@@ -12,42 +13,42 @@ Just Mobile: 2
 const List = [
   {
     Name: "About",
-    Path: "/",
+    Path: Paths.Home,
     Active: false,
     Classes: null,
     Display: 2
   },
   {
     Name: "Features",
-    Path: "/",
+    Path: Paths.Home,
     Active: false,
     Classes: null,
     Display: 1
   },
   {
     Name: "Tutors",
-    Path: "/",
+    Path: Paths.Home,
     Active: false,
     Classes: null,
     Display: 1
   },
   {
     Name: "Pricing",
-    Path: "/",
+    Path: Paths.Home,
     Active: false,
     Classes: null,
     Display: 0
   },
   {
     Name: "Blog",
-    Path: "/",
+    Path: Paths.Home,
     Active: false,
     Classes: null,
     Display: 1
   },
   {
     Name: "Login",
-    Path: "/",
+    Path: Paths.Home,
     Active: false,
     Classes: "Header-Nav-Login",
     Display: 0

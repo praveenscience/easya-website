@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MobileHeaderMenu = ({ List }) => {
   return (
@@ -7,7 +8,7 @@ const MobileHeaderMenu = ({ List }) => {
         {List &&
           List.map((link, key) => (
             <li key={key}>
-              <a href={link.Path}>{link.Name}</a>
+              <Link to={link.Path}>{link.Name}</Link>
             </li>
           ))}
       </ul>
