@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Paths from "../../../constants/Paths";
 import Logo from "../../../assets/logo.png";
 
 const Brand = () => {
   return (
     <h1 className="Header-Brand">
-      <a href="./">
+      <Link to={Paths.Home}>
         <img src={Logo} alt="EasyA Logo" />
-      </a>
+      </Link>
     </h1>
   );
 };
