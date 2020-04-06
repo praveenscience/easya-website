@@ -1,10 +1,17 @@
-.SubjectIcon {
+@mixin IconFileBg {
   background-image: url("../../assets/icons.png");
   background-repeat: no-repeat;
-  width: 76px;
-  height: 76px;
   display: inline-block;
   vertical-align: middle;
+}
+@mixin Square($size) {
+  width: $size;
+  height: $size;
+}
+
+.SubjectIcon {
+  @include IconFileBg;
+  @include Square(76px);
   &Early {
     background-position: -376px -370px;
     &:hover {
@@ -58,5 +65,17 @@
     &:hover {
       background-position: -1916px -1212px;
     }
+  }
+}
+
+.RoundIcon {
+  @include IconFileBg;
+  &Tick {
+    background-position: -1406px -1704px;
+    @include Square(96px);
+  }
+  &Right {
+    background-position: -1906px -1698px;
+    @include Square(100px);
   }
 }
