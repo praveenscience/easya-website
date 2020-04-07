@@ -8,7 +8,7 @@ const Cols = [
     Links: [
       {
         Label: "How it works",
-        Link: Paths.Home
+        Link: Paths.HowItWorks
       },
       {
         Label: "Pricing",
