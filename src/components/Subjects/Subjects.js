@@ -2,6 +2,7 @@ import React from "react";
 import SubjectsIntro from "./_SubjectsIntro";
 import SubjectBlock from "./_SubjectBlock";
 import HomeParentTestimonial from "../Home/_HomeParentTestimonial";
+import AboutCurious from "../About/_AboutCurious";
 
 const SubjectContents = [
   {
@@ -48,6 +49,7 @@ const Subjects = () => {
           <SubjectBlock {...sc} key={key} />
         ))}
       </div>
+      <AboutCurious />
     </main>
   );
 };
