@@ -1,0 +1,46 @@
+&-Curious {
+  padding: 100px 0 50px;
+  margin: 100px auto 120px;
+  color: $white;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  h2 {
+    font-size: 5em;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+    line-height: 1.12;
+    max-width: 625px;
+    margin: 0 16px 30px;
+  }
+  &-OverlayImage {
+    position: absolute;
+    width: 150px;
+    top: -75px;
+    left: 50%;
+    margin-left: -75px;
+  }
+  .easya-btn-banner {
+    color: $tango;
+    font-size: 1.6em;
+  }
+  @media screen and (max-width: 575px) {
+    margin: 140px auto 50px;
+    border-radius: 0;
+    h2 {
+      font-size: 3.2em;
+      line-height: 1.28;
+      max-width: none;
+    }
+    .easya-btn-banner {
+      width: 350px;
+    }
+    &-OverlayImage {
+      position: absolute;
+      width: 120px;
+      top: -60px;
+      left: 50%;
+      margin-left: -60px;
+    }
+  }
+}
