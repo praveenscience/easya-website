@@ -1,0 +1,50 @@
+&-GPS {
+  margin: 5px 0;
+  color: $nvgum;
+  .Home-Child247 {
+    &-Image {
+      padding: 0;
+      img {
+        height: 565px;
+      }
+    }
+    &-Text {
+      max-width: 685px;
+      h2 {
+        font-size: 6em;
+        margin: 125px 0 25px;
+      }
+      p {
+        max-width: 460px;
+      }
+    }
+  }
+  @media screen and (max-width: 575px) {
+    margin: 0;
+    .Home-Child247 {
+      &-Image {
+        display: none;
+      }
+      &-Text {
+        margin: 0;
+        padding: 0 5px 5px;
+        text-align: left;
+        max-width: 685px;
+        h2 {
+          font-size: 3.2em;
+          margin: 0 16px 20px;
+        }
+        p {
+          max-width: none;
+        }
+        .action-button {
+          a {
+            display: inline-block;
+            margin: 0 16px;
+            padding: 15px 40px;
+          }
+        }
+      }
+    }
+  }
+}

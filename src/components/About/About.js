@@ -5,6 +5,7 @@ import AboutBrains from "./_AboutBrains";
 import AboutTeam from "./_AboutTeam";
 import AboutCurious from "./_AboutCurious";
 import AboutFeatTutors from "./_AboutFeatTutors";
+import AboutGPS from "./_AboutGPS";
 
 const About = () => {
   React.useEffect(() => {
@@ -18,6 +19,7 @@ const About = () => {
       <AboutTeam />
       <AboutCurious />
       <AboutFeatTutors />
+      <AboutGPS />
     </main>
   );
 };
