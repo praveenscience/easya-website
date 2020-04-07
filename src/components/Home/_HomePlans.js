@@ -1,6 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const DummyLink = "#";
 const Questions = [
   "Is your student enrolled in 3rd – 12th grade math?",
   "Does your student have access to a smartphone or tablet?",
@@ -19,9 +19,9 @@ const HomePlans = () => {
         ))}
       </ul>
       <div className="action-button">
-        <a href={DummyLink} className="easya-btn-nav">
+        <Link to="#" className="easya-btn-nav">
           See Plans
-        </a>
+        </Link>
       </div>
     </section>
   );

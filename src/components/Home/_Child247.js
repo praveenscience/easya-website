@@ -1,6 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ChildExpert from "../../assets/child-expert.svg";
-const DummyLink = "#";
 
 const Child247 = () => {
   return (
@@ -14,9 +14,9 @@ const Child247 = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="action-button">
-          <a href={DummyLink} className="easya-btn-nav">
+          <Link to="#" className="easya-btn-nav">
             How it works
-          </a>
+          </Link>
         </div>
       </div>
       <div className="Home-Child247-Image">

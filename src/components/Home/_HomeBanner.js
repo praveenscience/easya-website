@@ -1,8 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import HomeBannerBalloon from "../../assets/home-banner-balloon.png";
 import HomeBannerMobile from "../../assets/home-banner-mobile.png";
 
-const DummyLink = "#";
 const HomeBanner = () => {
   return (
     <section className="Home-Banner">
@@ -19,9 +19,9 @@ const HomeBanner = () => {
           <p>Download mobile App</p>
         </div>
         <div className="action-button">
-          <a href={DummyLink} className="easya-btn-banner">
+          <Link to="#" className="easya-btn-banner">
             See Plans
-          </a>
+          </Link>
         </div>
       </div>
       <div className="Home-Banner-Image">

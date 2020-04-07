@@ -1,7 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import HomeSubjectsItem from "./_HomeSubjectsItem";
 
-const DummyLink = "#";
 const Subjects = [
   {
     Name: "Early Maths",
@@ -65,9 +65,9 @@ const HomeSubjects = () => {
         includes GCSE and anything earlier than that!
       </p>
       <div className="action-button">
-        <a href={DummyLink} className="easya-btn-nav">
+        <Link to="#" className="easya-btn-nav">
           All Subjects
-        </a>
+        </Link>
       </div>
     </section>
   );
