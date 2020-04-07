@@ -1,0 +1,79 @@
+&-Intro {
+  @include PageWrap(0);
+  overflow: hidden;
+  padding: 70px 90px;
+  color: $nvgum;
+  border-radius: 20px;
+  text-align: center;
+  h1 {
+    margin: 0 auto 50px;
+    max-width: 780px;
+    font-size: 7em;
+    font-weight: 600;
+    letter-spacing: -1.56px;
+    line-height: 1.1;
+  }
+  &-Steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    &-Step {
+      width: 30%;
+      img {
+        display: block;
+        margin: 0 auto 48px;
+      }
+      h3 {
+        font-size: 2.2em;
+        font-weight: 600;
+        letter-spacing: -0.49px;
+        line-height: 1;
+        margin: 0 0 10px;
+      }
+      p {
+        font-size: 1.8em;
+        letter-spacing: 0.18px;
+        line-height: 1.6;
+        margin: 0 0 5px;
+      }
+    }
+  }
+  @media screen and (max-width: 575px) {
+    padding: 36px 40px;
+    border-radius: 0;
+    h1 {
+      max-width: none;
+      font-size: 3.6em;
+      letter-spacing: -0.8px;
+      line-height: 1.27;
+      margin: 0 auto 30px;
+    }
+    &-Steps {
+      display: block;
+      &-Step {
+        width: 225px;
+        margin: 60px auto 0;
+        &:first-child {
+          margin-top: 0;
+        }
+        img {
+          width: 135px;
+          margin-bottom: 20px;
+        }
+        h3 {
+          font-size: 2.2em;
+          line-height: 1.45;
+          margin: 0;
+        }
+        p {
+          font-size: 1.4em;
+          line-height: 1.714;
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
