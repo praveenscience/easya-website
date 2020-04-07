@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="95px" viewBox="0 0 95 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>calc</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tangelo" transform="translate(-1713.000000, -5852.000000)">
+            <g id="calc" transform="translate(1713.000000, 5852.000000)">
+                <circle id="Oval" fill="#F37121" fill-rule="nonzero" cx="47.2023828" cy="47.2597665" r="47.1413363"></circle>
+                <g id="Group" transform="translate(18.924418, 24.052325)">
+                    <g id="Path">
+                        <path d="M53.8015106,26.7688948 C50.9848246,23.2623833 40.9243597,11.8222672 28.5074994,11.8222672 C16.0906392,11.8222672 6.0301743,23.2623833 3.21348831,26.7688948 C2.4088953,27.745639 2.4088953,29.1838948 3.21348831,30.2180227 C6.0301743,33.7245342 16.0906392,45.1646503 28.5074994,45.1646503 C40.9243597,45.1646503 50.9848246,33.7245342 53.8015106,30.2180227 C54.6061036,29.2400576 54.6061036,27.8030227 53.8015106,26.7688948 Z" fill="#FDC400" fill-rule="nonzero"></path>
+                        <line x1="0.05860465" y1="12.5047672" x2="6.04848825" y2="17.6399996" stroke="#60179C" stroke-width="4.31999991" stroke-linecap="round"></line>
+                        <line x1="14.380116" y1="3.10970924" x2="17.406802" y2="10.3974417" stroke="#60179C" stroke-width="4.31999991" stroke-linecap="round"></line>
+                        <line x1="57.1138942" y1="12.5047672" x2="51.1240106" y2="17.6399996" stroke="#60179C" stroke-width="4.31999991" stroke-linecap="round"></line>
+                        <line x1="42.7936038" y1="3.10970924" x2="39.7669178" y2="10.3974417" stroke="#60179C" stroke-width="4.31999991" stroke-linecap="round"></line>
+                        <line x1="29.9701738" y1="0.0732558125" x2="29.5428483" y2="7.95191845" stroke="#60179C" stroke-width="4.31999991" stroke-linecap="round"></line>
+                    </g>
+                    <path d="M28.5087204,18.4067438 C22.9437205,18.4067438 18.4226159,22.9278484 18.4226159,28.4928483 C18.4226159,34.0578482 22.9437205,38.5789527 28.5087204,38.5789527 C34.0737203,38.5789527 38.5948248,34.0578482 38.5948248,28.4928483 C38.5936039,22.9278484 34.0724993,18.4067438 28.5087204,18.4067438 Z" id="Path" fill="#60179C" fill-rule="nonzero"></path>
+                    <g transform="translate(24.052325, 23.563953)">
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="4.54308131" cy="1.49563951" r="1.4187209"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="4.54308131" cy="8.78337192" r="1.4187209"></circle>
+                        <line x1="0.0866860448" y1="4.99238362" x2="9.11302307" y2="4.99238362" id="Path" stroke="#FFFFFF" stroke-width="2.39999995" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

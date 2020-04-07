@@ -1,0 +1,45 @@
+&-Intro {
+  @include EasyABanner;
+  margin: 0 95px;
+  &-Text {
+    color: $nvgum;
+    h2 {
+      margin: 45px 0 0;
+      letter-spacing: -1.56px;
+    }
+    p {
+      margin: 20px 0 0;
+      font-size: 1.8em;
+      letter-spacing: 0.18px;
+      line-height: 1.61;
+    }
+  }
+  &-Image {
+    width: 425px;
+    img {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    margin: 0;
+    &-Text {
+      padding: 0 16px 25px;
+      text-align: left;
+      h2 {
+        margin: 0;
+        font-size: 3.2em;
+        line-height: 1.15;
+      }
+      p {
+        font-size: 1.6em;
+        line-height: 1.5625;
+      }
+    }
+    &-Image {
+      img {
+        position: relative;
+        left: 25px;
+      }
+    }
+  }
+}

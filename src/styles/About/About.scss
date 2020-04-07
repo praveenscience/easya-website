@@ -1,2 +1,10 @@
 .About {
+  @include PageWrap(60px);
+  @media screen and (max-width: 575px) {
+    margin: 40px auto;
+  }
+  @import "AboutIntro";
+  @import "AboutLearn";
+  @import "AboutBrains";
+  @import "AboutTeam";
 }

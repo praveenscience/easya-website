@@ -1,0 +1,78 @@
+&-Brains {
+  margin: 120px 0 95px;
+  color: $nvgum;
+  h2 {
+    font-size: 7em;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -1.56px;
+    max-width: 665px;
+    margin: 0 0 60px;
+  }
+  &-Wrap {
+    background-color: rgba($tango, 0.2);
+    border-radius: 20px;
+    padding: 120px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../../assets/brainsbg.svg");
+    background-repeat: repeat;
+  }
+  &-Profile {
+    background-color: $white;
+    border-radius: 5px;
+    padding: 24px;
+    width: 430px;
+    img {
+      border-radius: 5px;
+      overflow: hidden;
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 2.2em;
+      font-weight: 600;
+      letter-spacing: 0.22px;
+      line-height: 1.318;
+    }
+    p {
+      font-size: 1.4em;
+      letter-spacing: 0.14px;
+      line-height: 1.715;
+      &.lead {
+        font-weight: 600;
+        font-size: 1.6em;
+        letter-spacing: 0.16px;
+        line-height: 1.25;
+        margin: 5px 0 15px;
+      }
+    }
+  }
+  @media screen and (max-width: 575px) {
+    margin: 0;
+    padding: 5px 16px;
+    h2 {
+      font-size: 3.2em;
+      line-height: 1.28;
+      letter-spacing: -0.72px;
+      max-width: none;
+      margin: 0 0 36px;
+    }
+    &-Wrap {
+      border-radius: 0;
+      padding: 32px 16px;
+      display: block;
+    }
+    &-Profile {
+      padding: 16px;
+      width: auto;
+      margin-top: 32px;
+      box-shadow: 0 1px 2px 0 rgba($black, 0.14);
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
