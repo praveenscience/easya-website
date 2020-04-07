@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5af41f4f.chunk.css",
-    "main.js": "/static/js/main.3f0d229e.chunk.js",
-    "main.js.map": "/static/js/main.3f0d229e.chunk.js.map",
+    "main.css": "/static/css/main.e151c4ee.chunk.css",
+    "main.js": "/static/js/main.8da6ee2b.chunk.js",
+    "main.js.map": "/static/js/main.8da6ee2b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
     "runtime-main.js.map": "/static/js/runtime-main.966c5448.js.map",
-    "static/js/2.291c6682.chunk.js": "/static/js/2.291c6682.chunk.js",
-    "static/js/2.291c6682.chunk.js.map": "/static/js/2.291c6682.chunk.js.map",
+    "static/js/2.eb3f18c3.chunk.js": "/static/js/2.eb3f18c3.chunk.js",
+    "static/js/2.eb3f18c3.chunk.js.map": "/static/js/2.eb3f18c3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3bf12dce11d767ea45dae88842b00f4d.js": "/precache-manifest.3bf12dce11d767ea45dae88842b00f4d.js",
+    "precache-manifest.e62ad6ec3aa76d89325cadec1ac8332a.js": "/precache-manifest.e62ad6ec3aa76d89325cadec1ac8332a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5af41f4f.chunk.css.map": "/static/css/main.5af41f4f.chunk.css.map",
-    "static/js/2.291c6682.chunk.js.LICENSE.txt": "/static/js/2.291c6682.chunk.js.LICENSE.txt",
+    "static/css/main.e151c4ee.chunk.css.map": "/static/css/main.e151c4ee.chunk.css.map",
+    "static/js/2.eb3f18c3.chunk.js.LICENSE.txt": "/static/js/2.eb3f18c3.chunk.js.LICENSE.txt",
     "static/media/AboutCuriousBG.png": "/static/media/AboutCuriousBG.ae9001c0.png",
     "static/media/HomeParentTestimonialBG.png": "/static/media/HomeParentTestimonialBG.b53eae45.png",
     "static/media/HomeParentTestimonialImg.png": "/static/media/HomeParentTestimonialImg.f5378bf8.png",
@@ -24,6 +24,7 @@
     "static/media/beast.svg": "/static/media/beast.f3ba2500.svg",
     "static/media/App.scss": "/static/media/icons.4314eae4.png",
     "static/media/child-expert.svg": "/static/media/child-expert.fc1bb3de.svg",
+    "static/media/featuredtutorsimg.png": "/static/media/featuredtutorsimg.ee7f2b39.png",
     "static/media/footer-logo.png": "/static/media/footer-logo.ee748501.png",
     "static/media/google.svg": "/static/media/google.91188fe3.svg",
     "static/media/home-banner-balloon.png": "/static/media/home-banner-balloon.2cfa3b95.png",
@@ -33,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
-    "static/js/2.291c6682.chunk.js",
-    "static/css/main.5af41f4f.chunk.css",
-    "static/js/main.3f0d229e.chunk.js"
+    "static/js/2.eb3f18c3.chunk.js",
+    "static/css/main.e151c4ee.chunk.css",
+    "static/js/main.8da6ee2b.chunk.js"
   ]
 }
