@@ -101,3 +101,10 @@
     }
   }
 }
+@mixin PageWrap($my) {
+  max-width: 1260px;
+  margin: $my auto;
+  @media screen and (max-width: 575px) {
+    max-width: none;
+  }
+}

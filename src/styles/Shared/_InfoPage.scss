@@ -1,6 +1,5 @@
 .InfoPage {
-  max-width: 1260px;
-  margin: 90px auto;
+  @include PageWrap(90px);
   padding: 0 95px;
   color: $nvgum;
   h1 {
