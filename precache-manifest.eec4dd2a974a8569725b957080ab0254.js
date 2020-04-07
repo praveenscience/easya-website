@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da3e5cd7aa972856eb60b06a966be5f1",
+    "revision": "6b5f86b8cefdc58a34a6379c1ea84dd9",
     "url": "/index.html"
   },
   {
-    "revision": "24bc6309c3d7884f504f",
-    "url": "/static/css/main.2e98616a.chunk.css"
+    "revision": "5aa160d082d890f90694",
+    "url": "/static/css/main.c43c429b.chunk.css"
   },
   {
-    "revision": "0cae42b3de5c64b8de32",
-    "url": "/static/js/2.54b628ce.chunk.js"
+    "revision": "529019854bdcc46da9d8",
+    "url": "/static/js/2.070c1394.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.54b628ce.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.070c1394.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24bc6309c3d7884f504f",
-    "url": "/static/js/main.91fc489d.chunk.js"
+    "revision": "5aa160d082d890f90694",
+    "url": "/static/js/main.cf81c8d7.chunk.js"
   },
   {
     "revision": "4b0b8649b9ba65f2c80b",
@@ -32,6 +32,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/HomeParentTestimonialImg.f5378bf8.png"
   },
   {
+    "revision": "c3b73957a026c2fcd48473aead02d418",
+    "url": "/static/media/aboutintrochat.c3b73957.png"
+  },
+  {
+    "revision": "907bfc8ad42d61428e7ab95ab742f9e7",
+    "url": "/static/media/aboutlearnachieve.907bfc8a.png"
+  },
+  {
     "revision": "e6a3bc3b75cd7c554b8290ca3962bceb",
     "url": "/static/media/apple.e6a3bc3b.svg"
   },
@@ -42,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dd9ecbace0d96350360010b177d23e14",
     "url": "/static/media/backedinstitutes.dd9ecbac.png"
+  },
+  {
+    "revision": "a978f17c1ec26a4371d2cd3323e3e15c",
+    "url": "/static/media/ball.a978f17c.png"
+  },
+  {
+    "revision": "6ab3b58effe1fcc6e51ba559827a0ed2",
+    "url": "/static/media/brainsbg.6ab3b58e.svg"
   },
   {
     "revision": "fc1bb3de97fd40efd3885eda298bebc8",
