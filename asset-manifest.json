@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c745b152.chunk.css",
-    "main.js": "/static/js/main.2f5d855e.chunk.js",
-    "main.js.map": "/static/js/main.2f5d855e.chunk.js.map",
+    "main.css": "/static/css/main.45e1686e.chunk.css",
+    "main.js": "/static/js/main.b4033ec4.chunk.js",
+    "main.js.map": "/static/js/main.b4033ec4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
     "runtime-main.js.map": "/static/js/runtime-main.966c5448.js.map",
-    "static/js/2.7381c96d.chunk.js": "/static/js/2.7381c96d.chunk.js",
-    "static/js/2.7381c96d.chunk.js.map": "/static/js/2.7381c96d.chunk.js.map",
+    "static/js/2.fccf79ba.chunk.js": "/static/js/2.fccf79ba.chunk.js",
+    "static/js/2.fccf79ba.chunk.js.map": "/static/js/2.fccf79ba.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.99ec3bb00c54e51a3f00149e5b7372f5.js": "/precache-manifest.99ec3bb00c54e51a3f00149e5b7372f5.js",
+    "precache-manifest.92a910a4b4ca54f0e3ea4d02ea4e09d8.js": "/precache-manifest.92a910a4b4ca54f0e3ea4d02ea4e09d8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c745b152.chunk.css.map": "/static/css/main.c745b152.chunk.css.map",
-    "static/js/2.7381c96d.chunk.js.LICENSE.txt": "/static/js/2.7381c96d.chunk.js.LICENSE.txt",
+    "static/css/main.45e1686e.chunk.css.map": "/static/css/main.45e1686e.chunk.css.map",
+    "static/js/2.fccf79ba.chunk.js.LICENSE.txt": "/static/js/2.fccf79ba.chunk.js.LICENSE.txt",
     "static/media/AboutCuriousBG.png": "/static/media/AboutCuriousBG.ae9001c0.png",
     "static/media/AboutGPSBG.png": "/static/media/AboutGPSBG.1f8c62dc.png",
     "static/media/HomeParentTestimonialBG.png": "/static/media/HomeParentTestimonialBG.b53eae45.png",
     "static/media/HomeParentTestimonialImg.png": "/static/media/HomeParentTestimonialImg.f5378bf8.png",
+    "static/media/HowItWorks-1.svg": "/static/media/HowItWorks-1.30c6d69d.svg",
+    "static/media/HowItWorks-2.svg": "/static/media/HowItWorks-2.e84b9bd7.svg",
+    "static/media/HowItWorks-3.svg": "/static/media/HowItWorks-3.b2b53f89.svg",
     "static/media/aboutintrochat.png": "/static/media/aboutintrochat.c3b73957.png",
     "static/media/aboutlearnachieve.png": "/static/media/aboutlearnachieve.907bfc8a.png",
     "static/media/apple.svg": "/static/media/apple.e6a3bc3b.svg",
@@ -35,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
-    "static/js/2.7381c96d.chunk.js",
-    "static/css/main.c745b152.chunk.css",
-    "static/js/main.2f5d855e.chunk.js"
+    "static/js/2.fccf79ba.chunk.js",
+    "static/css/main.45e1686e.chunk.css",
+    "static/js/main.b4033ec4.chunk.js"
   ]
 }
