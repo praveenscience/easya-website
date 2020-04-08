@@ -3,7 +3,7 @@
   &-Wrapper {
     overflow: hidden;
     @include PageWrap(auto);
-    padding: 20px 90px;
+    padding: 20px 0;
     @media screen and (max-width: 575px) {
       padding: 16px;
     }
