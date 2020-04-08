@@ -9,6 +9,7 @@ import Subjects from "./Subjects/Subjects";
 import HowItWorks from "./HowItWorks/HowItWorks";
 import Terms from "./InfoPages/Terms";
 import Privacy from "./InfoPages/Privacy";
+import Error404 from "./InfoPages/404";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         <Route path={Paths.Privacy}>
           <Privacy />
         </Route>
+        <Route component={Error404} />
       </Switch>
       <Footer />
     </div>
