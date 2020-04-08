@@ -20,7 +20,7 @@ const Cols = [
       },
       {
         Label: "Teaching Methods",
-        Link: Paths.Home
+        Link: Paths.TeachingMethods
       },
       {
         Label: "Will my child learn?",
