@@ -1,5 +1,6 @@
 import React from "react";
 import HIWIntro from "./_HIWIntro";
+import HIWSteps from "./_HIWSteps";
 
 const HowItWorks = () => {
   React.useEffect(() => {
@@ -8,6 +9,7 @@ const HowItWorks = () => {
   return (
     <main className="HowItWorks">
       <HIWIntro />
+      <HIWSteps />
     </main>
   );
 };

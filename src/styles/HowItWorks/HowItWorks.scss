@@ -1,3 +1,6 @@
 .HowItWorks {
+  @include PageWrap(0);
+  overflow: hidden;
   @import "HIWIntro";
+  @import "HIWSteps";
 }
