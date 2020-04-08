@@ -1,18 +1,26 @@
 .Error404 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: $white;
   color: $nvgum;
   text-align: center;
-  padding: 15px 0 60px;
-  max-width: 450px;
-  margin: auto;
+  padding: 60px 0;
+  > * {
+    max-width: 450px;
+  }
   h1 {
     font-size: 7em;
     line-height: 1;
-    margin: 25px 0;
+    margin: 25px auto;
   }
   p {
     font-size: 1.6em;
     line-height: 2.25;
-    margin: 5px 0;
+    margin: 5px auto;
     a {
       color: $tango;
     }
