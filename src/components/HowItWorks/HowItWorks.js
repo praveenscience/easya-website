@@ -1,6 +1,7 @@
 import React from "react";
 import HIWIntro from "./_HIWIntro";
 import HIWSteps from "./_HIWSteps";
+import AceTestWithEasyA from "../Shared/Banners/AceTestWithEasyA";
 
 const HowItWorks = () => {
   React.useEffect(() => {
@@ -10,6 +11,7 @@ const HowItWorks = () => {
     <main className="HowItWorks">
       <HIWIntro />
       <HIWSteps />
+      <AceTestWithEasyA />
     </main>
   );
 };
