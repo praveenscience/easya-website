@@ -2,13 +2,7 @@
   max-width: 375px;
   img {
     margin: 0 0 22px;
-  }
-  &-Desktop {
-    display: block;
     height: 54px;
-  }
-  &-Mobile {
-    display: none;
   }
   &-Vendors {
     margin-bottom: 10px;
@@ -31,12 +25,7 @@
     order: 2;
     img {
       width: 140px;
-    }
-    &-Desktop {
-      display: none;
-    }
-    &-Mobile {
-      display: block;
+      height: auto;
     }
     &-Vendors {
       img {
