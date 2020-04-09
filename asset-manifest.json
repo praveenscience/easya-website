@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ba43b54.chunk.css",
-    "main.js": "/static/js/main.855021a3.chunk.js",
-    "main.js.map": "/static/js/main.855021a3.chunk.js.map",
+    "main.css": "/static/css/main.dac1a746.chunk.css",
+    "main.js": "/static/js/main.e5328691.chunk.js",
+    "main.js.map": "/static/js/main.e5328691.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
     "runtime-main.js.map": "/static/js/runtime-main.966c5448.js.map",
-    "static/js/2.d9f0962a.chunk.js": "/static/js/2.d9f0962a.chunk.js",
-    "static/js/2.d9f0962a.chunk.js.map": "/static/js/2.d9f0962a.chunk.js.map",
+    "static/js/2.b4a5ec46.chunk.js": "/static/js/2.b4a5ec46.chunk.js",
+    "static/js/2.b4a5ec46.chunk.js.map": "/static/js/2.b4a5ec46.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.14ec9efa53267bd2afbbfc2a5a58d77a.js": "/precache-manifest.14ec9efa53267bd2afbbfc2a5a58d77a.js",
+    "precache-manifest.651ae336a732c1fae438a98fbb2f7761.js": "/precache-manifest.651ae336a732c1fae438a98fbb2f7761.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3ba43b54.chunk.css.map": "/static/css/main.3ba43b54.chunk.css.map",
-    "static/js/2.d9f0962a.chunk.js.LICENSE.txt": "/static/js/2.d9f0962a.chunk.js.LICENSE.txt",
+    "static/css/main.dac1a746.chunk.css.map": "/static/css/main.dac1a746.chunk.css.map",
+    "static/js/2.b4a5ec46.chunk.js.LICENSE.txt": "/static/js/2.b4a5ec46.chunk.js.LICENSE.txt",
     "static/media/AboutCuriousBG.png": "/static/media/AboutCuriousBG.ae9001c0.png",
     "static/media/AboutGPSBG.png": "/static/media/AboutGPSBG.1f8c62dc.png",
     "static/media/AceTestWithEasyA.png": "/static/media/AceTestWithEasyA.621ea811.png",
+    "static/media/BasicPrinciples-1.svg": "/static/media/BasicPrinciples-1.8438e658.svg",
+    "static/media/BasicPrinciples-2.svg": "/static/media/BasicPrinciples-2.ce1def09.svg",
+    "static/media/BasicPrinciples-3.svg": "/static/media/BasicPrinciples-3.0b5bf778.svg",
     "static/media/HIW-1.png": "/static/media/HIW-1.a2f00d58.png",
     "static/media/HIW-2.png": "/static/media/HIW-2.0227d079.png",
     "static/media/HIW-3.png": "/static/media/HIW-3.c05b71ee.png",
@@ -42,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
-    "static/js/2.d9f0962a.chunk.js",
-    "static/css/main.3ba43b54.chunk.css",
-    "static/js/main.855021a3.chunk.js"
+    "static/js/2.b4a5ec46.chunk.js",
+    "static/css/main.dac1a746.chunk.css",
+    "static/js/main.e5328691.chunk.js"
   ]
 }
