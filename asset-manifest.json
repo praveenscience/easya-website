@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2eeb8c3.chunk.css",
-    "main.js": "/static/js/main.70ee1c46.chunk.js",
-    "main.js.map": "/static/js/main.70ee1c46.chunk.js.map",
+    "main.css": "/static/css/main.290008f6.chunk.css",
+    "main.js": "/static/js/main.22936bea.chunk.js",
+    "main.js.map": "/static/js/main.22936bea.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
     "runtime-main.js.map": "/static/js/runtime-main.966c5448.js.map",
-    "static/js/2.ec2aef66.chunk.js": "/static/js/2.ec2aef66.chunk.js",
-    "static/js/2.ec2aef66.chunk.js.map": "/static/js/2.ec2aef66.chunk.js.map",
+    "static/js/2.032d505f.chunk.js": "/static/js/2.032d505f.chunk.js",
+    "static/js/2.032d505f.chunk.js.map": "/static/js/2.032d505f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8918a5df9ae75b252e9061dc87270cdf.js": "/precache-manifest.8918a5df9ae75b252e9061dc87270cdf.js",
+    "precache-manifest.62dcbd35a90aee5dbc24e829ccebefec.js": "/precache-manifest.62dcbd35a90aee5dbc24e829ccebefec.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b2eeb8c3.chunk.css.map": "/static/css/main.b2eeb8c3.chunk.css.map",
-    "static/js/2.ec2aef66.chunk.js.LICENSE.txt": "/static/js/2.ec2aef66.chunk.js.LICENSE.txt",
+    "static/css/main.290008f6.chunk.css.map": "/static/css/main.290008f6.chunk.css.map",
+    "static/js/2.032d505f.chunk.js.LICENSE.txt": "/static/js/2.032d505f.chunk.js.LICENSE.txt",
     "static/media/AboutCuriousBG.png": "/static/media/AboutCuriousBG.ae9001c0.png",
     "static/media/AboutGPSBG.png": "/static/media/AboutGPSBG.1f8c62dc.png",
     "static/media/AceTestWithEasyA.png": "/static/media/AceTestWithEasyA.621ea811.png",
     "static/media/BasicPrinciples-1.svg": "/static/media/BasicPrinciples-1.8438e658.svg",
     "static/media/BasicPrinciples-2.svg": "/static/media/BasicPrinciples-2.ce1def09.svg",
     "static/media/BasicPrinciples-3.svg": "/static/media/BasicPrinciples-3.0b5bf778.svg",
+    "static/media/FAQClosed.svg": "/static/media/FAQClosed.49a071dc.svg",
+    "static/media/FAQOpen.svg": "/static/media/FAQOpen.85c9c319.svg",
     "static/media/HIW-1.png": "/static/media/HIW-1.a2f00d58.png",
     "static/media/HIW-2.png": "/static/media/HIW-2.0227d079.png",
     "static/media/HIW-3.png": "/static/media/HIW-3.c05b71ee.png",
@@ -46,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
-    "static/js/2.ec2aef66.chunk.js",
-    "static/css/main.b2eeb8c3.chunk.css",
-    "static/js/main.70ee1c46.chunk.js"
+    "static/js/2.032d505f.chunk.js",
+    "static/css/main.290008f6.chunk.css",
+    "static/js/main.22936bea.chunk.js"
   ]
 }
