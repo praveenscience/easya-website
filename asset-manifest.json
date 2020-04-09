@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8ddb558.chunk.css",
-    "main.js": "/static/js/main.1bff7cf3.chunk.js",
-    "main.js.map": "/static/js/main.1bff7cf3.chunk.js.map",
+    "main.css": "/static/css/main.435caef0.chunk.css",
+    "main.js": "/static/js/main.cd4e88c7.chunk.js",
+    "main.js.map": "/static/js/main.cd4e88c7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
     "runtime-main.js.map": "/static/js/runtime-main.966c5448.js.map",
-    "static/js/2.71aebf2a.chunk.js": "/static/js/2.71aebf2a.chunk.js",
-    "static/js/2.71aebf2a.chunk.js.map": "/static/js/2.71aebf2a.chunk.js.map",
+    "static/js/2.c040844b.chunk.js": "/static/js/2.c040844b.chunk.js",
+    "static/js/2.c040844b.chunk.js.map": "/static/js/2.c040844b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e290dadf84f3cb253bc83bc59b1efff.js": "/precache-manifest.3e290dadf84f3cb253bc83bc59b1efff.js",
+    "precache-manifest.56e89fab33599abd1f1aef61a137295e.js": "/precache-manifest.56e89fab33599abd1f1aef61a137295e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f8ddb558.chunk.css.map": "/static/css/main.f8ddb558.chunk.css.map",
-    "static/js/2.71aebf2a.chunk.js.LICENSE.txt": "/static/js/2.71aebf2a.chunk.js.LICENSE.txt",
+    "static/css/main.435caef0.chunk.css.map": "/static/css/main.435caef0.chunk.css.map",
+    "static/js/2.c040844b.chunk.js.LICENSE.txt": "/static/js/2.c040844b.chunk.js.LICENSE.txt",
     "static/media/AboutCuriousBG.png": "/static/media/AboutCuriousBG.ae9001c0.png",
     "static/media/AboutGPSBG.png": "/static/media/AboutGPSBG.1f8c62dc.png",
     "static/media/AceTestWithEasyA.png": "/static/media/AceTestWithEasyA.621ea811.png",
     "static/media/BasicPrinciples-1.svg": "/static/media/BasicPrinciples-1.8438e658.svg",
     "static/media/BasicPrinciples-2.svg": "/static/media/BasicPrinciples-2.ce1def09.svg",
     "static/media/BasicPrinciples-3.svg": "/static/media/BasicPrinciples-3.0b5bf778.svg",
+    "static/media/ContactUsImg.png": "/static/media/ContactUsImg.8659082b.png",
     "static/media/App.scss": "/static/media/icons.4314eae4.png",
     "static/media/FAQOpen.svg": "/static/media/FAQOpen.85c9c319.svg",
     "static/media/HIW-1.png": "/static/media/HIW-1.a2f00d58.png",
@@ -48,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
-    "static/js/2.71aebf2a.chunk.js",
-    "static/css/main.f8ddb558.chunk.css",
-    "static/js/main.1bff7cf3.chunk.js"
+    "static/js/2.c040844b.chunk.js",
+    "static/css/main.435caef0.chunk.css",
+    "static/js/main.cd4e88c7.chunk.js"
   ]
 }
