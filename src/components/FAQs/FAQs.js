@@ -6,66 +6,49 @@ const FAQs = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const Answer =
+    "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask.";
   const List = [
     {
       Question: "What is EasyA?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask.",
+      Answer,
       defaultOpen: true
     },
-
     {
       Question: "Who are EasyA's super tutors?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     },
-
     {
       Question: "How does EasyA differ from traditional tutoring?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     },
-
     {
       Question: "How does it work?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     },
-
     {
       Question: "Is the EasyA app available for download yet?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     },
-
     {
       Question: "Is it really unlimited?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     },
-
     {
       Question: "Is EasyA safe?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     },
-
     {
       Question: "How can I get started?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     },
-
     {
       Question: "What subjects do you tutor?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     },
-
     {
       Question: "Who are EasyA's super tutors?",
-      Answer:
-        "EasyA is an app that provides students with instant, on-demand GCSE maths help. Simply snap a picture of your question and you’ll be connected with one of our super tutors in under 60 seconds. Once connected, you can ask."
+      Answer
     }
   ];
   return (
