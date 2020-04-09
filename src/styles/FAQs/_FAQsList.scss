@@ -1,0 +1,49 @@
+&-List {
+  padding: 50px;
+  border-radius: 20px;
+  background-color: $shellpeach;
+  margin: 0 0 50px;
+  &-Item {
+    border-top: 1px solid rgba($seance, 0.2);
+    h3 {
+      margin: 0;
+      cursor: pointer;
+      padding: 30px;
+      font-size: 1.8em;
+      font-weight: normal;
+      letter-spacing: 0.18px;
+      line-height: 1.6;
+      overflow: hidden;
+      img {
+        float: right;
+        margin-top: 10px;
+      }
+    }
+    p {
+      padding: 30px;
+      margin: 0;
+      font-size: 1.8em;
+      letter-spacing: 0.18px;
+      line-height: 1.6;
+      margin-right: 75px;
+    }
+    &.Open {
+      background-color: $white;
+      border: 0;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 0;
+      box-shadow: 0 1px 2px 0 rgba($black, 0.14);
+      + .FAQs-List-Item {
+        border: 0;
+      }
+      + .Open {
+        margin-top: 30px;
+      }
+      h3 {
+        background-color: $tango;
+        color: $white;
+      }
+    }
+  }
+}
