@@ -1,5 +1,6 @@
 import React from "react";
 import FAQList from "./_FAQList";
+import FAQHelp from "./_FAQHelp";
 
 const FAQs = () => {
   React.useEffect(() => {
@@ -71,6 +72,7 @@ const FAQs = () => {
     <main className="FAQs">
       <h1>Frequently Asked Questions</h1>
       <FAQList List={List} />
+      <FAQHelp />
     </main>
   );
 };
