@@ -1,0 +1,28 @@
+&-Intro {
+  margin: 215px 0 50px;
+  padding: 50px 50px 50px 50%;
+  background-color: $seance;
+  color: $white;
+  border-radius: 20px;
+  position: relative;
+  h1 {
+    font-size: 7em;
+    font-weight: 600;
+    letter-spacing: -1.56px;
+    line-height: 1.1;
+    margin: 0 0 8px;
+  }
+  p {
+    font-size: 1.8em;
+    letter-spacing: 0.18px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin: 0;
+  }
+  img {
+    position: absolute;
+    left: -0.5px;
+    bottom: 25px;
+    width: 480px;
+  }
+}

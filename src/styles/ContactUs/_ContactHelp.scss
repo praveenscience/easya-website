@@ -1,0 +1,42 @@
+&-Help {
+  display: flex;
+  flex-direction: row;
+  &-Text {
+    width: 40%;
+    padding: 100px 100px 0;
+    h3 {
+      font-size: 5em;
+      font-weight: 600;
+      letter-spacing: -1.12px;
+      line-height: 1.12;
+      margin: 0 0 24px;
+    }
+    p {
+      font-size: 1.4em;
+      letter-spacing: 0.14px;
+      line-height: 1.714;
+      strong {
+        font-weight: 600;
+      }
+    }
+    h4 {
+      margin: 70px 0 8px;
+      font-size: 2em;
+      letter-spacing: 0.2px;
+      font-weight: 600;
+      line-height: 1.2;
+      & ~ p {
+        margin-right: -75px;
+      }
+    }
+  }
+  &-Form {
+    width: 60%;
+    padding: 45px 30px;
+    background-color: $shellpeach;
+    border-radius: 20px;
+    .easya-btn-nav {
+      width: 250px;
+    }
+  }
+}

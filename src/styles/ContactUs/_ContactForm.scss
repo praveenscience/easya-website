@@ -1,0 +1,42 @@
+&-Form {
+  display: block;
+  label {
+    display: block;
+  }
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    border: 2px solid $borders;
+    display: block;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 1.6em;
+    letter-spacing: 0.3px;
+    line-height: 1.375;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  textarea {
+    resize: none;
+    height: 8em;
+  }
+  select {
+    background-color: $white;
+    -webkit-appearance: none;
+  }
+  .select {
+    position: relative;
+    &::after {
+      content: "";
+      width: 15px;
+      height: 12px;
+      display: block;
+      position: absolute;
+      top: 50%;
+      margin-top: -6px;
+      right: 15px;
+      background: url("../../assets/FAQClosed.svg") no-repeat center right;
+    }
+  }
+}
