@@ -3,6 +3,8 @@ import TMIntro from "./_TMIntro";
 import TMStudies from "./_TMStudies";
 import TMReviews from "./_TMReviews";
 import AboutCurious from "../About/_AboutCurious";
+import WhizImg from "../../assets/achievements/whiz.svg";
+import Paths from "../../constants/Paths";
 
 const TeachingMethods = () => {
   React.useEffect(() => {
@@ -13,7 +15,12 @@ const TeachingMethods = () => {
       <TMIntro />
       <TMStudies />
       <TMReviews />
-      <AboutCurious />
+      <AboutCurious
+        Image={WhizImg}
+        Title="Still wondering if EasyA is right for your family?"
+        Action="View pricing"
+        ActionLink={Paths.Home}
+      />
     </main>
   );
 };
