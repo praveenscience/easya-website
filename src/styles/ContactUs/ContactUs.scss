@@ -74,6 +74,28 @@
       }
     }
   }
+  &-FAQ {
+    color: $nvgum;
+    margin: 110px 0 60px;
+    h2 {
+      font-size: 5em;
+      font-weight: 600;
+      letter-spacing: -1.12px;
+      line-height: 1.12;
+      margin: 0 0 70px;
+      text-align: center;
+    }
+    .FAQs-List {
+      background-color: rgba($seance, 0.2);
+      &-Item {
+        &.Open {
+          h3 {
+            background-color: $seance;
+          }
+        }
+      }
+    }
+  }
   &-Form {
     display: block;
     label {
