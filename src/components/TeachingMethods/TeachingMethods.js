@@ -1,4 +1,8 @@
 import React from "react";
+import TMIntro from "./_TMIntro";
+import TMStudies from "./_TMStudies";
+import TMReviews from "./_TMReviews";
+import AboutCurious from "../About/_AboutCurious";
 
 const TeachingMethods = () => {
   React.useEffect(() => {
@@ -6,7 +10,10 @@ const TeachingMethods = () => {
   }, []);
   return (
     <main className="TeachingMethods">
-      <h1>EasyA's revolutionary approach to learning</h1>
+      <TMIntro />
+      <TMStudies />
+      <TMReviews />
+      <AboutCurious />
     </main>
   );
 };

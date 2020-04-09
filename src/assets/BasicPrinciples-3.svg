@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="105px" viewBox="0 0 105 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>788158AA-A940-47B9-8AB1-9472ED370CAF</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Teaching-Methods" transform="translate(-938.000000, -520.000000)">
+            <g id="Group" transform="translate(938.000000, 520.000000)">
+                <circle id="Oval" fill="#F37121" fill-rule="nonzero" cx="52.1710547" cy="52.2344788" r="52.1035822"></circle>
+                <g transform="translate(20.916462, 26.584149)">
+                    <g id="Path">
+                        <path d="M59.4648275,29.5866732 C56.3516482,25.7110552 45.232187,13.0667164 31.5082888,13.0667164 C17.7843907,13.0667164 6.66492949,25.7110552 3.55175024,29.5866732 C2.66246323,30.6662326 2.66246323,32.2558837 3.55175024,33.3988671 C6.66492949,37.2744852 17.7843907,49.918824 31.5082888,49.918824 C45.232187,49.918824 56.3516482,37.2744852 59.4648275,33.3988671 C60.3541145,32.3179584 60.3541145,30.7296567 59.4648275,29.5866732 Z" fill="#FDC400" fill-rule="nonzero"></path>
+                        <line x1="0.0647735605" y1="13.8210585" x2="6.68517123" y2="19.4968417" stroke="#60179C" stroke-width="4.77473675" stroke-linecap="round"></line>
+                        <line x1="15.8938124" y1="3.43704706" x2="19.2390969" y2="11.4919092" stroke="#60179C" stroke-width="4.77473675" stroke-linecap="round"></line>
+                        <line x1="63.1258831" y1="13.8210585" x2="56.5054854" y2="19.4968417" stroke="#60179C" stroke-width="4.77473675" stroke-linecap="round"></line>
+                        <line x1="47.2981937" y1="3.43704706" x2="43.9529092" y2="11.4919092" stroke="#60179C" stroke-width="4.77473675" stroke-linecap="round"></line>
+                        <line x1="33.124929" y1="0.0809669507" x2="32.6526218" y2="8.78896249" stroke="#60179C" stroke-width="4.77473675" stroke-linecap="round"></line>
+                    </g>
+                    <path d="M31.5096383,20.3442958 C25.3588489,20.3442958 20.3618386,25.3413061 20.3618386,31.4920955 C20.3618386,37.6428848 25.3588489,42.6398951 31.5096383,42.6398951 C37.6604276,42.6398951 42.657438,37.6428848 42.657438,31.4920955 C42.6560885,25.3413061 37.6590782,20.3442958 31.5096383,20.3442958 Z" id="Path" fill="#60179C" fill-rule="nonzero"></path>
+                    <g transform="translate(26.584149, 26.044369)">
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="5.02130039" cy="1.65307524" r="1.56805994"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="5.02130039" cy="9.70793738" r="1.56805994"></circle>
+                        <line x1="0.0958108916" y1="5.51789769" x2="10.0722887" y2="5.51789769" id="Path" stroke="#FFFFFF" stroke-width="2.65263153" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

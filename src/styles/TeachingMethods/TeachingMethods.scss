@@ -1,12 +1,120 @@
 .TeachingMethods {
   @include PageWrap(0);
-  h1 {
-    color: $nvgum;
-    font-size: 7em;
-    font-weight: 600;
-    letter-spacing: -1.56px;
-    line-height: 1.1;
-    margin: 80px 0 60px;
-    max-width: 980px;
+  color: $nvgum;
+  &-Intro {
+    h1 {
+      font-size: 7em;
+      font-weight: 600;
+      letter-spacing: -1.56px;
+      line-height: 1.1;
+      margin: 80px 0 60px;
+      max-width: 980px;
+    }
+    .BasicPrinciples {
+      margin-bottom: 60px;
+    }
+    h2 {
+      font-size: 3.6em;
+      font-weight: 600;
+      letter-spacing: -0.8px;
+      line-height: 1.55;
+      margin: 60px 0 20px;
+      text-align: center;
+    }
+    .action-button {
+      text-align: center;
+      padding-bottom: 60px;
+      .easya-btn-nav {
+        display: inline-block;
+      }
+    }
+  }
+  &-Studies {
+    border: 1px solid rgba($seance, 0.2);
+    border-width: 1px 0;
+    padding: 70px 0 40px;
+    overflow: hidden;
+    margin: 0 0 60px;
+    h3 {
+      font-size: 2.2em;
+      font-weight: 600;
+      letter-spacing: 0.22px;
+      line-height: 1.318;
+      margin: 0 0 10px;
+    }
+    p {
+      margin: 20px 0 0;
+      font-size: 1.8em;
+      letter-spacing: 0.18px;
+      line-height: 1.6;
+    }
+  }
+  &-Reviews {
+    margin: 0 0 60px;
+    columns: 2;
+    column-gap: 30px;
+    h2 {
+      font-size: 5em;
+      font-weight: 600;
+      letter-spacing: -1.12px;
+      line-height: 1.12;
+      margin: 0 0 60px;
+    }
+    &-Review {
+      margin: 0 0 60px;
+      border-radius: 20px;
+      padding: 50px;
+      display: flex;
+      &-Text {
+        flex-grow: 1;
+        h3 {
+          font-size: 2.2em;
+          font-weight: 600;
+          letter-spacing: 0.22px;
+          line-height: 1.318;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 1.8em;
+          letter-spacing: 0.18px;
+          line-height: 1.61;
+          &.Author {
+            strong {
+              font-weight: 600;
+              text-transform: uppercase;
+            }
+          }
+          &.Meta {
+            span {
+              padding: 0px 10px 1px;
+              opacity: 0.5;
+              text-transform: uppercase;
+              font-size: 14px;
+              letter-spacing: 0.14px;
+              line-height: 20px;
+              &:first-child {
+                border-right: 2px solid rgba($seance, 0.5);
+                padding-left: 0;
+              }
+            }
+          }
+        }
+      }
+      &-Image {
+        margin-left: 30px;
+        min-width: 170px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 3px;
+        img {
+          top: 50%;
+          left: 50%;
+          min-width: 110%;
+          min-height: 110%;
+          transform: translate(-50%, -50%);
+          position: absolute;
+        }
+      }
+    }
   }
 }
