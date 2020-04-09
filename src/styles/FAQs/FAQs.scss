@@ -104,6 +104,11 @@
         a {
           font-weight: 600;
           color: $tango;
+          img {
+            vertical-align: middle;
+            position: relative;
+            top: -1px;
+          }
         }
       }
     }
