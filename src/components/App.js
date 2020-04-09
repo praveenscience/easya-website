@@ -12,6 +12,7 @@ import Privacy from "./InfoPages/Privacy";
 import Error404 from "./InfoPages/404";
 import TeachingMethods from "./TeachingMethods/TeachingMethods";
 import FAQs from "./FAQs/FAQs";
+import ContactUs from "./ContactUs/ContactUs";
 
 const App = () => {
   return (
@@ -41,6 +42,9 @@ const App = () => {
         </Route>
         <Route path={Paths.FAQs}>
           <FAQs />
+        </Route>
+        <Route path={Paths.ContactUs}>
+          <ContactUs />
         </Route>
         <Route component={Error404} />
       </Switch>

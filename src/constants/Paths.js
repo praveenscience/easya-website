@@ -5,6 +5,7 @@ export default {
   HowItWorks: "/how-it-works",
   TeachingMethods: "/teaching-methods",
   FAQs: "/faqs",
+  ContactUs: "/contact",
   Terms: "/terms",
   Privacy: "/privacy"
 };
