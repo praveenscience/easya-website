@@ -4,6 +4,7 @@ export default {
   Subjects: "/subjects",
   HowItWorks: "/how-it-works",
   TeachingMethods: "/teaching-methods",
+  FAQs: "/faqs",
   Terms: "/terms",
   Privacy: "/privacy"
 };

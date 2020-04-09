@@ -25,6 +25,10 @@ const Cols = [
       {
         Label: "Will my child learn?",
         Link: Paths.Home
+      },
+      {
+        Label: "FAQs",
+        Link: Paths.FAQs
       }
     ]
   },

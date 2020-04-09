@@ -11,6 +11,7 @@ import Terms from "./InfoPages/Terms";
 import Privacy from "./InfoPages/Privacy";
 import Error404 from "./InfoPages/404";
 import TeachingMethods from "./TeachingMethods/TeachingMethods";
+import FAQs from "./FAQs/FAQs";
 
 const App = () => {
   return (
@@ -37,6 +38,9 @@ const App = () => {
         </Route>
         <Route path={Paths.TeachingMethods}>
           <TeachingMethods />
+        </Route>
+        <Route path={Paths.FAQs}>
+          <FAQs />
         </Route>
         <Route component={Error404} />
       </Switch>
