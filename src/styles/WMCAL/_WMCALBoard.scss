@@ -1,0 +1,56 @@
+&-Board {
+  margin: 120px 0 0;
+  color: $nvgum;
+  img {
+    &:first-child {
+      width: 100px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+  }
+  h2 {
+    font-size: 5em;
+    font-weight: 600;
+    letter-spacing: -1.12px;
+    line-height: 1.12;
+    text-align: center;
+    margin: 0 0 60px;
+  }
+  &-Slider {
+    padding: 64px;
+    border-radius: 20px;
+    color: $white;
+    // Temp!
+    text-align: center;
+    font-size: 3.5em;
+    // End Temp!
+  }
+  .RoundIconRight {
+    transform-origin: left top;
+    transform: scale(0.5);
+    position: relative;
+    cursor: pointer;
+    left: 75px;
+    top: -25px;
+    margin-bottom: -85px;
+  }
+  @media screen and (max-width: 575px) {
+    margin: 50px 0;
+    img {
+      &:first-child {
+        width: 80px;
+        margin: 0 auto 8px;
+      }
+    }
+    h2 {
+      font-size: 3.2em;
+      letter-spacing: -0.72px;
+      line-height: 1.28;
+      margin: 0 0 36px;
+    }
+    .RoundIconRight {
+      margin-bottom: -75px;
+      left: 15px;
+    }
+  }
+}
