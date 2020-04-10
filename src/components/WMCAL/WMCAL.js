@@ -2,6 +2,7 @@ import React from "react";
 import WMCALIntro from "./_WMCALIntro";
 import WMCALBoard from "./_WMCALBoard";
 import WMCALApproach from "./_WMCALApproach";
+import WMCALBlogs from "./_WMCALBlogs";
 
 const WMCAL = () => {
   React.useEffect(() => {
@@ -11,6 +12,7 @@ const WMCAL = () => {
     <main className="WMCAL">
       <WMCALIntro />
       <WMCALBoard />
+      <WMCALBlogs />
       <WMCALApproach />
     </main>
   );
