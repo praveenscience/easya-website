@@ -4,6 +4,7 @@ $seance: #60179c;
 $white: #fff;
 $black: #000;
 $supernova: #fcc400;
+$sun: #fedb41;
 $mardigras: #240038;
 $shellpeach: #fff6f0;
 $borders: #eff0f3;
@@ -32,6 +33,9 @@ $borders: #eff0f3;
     }
     &supernova {
       background-color: $supernova;
+    }
+    &sun {
+      background-color: $sun;
     }
     &hover-nvgum {
       background-color: rgba($nvgum, 0.2);
@@ -81,6 +85,12 @@ $borders: #eff0f3;
         background-color: $supernova;
       }
     }
+    &hover-sun {
+      background-color: rgba($sun, 0.2);
+      &:hover {
+        background-color: $sun;
+      }
+    }
     &trans-nvgum {
       background-color: rgba($nvgum, 0.2);
     }
@@ -104,6 +114,9 @@ $borders: #eff0f3;
     }
     &trans-supernova {
       background-color: rgba($supernova, 0.2);
+    }
+    &trans-sun {
+      background-color: rgba($sun, 0.2);
     }
   }
   &-color- {
@@ -130,6 +143,9 @@ $borders: #eff0f3;
     }
     &supernova {
       color: $supernova;
+    }
+    &sun {
+      color: $sun;
     }
   }
 }
