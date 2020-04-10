@@ -1,0 +1,47 @@
+&Post {
+  position: relative;
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+  }
+  &-Content {
+    border-radius: 20px;
+    position: absolute;
+    background-color: $white;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: -50px;
+    padding: 20px;
+    color: $nvgum;
+    a {
+      color: $nvgum;
+    }
+    p {
+      font-size: 1.6em;
+      letter-spacing: -0.13px;
+      line-height: 1.625;
+      margin: 0;
+      &.Meta {
+        font-size: 1.4em;
+        opacity: 0.6;
+        margin: 0 0 12px;
+        span {
+          margin: 0 5px;
+          font-size: 1.5em;
+          line-height: 0;
+          position: relative;
+          top: 2px;
+        }
+      }
+    }
+    h3 {
+      font-size: 2em;
+      letter-spacing: -0.17px;
+      line-height: 1.6;
+      font-family: "Inter";
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+}
