@@ -24,7 +24,7 @@ const Cols = [
       },
       {
         Label: "Will my child learn?",
-        Link: Paths.Home
+        Link: Paths.WMCAL
       },
       {
         Label: "FAQs",

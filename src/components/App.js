@@ -13,6 +13,7 @@ import Error404 from "./InfoPages/404";
 import TeachingMethods from "./TeachingMethods/TeachingMethods";
 import FAQs from "./FAQs/FAQs";
 import ContactUs from "./ContactUs/ContactUs";
+import WMCAL from "./WMCAL/WMCAL";
 
 const App = () => {
   return (
@@ -39,6 +40,9 @@ const App = () => {
         </Route>
         <Route path={Paths.TeachingMethods}>
           <TeachingMethods />
+        </Route>
+        <Route path={Paths.WMCAL}>
+          <WMCAL />
         </Route>
         <Route path={Paths.FAQs}>
           <FAQs />

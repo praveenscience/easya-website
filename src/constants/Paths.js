@@ -6,6 +6,7 @@ export default {
   TeachingMethods: "/teaching-methods",
   FAQs: "/faqs",
   ContactUs: "/contact",
+  WMCAL: "/child-learn",
   Terms: "/terms",
   Privacy: "/privacy"
 };
