@@ -1,11 +1,10 @@
 .WMCAL {
-  @include PageWrap(60px);
+  @include PageWrap(120px);
   @media screen and (max-width: 575px) {
     margin: 40px auto;
   }
   @import "WMCALIntro";
   @import "WMCALBoard";
   @import "WMCALBlogs";
-  &-Approach {
-  }
+  @import "WMCALApproach";
 }
