@@ -27,7 +27,7 @@ const List = [
   },
   {
     Name: "Tutors",
-    Path: Paths.Home,
+    Path: Paths.ATBT,
     Active: false,
     Classes: null,
     Display: 1

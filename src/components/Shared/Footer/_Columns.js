@@ -41,7 +41,7 @@ const Cols = [
       },
       {
         Label: "Tutors",
-        Link: Paths.Home
+        Link: Paths.ATBT
       },
       {
         Label: "Testimonials",

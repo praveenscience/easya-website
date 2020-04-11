@@ -11,9 +11,10 @@ import Terms from "./InfoPages/Terms";
 import Privacy from "./InfoPages/Privacy";
 import Error404 from "./InfoPages/404";
 import TeachingMethods from "./TeachingMethods/TeachingMethods";
+import WMCAL from "./WMCAL/WMCAL";
+import ATBT from "./ATBT/ATBT";
 import FAQs from "./FAQs/FAQs";
 import ContactUs from "./ContactUs/ContactUs";
-import WMCAL from "./WMCAL/WMCAL";
 
 const App = () => {
   return (
@@ -43,6 +44,9 @@ const App = () => {
         </Route>
         <Route path={Paths.WMCAL}>
           <WMCAL />
+        </Route>
+        <Route path={Paths.ATBT}>
+          <ATBT />
         </Route>
         <Route path={Paths.FAQs}>
           <FAQs />
