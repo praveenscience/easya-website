@@ -5,6 +5,9 @@ import ATBTEasyApply from "./_ATBTEasyApply";
 import ATBTListen from "./_ATBTListen";
 
 const ATBT = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <main className="ATBT">
       <ATBTIntro />
