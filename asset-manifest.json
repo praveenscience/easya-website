@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd2e7667.chunk.css",
+    "main.css": "/static/css/main.118066c4.chunk.css",
     "main.js": "/static/js/main.24871e4b.chunk.js",
     "main.js.map": "/static/js/main.24871e4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
@@ -8,9 +8,9 @@
     "static/js/2.703c0361.chunk.js": "/static/js/2.703c0361.chunk.js",
     "static/js/2.703c0361.chunk.js.map": "/static/js/2.703c0361.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b4dda0782e2842836c4a7e92ccb340ae.js": "/precache-manifest.b4dda0782e2842836c4a7e92ccb340ae.js",
+    "precache-manifest.317e7fdd78fbfef06235b2611d2ffd01.js": "/precache-manifest.317e7fdd78fbfef06235b2611d2ffd01.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.dd2e7667.chunk.css.map": "/static/css/main.dd2e7667.chunk.css.map",
+    "static/css/main.118066c4.chunk.css.map": "/static/css/main.118066c4.chunk.css.map",
     "static/js/2.703c0361.chunk.js.LICENSE.txt": "/static/js/2.703c0361.chunk.js.LICENSE.txt",
     "static/media/AboutCuriousBG.png": "/static/media/AboutCuriousBG.ae9001c0.png",
     "static/media/AboutGPSBG.png": "/static/media/AboutGPSBG.1f8c62dc.png",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
     "static/js/2.703c0361.chunk.js",
-    "static/css/main.dd2e7667.chunk.css",
+    "static/css/main.118066c4.chunk.css",
     "static/js/main.24871e4b.chunk.js"
   ]
 }
