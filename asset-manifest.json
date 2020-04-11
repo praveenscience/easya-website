@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.276fcf1e.chunk.css",
-    "main.js": "/static/js/main.4dc500cb.chunk.js",
-    "main.js.map": "/static/js/main.4dc500cb.chunk.js.map",
+    "main.css": "/static/css/main.30c1c203.chunk.css",
+    "main.js": "/static/js/main.dabca1de.chunk.js",
+    "main.js.map": "/static/js/main.dabca1de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
     "runtime-main.js.map": "/static/js/runtime-main.966c5448.js.map",
-    "static/js/2.1d762906.chunk.js": "/static/js/2.1d762906.chunk.js",
-    "static/js/2.1d762906.chunk.js.map": "/static/js/2.1d762906.chunk.js.map",
+    "static/js/2.9c579ce0.chunk.js": "/static/js/2.9c579ce0.chunk.js",
+    "static/js/2.9c579ce0.chunk.js.map": "/static/js/2.9c579ce0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.047055dd01c095eaee6b548ec8936fb4.js": "/precache-manifest.047055dd01c095eaee6b548ec8936fb4.js",
+    "precache-manifest.6754d7d23e9a7f05161e5bfb07ce60af.js": "/precache-manifest.6754d7d23e9a7f05161e5bfb07ce60af.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.276fcf1e.chunk.css.map": "/static/css/main.276fcf1e.chunk.css.map",
-    "static/js/2.1d762906.chunk.js.LICENSE.txt": "/static/js/2.1d762906.chunk.js.LICENSE.txt",
+    "static/css/main.30c1c203.chunk.css.map": "/static/css/main.30c1c203.chunk.css.map",
+    "static/js/2.9c579ce0.chunk.js.LICENSE.txt": "/static/js/2.9c579ce0.chunk.js.LICENSE.txt",
     "static/media/ATBTEmp-1.png": "/static/media/ATBTEmp-1.8e63938a.png",
     "static/media/ATBTEmp-2.png": "/static/media/ATBTEmp-2.c201a6db.png",
     "static/media/ATBTEmp-3.png": "/static/media/ATBTEmp-3.36f6ecc4.png",
@@ -33,6 +33,7 @@
     "static/media/HowItWorks-1.svg": "/static/media/HowItWorks-1.30c6d69d.svg",
     "static/media/HowItWorks-2.svg": "/static/media/HowItWorks-2.e84b9bd7.svg",
     "static/media/HowItWorks-3.svg": "/static/media/HowItWorks-3.b2b53f89.svg",
+    "static/media/TestimonialsBanner.svg": "/static/media/TestimonialsBanner.da859744.svg",
     "static/media/aboutintrochat.png": "/static/media/aboutintrochat.c3b73957.png",
     "static/media/aboutlearnachieve.png": "/static/media/aboutlearnachieve.907bfc8a.png",
     "static/media/apple.svg": "/static/media/apple.e6a3bc3b.svg",
@@ -53,8 +54,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
-    "static/js/2.1d762906.chunk.js",
-    "static/css/main.276fcf1e.chunk.css",
-    "static/js/main.4dc500cb.chunk.js"
+    "static/js/2.9c579ce0.chunk.js",
+    "static/css/main.30c1c203.chunk.css",
+    "static/js/main.dabca1de.chunk.js"
   ]
 }
