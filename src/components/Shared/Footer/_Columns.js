@@ -45,7 +45,7 @@ const Cols = [
       },
       {
         Label: "Testimonials",
-        Link: Paths.Home
+        Link: Paths.Testimonials
       },
       {
         Label: "Contact Us",

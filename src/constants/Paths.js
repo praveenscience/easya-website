@@ -5,6 +5,7 @@ export default {
   HowItWorks: "/how-it-works",
   TeachingMethods: "/teaching-methods",
   ATBT: "/become-tutor",
+  Testimonials: "/testimonials",
   FAQs: "/faqs",
   ContactUs: "/contact",
   WMCAL: "/child-learn",

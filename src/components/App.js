@@ -15,6 +15,7 @@ import WMCAL from "./WMCAL/WMCAL";
 import ATBT from "./ATBT/ATBT";
 import FAQs from "./FAQs/FAQs";
 import ContactUs from "./ContactUs/ContactUs";
+import Testimonials from "./Testimonials/Testimonials";
 
 const App = () => {
   return (
@@ -47,6 +48,9 @@ const App = () => {
         </Route>
         <Route path={Paths.ATBT}>
           <ATBT />
+        </Route>
+        <Route path={Paths.Testimonials}>
+          <Testimonials />
         </Route>
         <Route path={Paths.FAQs}>
           <FAQs />
