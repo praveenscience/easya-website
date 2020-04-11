@@ -4,6 +4,7 @@ import WMCALBoard from "./_WMCALBoard";
 import WMCALApproach from "./_WMCALApproach";
 import WMCALBlogs from "./_WMCALBlogs";
 import TMReviews from "../TeachingMethods/_TMReviews";
+import WMCALPrinciples from "./_WMCALPrinciples";
 
 const WMCAL = () => {
   React.useEffect(() => {
@@ -16,6 +17,7 @@ const WMCAL = () => {
       <WMCALBlogs />
       <WMCALApproach />
       <TMReviews />
+      <WMCALPrinciples />
     </main>
   );
 };
