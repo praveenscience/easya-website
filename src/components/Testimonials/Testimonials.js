@@ -1,5 +1,6 @@
 import React from "react";
 import TestIntro from "./_TestIntro";
+import TMReviews from "../TeachingMethods/_TMReviews";
 
 const Testimonials = () => {
   React.useEffect(() => {
@@ -8,6 +9,7 @@ const Testimonials = () => {
   return (
     <main className="Testimonials">
       <TestIntro />
+      <TMReviews />
     </main>
   );
 };
