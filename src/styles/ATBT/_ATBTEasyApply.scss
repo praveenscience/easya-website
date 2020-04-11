@@ -1,0 +1,48 @@
+&-EasyApply {
+  width: 1280px;
+  margin: 0 auto 100px;
+  h2 {
+    font-size: 5em;
+    font-weight: 600;
+    letter-spacing: -1.12px;
+    line-height: 1.12;
+    text-align: center;
+    margin: 0 0 75px;
+  }
+  &-Steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    &-Item {
+      flex-grow: 1;
+      flex-basis: 0;
+      padding-right: 32px;
+      &-Index,
+      h3,
+      p {
+        font-size: 1.8em;
+        letter-spacing: -0.4px;
+        line-height: 1.44;
+      }
+      &-Index,
+      h3 {
+        font-weight: 600;
+      }
+      &-Index {
+        background-color: $seance;
+        color: $white;
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        border-radius: 100%;
+      }
+      h3 {
+        margin: 15px 0 25px;
+      }
+      p {
+        letter-spacing: 0.18px;
+      }
+    }
+  }
+}
