@@ -12,7 +12,7 @@ const Cols = [
       },
       {
         Label: "Pricing",
-        Link: Paths.Home
+        Link: Paths.Pricing
       },
       {
         Label: "Subjects",

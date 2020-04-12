@@ -13,6 +13,7 @@ import Error404 from "./InfoPages/404";
 import TeachingMethods from "./TeachingMethods/TeachingMethods";
 import WMCAL from "./WMCAL/WMCAL";
 import ATBT from "./ATBT/ATBT";
+import Pricing from "./Pricing/Pricing";
 import FAQs from "./FAQs/FAQs";
 import ContactUs from "./ContactUs/ContactUs";
 import Testimonials from "./Testimonials/Testimonials";
@@ -48,6 +49,9 @@ const App = () => {
         </Route>
         <Route path={Paths.ATBT}>
           <ATBT />
+        </Route>
+        <Route path={Paths.Pricing}>
+          <Pricing />
         </Route>
         <Route path={Paths.Testimonials}>
           <Testimonials />

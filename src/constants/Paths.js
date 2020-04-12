@@ -9,6 +9,7 @@ export default {
   FAQs: "/faqs",
   ContactUs: "/contact",
   WMCAL: "/child-learn",
+  Pricing: "/pricing",
   Terms: "/terms",
   Privacy: "/privacy"
 };

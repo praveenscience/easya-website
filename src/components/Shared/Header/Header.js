@@ -34,7 +34,7 @@ const List = [
   },
   {
     Name: "Pricing",
-    Path: Paths.Home,
+    Path: Paths.Pricing,
     Active: false,
     Classes: null,
     Display: 0
