@@ -1,5 +1,6 @@
 import React from "react";
 import PricingIntro from "./_PricingIntro";
+import PricingExpertTutors from "./_PricingExpertTutors";
 
 const Pricing = () => {
   React.useEffect(() => {
@@ -8,6 +9,7 @@ const Pricing = () => {
   return (
     <main className="Pricing">
       <PricingIntro />
+      <PricingExpertTutors />
     </main>
   );
 };
