@@ -87,3 +87,27 @@
     @include Square(152px);
   }
 }
+
+.ReasonsIcon {
+  @include IconFileBg;
+  &-Heart {
+    background-position: -1930px -2246px;
+    width: 45px;
+    height: 41px;
+  }
+  &-Spade {
+    background-position: -1930px -2564px;
+    width: 38px;
+    height: 45px;
+  }
+  &-Umbrella {
+    background-position: -1919px -2984px;
+    width: 56px;
+    height: 39px;
+  }
+  &-Carpet {
+    background-position: -1922px -3316px;
+    width: 53px;
+    height: 48px;
+  }
+}
