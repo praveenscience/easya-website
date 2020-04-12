@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4877a712f936aa556dc924f2f7df7684",
+    "revision": "98778bbdaba73413bf6f677e37d9b3fd",
     "url": "/index.html"
   },
   {
-    "revision": "dcc4661859fb835b80c2",
-    "url": "/static/css/main.d8c40fa9.chunk.css"
+    "revision": "48b42f6456e4b633d06b",
+    "url": "/static/css/main.57c870c3.chunk.css"
   },
   {
-    "revision": "d34f4f1263fbd42ea3b4",
-    "url": "/static/js/2.9c579ce0.chunk.js"
+    "revision": "0f455ada3be27fdddffd",
+    "url": "/static/js/2.2d6507be.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.9c579ce0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2d6507be.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dcc4661859fb835b80c2",
-    "url": "/static/js/main.d4c259be.chunk.js"
+    "revision": "48b42f6456e4b633d06b",
+    "url": "/static/js/main.7369aa9b.chunk.js"
   },
   {
     "revision": "4b0b8649b9ba65f2c80b",
@@ -120,6 +120,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aboutlearnachieve.907bfc8a.png"
   },
   {
+    "revision": "b87a506a8fe5758407d3336124234361",
+    "url": "/static/media/algebra.b87a506a.svg"
+  },
+  {
     "revision": "e6a3bc3b75cd7c554b8290ca3962bceb",
     "url": "/static/media/apple.e6a3bc3b.svg"
   },
@@ -164,6 +168,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/google.91188fe3.svg"
   },
   {
+    "revision": "390fe28f9f959fbf9fc100b10027a2bc",
+    "url": "/static/media/highachiever.390fe28f.svg"
+  },
+  {
     "revision": "2cfa3b950d0de63aa7d7f81f0afce6a5",
     "url": "/static/media/home-banner-balloon.2cfa3b95.png"
   },
@@ -182,6 +190,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6bbc31dae3a2dbc03b192f7bd5fb47df",
     "url": "/static/media/subjects-banner.6bbc31da.png"
+  },
+  {
+    "revision": "9a95a1e9c28957a21489a30666572df3",
+    "url": "/static/media/thunder.9a95a1e9.svg"
   },
   {
     "revision": "f6c02d44e8a92ce577876aa2a94db710",
