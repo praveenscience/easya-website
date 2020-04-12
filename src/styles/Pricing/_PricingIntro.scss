@@ -1,4 +1,5 @@
 &-Intro {
+  margin-bottom: 120px;
   text-align: center;
   h1 {
     font-size: 7em;
@@ -14,4 +15,5 @@
     margin: 0 0 100px;
   }
   @import "PricingIntroPlanList";
+  @import "MonthlyPricingIntro";
 }

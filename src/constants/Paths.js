@@ -10,6 +10,7 @@ export default {
   ContactUs: "/contact",
   WMCAL: "/child-learn",
   Pricing: "/pricing",
+  MonthlyPricing: "/monthly-pricing",
   Terms: "/terms",
   Privacy: "/privacy"
 };

@@ -14,6 +14,7 @@ import TeachingMethods from "./TeachingMethods/TeachingMethods";
 import WMCAL from "./WMCAL/WMCAL";
 import ATBT from "./ATBT/ATBT";
 import Pricing from "./Pricing/Pricing";
+import MonthlyPricing from "./Pricing/MonthlyPricing";
 import FAQs from "./FAQs/FAQs";
 import ContactUs from "./ContactUs/ContactUs";
 import Testimonials from "./Testimonials/Testimonials";
@@ -52,6 +53,9 @@ const App = () => {
         </Route>
         <Route path={Paths.Pricing}>
           <Pricing />
+        </Route>
+        <Route path={Paths.MonthlyPricing}>
+          <MonthlyPricing />
         </Route>
         <Route path={Paths.Testimonials}>
           <Testimonials />

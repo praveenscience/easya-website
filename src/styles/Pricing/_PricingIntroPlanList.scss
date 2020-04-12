@@ -71,29 +71,29 @@
         transform: translateY(-100%);
       }
     }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0 0 15px;
+        padding: 0;
+        list-style: none;
+        font-size: 1.8em;
+        letter-spacing: -0.5px;
+        line-height: 1.44;
+        img {
+          width: 15px;
+          vertical-align: middle;
+          margin-right: 10px;
+        }
+      }
+    }
     &-Features {
       padding: 25px 30px;
       margin: 0 -36px;
       p {
         font-weight: 500;
         letter-spacing: -0.5px;
-      }
-      ul {
-        margin: 0;
-        padding: 0;
-        li {
-          margin: 0 0 15px;
-          padding: 0;
-          list-style: none;
-          font-size: 1.8em;
-          letter-spacing: -0.5px;
-          line-height: 1.44;
-          img {
-            width: 15px;
-            vertical-align: middle;
-            margin-right: 10px;
-          }
-        }
       }
     }
   }
