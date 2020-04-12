@@ -1,0 +1,17 @@
+&-Intro {
+  text-align: center;
+  h1 {
+    font-size: 7em;
+    font-weight: 600;
+    letter-spacing: -1.56px;
+    line-height: 1.1;
+    margin: 0 0 16px;
+  }
+  p {
+    font-size: 1.8em;
+    letter-spacing: 0.18px;
+    line-height: 1.6;
+    margin: 0 0 100px;
+  }
+  @import "PricingIntroPlanList";
+}

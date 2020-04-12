@@ -1,2 +1,5 @@
 .Pricing {
+  @include PageWrap(70px);
+  color: $nvgum;
+  @import "PricingIntro";
 }

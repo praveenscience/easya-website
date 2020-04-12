@@ -1,0 +1,100 @@
+&-PlanList {
+  display: flex;
+  flex-direction: row;
+  &-Item {
+    background-color: rgba($tango, 0.15);
+    margin: 15px;
+    padding: 32px 36px;
+    border: 1px solid $tango;
+    border-radius: 20px;
+    text-align: left;
+    .easya-bgc-white {
+      margin: -32px -36px 0;
+      padding: 32px 36px 0;
+      border-radius: 20px 20px 0 0;
+    }
+    h3 {
+      margin: 0 0 12px;
+      font-size: 3.8em;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      line-height: 1.2;
+    }
+    h4 {
+      font-size: 3em;
+      font-weight: 500;
+      letter-spacing: 0.03px;
+      line-height: 1.2;
+      margin: 0 0 5px;
+      span {
+        color: $tango;
+      }
+    }
+    p,
+    button {
+      font-size: 1.8em;
+      letter-spacing: 0.3px;
+      line-height: 1.44;
+      margin: 0 0 32px;
+    }
+    button {
+      display: inline-block;
+      background-color: $seance;
+      color: $white;
+      margin: 0 0 36px;
+      padding: 15px 25px;
+      border: 0;
+      border-radius: 30px;
+      cursor: pointer;
+      line-height: 1;
+    }
+    &.BestValue {
+      border-radius: 0 0 20px 20px;
+      position: relative;
+      .easya-bgc-white {
+        border-radius: 0;
+      }
+      .BestValue-Banner {
+        border-radius: 20px 20px 0 0;
+        position: absolute;
+        background-color: $tango;
+        padding: 12px;
+        color: $white;
+        font-size: 1.8em;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        line-height: 1.16;
+        text-align: center;
+        left: -1px;
+        right: -1px;
+        top: 0;
+        transform: translateY(-100%);
+      }
+    }
+    &-Features {
+      padding: 25px 30px;
+      margin: 0 -36px;
+      p {
+        font-weight: 500;
+        letter-spacing: -0.5px;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          margin: 0 0 15px;
+          padding: 0;
+          list-style: none;
+          font-size: 1.8em;
+          letter-spacing: -0.5px;
+          line-height: 1.44;
+          img {
+            width: 15px;
+            vertical-align: middle;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
