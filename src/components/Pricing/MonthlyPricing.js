@@ -1,6 +1,7 @@
 import React from "react";
 import MonthlyPricingIntro from "./_MonthlyPricingIntro";
 import PricingExpertTutors from "./_PricingExpertTutors";
+import PricingTrusted from "./_PricingTrusted";
 
 const MonthlyPricing = () => {
   React.useEffect(() => {
@@ -10,6 +11,7 @@ const MonthlyPricing = () => {
     <main className="Pricing MonthlyPricing">
       <MonthlyPricingIntro />
       <PricingExpertTutors />
+      <PricingTrusted />
     </main>
   );
 };

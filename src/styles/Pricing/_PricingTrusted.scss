@@ -1,0 +1,58 @@
+&-Trusted {
+  h2 {
+    font-size: 4.8em;
+    font-weight: 600;
+    letter-spacing: -1.07px;
+    line-height: 1.16;
+    text-align: center;
+    margin: 0 0 15px;
+  }
+  p {
+    font-size: 2em;
+    letter-spacing: -0.45px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 0 70px;
+  }
+  &-List {
+    columns: 4;
+    &-Item {
+      margin: 0 55px 50px 0;
+      display: inline-block;
+      &-Meta {
+        display: flex;
+        img {
+          width: 42px;
+          height: 42px;
+          border-radius: 100%;
+          margin-right: 10px;
+        }
+        &-Data {
+          flex-grow: 1;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          p {
+            line-height: 1.2;
+            margin: 0 0 5px;
+            text-align: left;
+            strong {
+              display: block;
+              font-size: 0.8em;
+            }
+            & + p {
+              font-size: 1.4em;
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+      &-Text {
+        margin-top: 10px;
+        font-size: 1.6em;
+        letter-spacing: -0.36px;
+        line-height: 1.5625;
+      }
+    }
+  }
+}

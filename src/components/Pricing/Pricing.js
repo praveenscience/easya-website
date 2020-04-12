@@ -1,6 +1,7 @@
 import React from "react";
 import PricingIntro from "./_PricingIntro";
 import PricingExpertTutors from "./_PricingExpertTutors";
+import PricingTrusted from "./_PricingTrusted";
 
 const Pricing = () => {
   React.useEffect(() => {
@@ -10,6 +11,7 @@ const Pricing = () => {
     <main className="Pricing">
       <PricingIntro />
       <PricingExpertTutors />
+      <PricingTrusted />
     </main>
   );
 };
