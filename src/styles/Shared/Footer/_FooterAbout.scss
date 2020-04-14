@@ -1,5 +1,4 @@
 &-About {
-  max-width: 375px;
   img {
     margin: 0 0 22px;
     height: 54px;
@@ -12,6 +11,7 @@
     }
   }
   p {
+    max-width: 375px;
     opacity: 0.7;
     color: $nvgum;
     font-size: 1.45em;
