@@ -15,7 +15,7 @@ const FooterAbout = () => {
         <img src={FooterAppleLogo} alt="Apple" />
         <img src={FooterGoogleLogo} alt="Google" />
       </div>
-      <p>@ copyrights easyA Inc.</p>
+      <p>Copyright &copy; 2020 EasyA Ltd.</p>
     </section>
   );
 };
