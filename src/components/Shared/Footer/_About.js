@@ -1,7 +1,7 @@
 import React from "react";
 import FooterAppleLogo from "../../../assets/apple.svg";
 import FooterGoogleLogo from "../../../assets/google.svg";
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/logo.svg";
 
 const FooterAbout = () => {
   return (

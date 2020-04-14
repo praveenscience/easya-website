@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Paths from "../../../constants/Paths";
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/logo.svg";
 
 const Brand = () => {
   return (
