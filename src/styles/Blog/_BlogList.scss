@@ -1,0 +1,31 @@
+&-List {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .BlogPost {
+    width: 50%;
+    padding: 0 10px;
+    margin: 0 0 75px;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+> p {
+  margin: 0 0 65px;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 500;
+  letter-spacing: -0.13px;
+  line-height: 1.25;
+  a {
+    color: $tango;
+    img {
+      position: relative;
+      top: -2px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+}

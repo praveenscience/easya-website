@@ -18,6 +18,7 @@ import MonthlyPricing from "./Pricing/MonthlyPricing";
 import FAQs from "./FAQs/FAQs";
 import ContactUs from "./ContactUs/ContactUs";
 import Testimonials from "./Testimonials/Testimonials";
+import Blog from "./Blog/Blog";
 
 const App = () => {
   return (
@@ -62,6 +63,9 @@ const App = () => {
         </Route>
         <Route path={Paths.FAQs}>
           <FAQs />
+        </Route>
+        <Route path={Paths.Blog}>
+          <Blog />
         </Route>
         <Route path={Paths.ContactUs}>
           <ContactUs />

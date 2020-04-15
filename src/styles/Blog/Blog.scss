@@ -1,3 +1,6 @@
 .Blog {
+  @include PageWrap(25px);
+  @import "BlogIntro";
   @import "BlogPost";
+  @import "BlogList";
 }

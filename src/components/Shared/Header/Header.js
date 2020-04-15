@@ -13,14 +13,14 @@ Just Mobile: 2
 const List = [
   {
     Name: "About",
-    Path: Paths.Home,
+    Path: Paths.About,
     Active: false,
     Classes: null,
     Display: 2
   },
   {
-    Name: "Features",
-    Path: Paths.Home,
+    Name: "How it Works",
+    Path: Paths.HowItWorks,
     Active: false,
     Classes: null,
     Display: 1
@@ -41,7 +41,7 @@ const List = [
   },
   {
     Name: "Blog",
-    Path: Paths.Home,
+    Path: Paths.Blog,
     Active: false,
     Classes: null,
     Display: 1

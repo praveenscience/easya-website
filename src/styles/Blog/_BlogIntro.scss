@@ -1,0 +1,8 @@
+&-Intro {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 65px;
+  color: $white;
+  @import "BlogFeatured";
+  @import "BlogRecentList";
+}

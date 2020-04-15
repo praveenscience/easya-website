@@ -11,6 +11,7 @@ export default {
   WMCAL: "/child-learn",
   Pricing: "/pricing",
   MonthlyPricing: "/monthly-pricing",
+  Blog: "/blog",
   Terms: "/terms",
   Privacy: "/privacy"
 };
