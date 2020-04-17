@@ -4,4 +4,17 @@
   }
   padding-bottom: 60px;
   border-bottom: 1px solid rgba($seance, 0.2);
+  @media screen and (max-width: 575px) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    border-bottom: 1px solid rgba($seance, 0.2);
+    .TeachingMethods-Reviews-Review {
+      margin: 0 12px 60px 16px;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
 }

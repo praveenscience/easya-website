@@ -4,14 +4,34 @@
   margin: 20px 0 50px;
   align-items: center;
   h1 {
-    font-size: 7em;
+    font-size: 3.2em;
+    padding: 0 10px;
     font-weight: 600;
-    letter-spacing: -1.56px;
-    line-height: 1.1;
+    letter-spacing: -0.72px;
+    line-height: 2;
     margin: 0 50px 0 0;
   }
   img {
     width: 685px;
     margin-right: -80px;
+  }
+  @media screen and (max-width: 575px) {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 50px;
+    align-items: center;
+    h1 {
+      font-size: 3.2em;
+      padding: 0 10px;
+      font-weight: 600;
+      letter-spacing: -0.72px;
+      line-height: 2;
+      margin: 0 50px 0 0;
+    }
+    img {
+      width: 450px;
+      margin-top: 30px;
+      margin-right: -80px;
+    }
   }
 }

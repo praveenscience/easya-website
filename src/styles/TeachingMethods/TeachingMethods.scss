@@ -117,4 +117,131 @@
       }
     }
   }
+  @media screen and (max-width: 575px) {
+    color: $nvgum;
+    &-Intro {
+      h1 {
+        font-size: 3.2em;
+        font-weight: 600;
+        letter-spacing: -1.56px;
+        line-height: 1.1;
+        margin: 30px 16px 30px;
+        max-width: 980px;
+      }
+      .BasicPrinciples {
+        margin-bottom: 60px;
+        padding: 45px 15px;
+        ul {
+          display: block;
+          li {
+            padding: 0 0 20px;
+            margin-left: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            p {
+              text-align: center;
+              font-size: 1.8em;
+            }
+          }
+        }
+      }
+      h2 {
+        font-size: 3.2em;
+        font-weight: 500;
+        letter-spacing: -0.8px;
+        line-height: 40px;
+        margin: 20px 16px 20px;
+        text-align: center;
+      }
+      .action-button {
+        text-align: center;
+        padding-bottom: 60px;
+        .easya-btn-nav {
+          display: inline-block;
+        }
+      }
+    }
+    &-Studies {
+      border: 1px solid rgba(96, 23, 156, 0.2);
+      border-width: 1px 0;
+      padding: 70px 0 40px;
+      overflow: hidden;
+      margin: 0 16px 60px;
+      h3 {
+        font-size: 2.2em;
+        font-weight: 600;
+        letter-spacing: 0.22px;
+        line-height: 1.318;
+        margin: 0 0 10px;
+      }
+      p {
+        margin: 20px 0 0;
+        font-size: 1.8em;
+        letter-spacing: 0.18px;
+        line-height: 1.6;
+      }
+    }
+    &-Reviews {
+      margin: 0 0 60px;
+      columns: 2;
+      column-gap: 30px;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-size: 3.2em;
+        font-weight: 500;
+        letter-spacing: -0.72px;
+        line-height: 1.12;
+        margin: 0 15px 30px;
+      }
+      &-Review {
+        margin: 0 16px 30px;
+        border-radius: 20px;
+        padding: 20px;
+        display: block;
+        &-Text {
+          flex-grow: 1;
+          h3 {
+            font-size: 2.2em;
+            font-weight: 600;
+            letter-spacing: 0.22px;
+            line-height: 1.318;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 1.8em;
+            letter-spacing: 0.18px;
+            line-height: 1.61;
+            &.Author {
+              strong {
+                font-weight: 600;
+                text-transform: uppercase;
+              }
+            }
+            &.Meta {
+              span {
+                padding: 0px 10px 1px;
+                opacity: 0.5;
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 0.14px;
+                line-height: 20px;
+                &:first-child {
+                  border-right: 2px solid rgba($seance, 0.5);
+                  padding-left: 0;
+                }
+              }
+            }
+          }
+        }
+        &-Image {
+          margin: 0;
+          height: 200px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
 }

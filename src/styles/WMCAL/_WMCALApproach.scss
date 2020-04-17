@@ -21,14 +21,16 @@
     }
   }
   @media screen and (max-width: 575px) {
-    margin: 0;
+    margin-top: -30px;
     &-Text {
       padding: 0 16px 25px;
       text-align: left;
       h2 {
         margin: 0;
-        font-size: 3.2em;
-        line-height: 1.15;
+        font-size: 3.6em;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+        line-height: 46px;
       }
       p {
         font-size: 1.6em;
@@ -36,9 +38,12 @@
       }
     }
     &-Image {
+      width: 425px;
+      padding: 0 16px;
       img {
         position: relative;
-        left: 25px;
+        height: 259px;
+        width: 343px;
       }
     }
   }

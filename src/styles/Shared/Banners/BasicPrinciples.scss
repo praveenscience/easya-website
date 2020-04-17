@@ -38,4 +38,45 @@
       }
     }
   }
+  @media screen and (max-width: 575) {
+    color: $nvgum;
+    background-color: $shellpeach;
+    border-radius: 20px;
+    padding: 45px 15px;
+    h2 {
+      margin: 0 0 40px;
+      font-size: 3.6em;
+      font-weight: 600;
+      letter-spacing: -0.8px;
+      line-height: 1.55;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        max-width: 300px;
+        img {
+          display: block;
+          width: 105px;
+          margin: 0 0 20px;
+        }
+        h3 {
+          font-size: 2.2em;
+          font-weight: 600;
+          letter-spacing: 0.22px;
+          line-height: 1.318;
+        }
+        p {
+          font-size: 1.8em;
+          letter-spacing: 0.18px;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
 }

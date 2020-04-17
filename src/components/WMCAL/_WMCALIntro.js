@@ -13,12 +13,11 @@ const WMCALIntro = () => {
           Easy Education Advisory Board
         </p>
         <p>
-          Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
-          Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.
-          Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus.
-          Nam tempus vel odio vitae aliquam. In imperdiet eros id lacus
-          vestibulum vestibulum. Suspendisse fermentum sem sagittis ante
-          venenatis egestas quis vel justo. Maecenas semper suscipit nunc.
+          EasyA super tutors are all trained to make sure students actually
+          learn. Designed by current and former Cambridge and Oxford University
+          students, EasyA's teaching methodology is built on years of extensive
+          research. In conjunction with our top academics how they thought
+          students learn as the basis for how tutors teach on our app.
         </p>
       </div>
       <div className="WMCAL-Intro-Image">

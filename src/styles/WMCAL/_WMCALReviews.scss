@@ -1,3 +1,7 @@
 .TeachingMethods-Reviews {
   color: $nvgum;
+  &-Review {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

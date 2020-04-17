@@ -3,4 +3,14 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 120px 0;
+  @media screen and (max-width: 575px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0;
+    margin-bottom: 7em;
+    .BlogPost {
+      margin-bottom: 60px;
+    }
+  }
 }

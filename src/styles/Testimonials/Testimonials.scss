@@ -4,4 +4,7 @@
   color: $nvgum;
   @import "TestIntro";
   @import "TestReviews";
+  @media screen and (max-width: 575px) {
+    width: 100%;
+  }
 }

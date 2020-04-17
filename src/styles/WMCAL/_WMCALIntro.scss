@@ -42,4 +42,53 @@
       bottom: -80px;
     }
   }
+  @media screen and (max-width: 575px) {
+    color: $nvgum;
+    display: flex;
+    padding-bottom: 80px;
+    flex-direction: column;
+    &-Text {
+      max-width: 100%;
+      h2 {
+        font-size: 3.2em;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        line-height: 1.12;
+        margin: 0 0 30px 16px;
+      }
+      p {
+        font-size: 1.6em;
+        letter-spacing: 0;
+        line-height: 1.6;
+        padding-left: 16px;
+        &.author {
+          font-weight: 600;
+          margin: 0 0 25px;
+          strong {
+            font-size: 1.2em;
+            display: block;
+            color: $tango;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    &-Image {
+      background-color: $supernova;
+      position: relative;
+      flex-grow: 1;
+      border-radius: 70px 0 0 70px;
+      margin-left: 15px;
+      margin-right: -85px;
+      img {
+        position: relative;
+        margin-top: -50px;
+        border-radius: 10px;
+        left: 45%;
+        padding-left: 22px;
+        width: 330px;
+        margin-left: -200px;
+      }
+    }
+  }
 }
