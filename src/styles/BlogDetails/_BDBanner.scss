@@ -5,13 +5,22 @@
     @include PageWrap(60px);
     margin-top: 0;
     padding: 60px 0;
+    @media screen and (max-width: 575px) {
+      padding: 45px 16px;
+    }
   }
   h1 {
     font-size: 6.4em;
     letter-spacing: -1.83px;
     line-height: 1.15;
-    font-weight: 600;
+    font-weight: 400;
     margin: 0 0 55px;
+    @media screen and (max-width: 575px) {
+      font-size: 3.6em;
+      letter-spacing: -0.8px;
+      line-height: 1.27;
+      margin-bottom: 20px;
+    }
   }
   &-Meta {
     display: flex;
@@ -52,6 +61,27 @@
             strong {
               font-weight: 600;
             }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 575px) {
+      display: block;
+      &-Image {
+        margin-bottom: 20px;
+      }
+      &-Author {
+        min-width: 0;
+        max-width: none;
+        padding: 0;
+        p {
+          font-size: 1.6em;
+          font-weight: 300;
+        }
+        &-Meta {
+          img {
+            width: 42px;
+            height: 42px;
           }
         }
       }
