@@ -7,6 +7,9 @@ import BDContent from "./_BDContent";
 const BlogDetails = ({ match }) => {
   const [BlogDetails, setBlogDetails] = useState(null);
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
     fetch("/api/blog.json?blogId=" + match.params.blogId)
       .then(res => res.json())
       .then(data => setBlogDetails(data));
