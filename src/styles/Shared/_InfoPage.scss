@@ -46,7 +46,7 @@
   }
   @media screen and (max-width: 575px) {
     width: auto;
-    margin: 45px auto;
+    margin: 45px auto 0 auto;
     padding: 0 16px;
     h1 {
       font-size: 3.6em;
@@ -57,6 +57,14 @@
       border-radius: 0;
       padding: 36px 16px;
       margin: 0 -16px;
+      p{
+        font-size: 14px;
+      }
+      h2{
+        font-size: 20px;
+        font-weight: 500;
+      }
     }
+    
   }
 }
