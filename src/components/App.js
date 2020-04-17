@@ -15,10 +15,11 @@ import WMCAL from "./WMCAL/WMCAL";
 import ATBT from "./ATBT/ATBT";
 import Pricing from "./Pricing/Pricing";
 import MonthlyPricing from "./Pricing/MonthlyPricing";
+import Blog from "./Blog/Blog";
+import BlogDetails from "./BlogDetails/BlogDetails";
 import FAQs from "./FAQs/FAQs";
 import ContactUs from "./ContactUs/ContactUs";
 import Testimonials from "./Testimonials/Testimonials";
-import Blog from "./Blog/Blog";
 
 const App = () => {
   return (
@@ -64,8 +65,11 @@ const App = () => {
         <Route path={Paths.FAQs}>
           <FAQs />
         </Route>
-        <Route path={Paths.Blog}>
+        <Route exact={true} path={Paths.Blog}>
           <Blog />
+        </Route>
+        <Route path={Paths.BlogDetails}>
+          <BlogDetails />
         </Route>
         <Route path={Paths.ContactUs}>
           <ContactUs />

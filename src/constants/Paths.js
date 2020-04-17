@@ -12,6 +12,7 @@ export default {
   Pricing: "/pricing",
   MonthlyPricing: "/monthly-pricing",
   Blog: "/blog",
+  BlogDetails: "/blog/:blogId",
   Terms: "/terms",
   Privacy: "/privacy"
 };
