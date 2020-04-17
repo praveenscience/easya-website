@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f675c1a3.chunk.css",
-    "main.js": "/static/js/main.c8563190.chunk.js",
-    "main.js.map": "/static/js/main.c8563190.chunk.js.map",
+    "main.css": "/static/css/main.b5582f41.chunk.css",
+    "main.js": "/static/js/main.eaee60c1.chunk.js",
+    "main.js.map": "/static/js/main.eaee60c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
     "runtime-main.js.map": "/static/js/runtime-main.966c5448.js.map",
     "static/js/2.fd3e408d.chunk.js": "/static/js/2.fd3e408d.chunk.js",
     "static/js/2.fd3e408d.chunk.js.map": "/static/js/2.fd3e408d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.50cebb71f176615274952473fd06be0c.js": "/precache-manifest.50cebb71f176615274952473fd06be0c.js",
+    "precache-manifest.69919604015cc17080e34ae804a89269.js": "/precache-manifest.69919604015cc17080e34ae804a89269.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f675c1a3.chunk.css.map": "/static/css/main.f675c1a3.chunk.css.map",
+    "static/css/main.b5582f41.chunk.css.map": "/static/css/main.b5582f41.chunk.css.map",
     "static/js/2.fd3e408d.chunk.js.LICENSE.txt": "/static/js/2.fd3e408d.chunk.js.LICENSE.txt",
     "static/media/ATBTEmp-1.png": "/static/media/ATBTEmp-1.8e63938a.png",
     "static/media/ATBTEmp-2.png": "/static/media/ATBTEmp-2.c201a6db.png",
@@ -35,7 +35,7 @@
     "static/media/HowItWorks-3.svg": "/static/media/HowItWorks-3.b2b53f89.svg",
     "static/media/Loading.svg": "/static/media/Loading.2a6401b7.svg",
     "static/media/TestimonialsBanner.svg": "/static/media/TestimonialsBanner.da859744.svg",
-    "static/media/aboutintrochat.png": "/static/media/aboutintrochat.c3b73957.png",
+    "static/media/aboutintrochat.png": "/static/media/aboutintrochat.bce765d8.png",
     "static/media/aboutlearnachieve.png": "/static/media/aboutlearnachieve.907bfc8a.png",
     "static/media/algebra.svg": "/static/media/algebra.b87a506a.svg",
     "static/media/apple.svg": "/static/media/apple.e6a3bc3b.svg",
@@ -59,7 +59,7 @@
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
     "static/js/2.fd3e408d.chunk.js",
-    "static/css/main.f675c1a3.chunk.css",
-    "static/js/main.c8563190.chunk.js"
+    "static/css/main.b5582f41.chunk.css",
+    "static/js/main.eaee60c1.chunk.js"
   ]
 }
