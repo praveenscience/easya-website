@@ -60,4 +60,95 @@
       }
     }
   }
+  @media screen and (max-width: 575px) {
+    .hr{
+      margin: 0 10px 43px 10px;
+      color: #60179C;
+      opacity: 20%;
+    }
+    .StepRow {
+      display: block;
+      padding: 0 ;
+      
+      .Heading {
+        margin-bottom: 60px;
+        width: 100%;
+        h2 {
+          font-size: 32px;
+          font-weight: 500;
+          letter-spacing: -1.12px;
+          line-height: 1.12;
+          margin: 0 0 10px;
+        
+          span {
+            display: inline-block;
+            width: 95px;
+            font-size: 1.4em;
+            padding-left: 16px;
+            padding-right: 30px;
+            height: 41px;
+            width: 21px;
+            color: #321454;
+            font-size: 32px;
+            font-weight: 500;
+            letter-spacing: -0.72px;
+            line-height: 41px;
+          }
+        }
+        .desc {
+          margin: 0 18px 0 18px;
+          font-size: 14px;
+          letter-spacing: 0;
+          line-height: 1.6;
+        }
+      }
+      .ImgContainer {
+        padding: 0 16px 0 16px;
+        height: auto;
+        min-width: 585px;
+        text-align: center;
+        margin-top: -36px;
+        img {
+          height: 398px;
+          width: 342px;
+          /* margin: 0 20% 0 20%; */
+          display: block;
+          /* margin-left: 50px; */
+          margin-bottom: 73px;
+        }
+      }
+      .BGContainer {
+        padding: 11px;
+        border-radius: 0 20px 20px 0;
+        margin-right: 17px;
+        h3 {
+          font-size: 22px;
+          font-weight: 600;
+          letter-spacing: -0.8px;
+          line-height: 1;
+          margin: 0 0 10px;
+        }
+        .subdesc {
+          font-size: 14px;
+          letter-spacing: 0;
+          line-height: 1.6;
+        }
+        
+      }
+      .right{
+        border-radius: 20px 0 0 20px;
+        margin-right: 0;
+        margin-left: 17px;
+      }
+
+    }
+    &.Reverse {
+      .StepRow {
+        flex-direction: row-reverse;
+        .BGContainer {
+          border-radius: 0 20px 20px 0;
+        }
+      }
+    }
+  }
 }
