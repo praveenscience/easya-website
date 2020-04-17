@@ -61,86 +61,79 @@
     }
   }
   @media screen and (max-width: 575px) {
-    .hr{
-      margin: 0 10px 43px 10px;
-      color: #60179C;
-      opacity: 20%;
+    .hr {
+      margin: 0 10px 45px 10px;
+      color: $seance;
+      opacity: 0.2;
     }
     .StepRow {
       display: block;
-      padding: 0 ;
-      
+      padding: 0;
       .Heading {
-        margin-bottom: 60px;
+        margin-bottom: 6em;
         width: 100%;
         h2 {
-          font-size: 32px;
+          font-size: 3.2em;
           font-weight: 500;
           letter-spacing: -1.12px;
           line-height: 1.12;
           margin: 0 0 10px;
-        
+
           span {
             display: inline-block;
             width: 95px;
             font-size: 1.4em;
             padding-left: 16px;
             padding-right: 30px;
-            height: 41px;
-            width: 21px;
-            color: #321454;
-            font-size: 32px;
+            width: 20px;
+            color: $nvgum;
+            font-size: 3.2em;
             font-weight: 500;
             letter-spacing: -0.72px;
-            line-height: 41px;
+            line-height: 2;
           }
         }
         .desc {
-          margin: 0 18px 0 18px;
-          font-size: 14px;
+          margin: 0 18px;
+          font-size: 1.4em;
           letter-spacing: 0;
           line-height: 1.6;
         }
       }
       .ImgContainer {
-        padding: 0 16px 0 16px;
+        padding: 0 16px;
         height: auto;
         min-width: 585px;
         text-align: center;
         margin-top: -36px;
         img {
-          height: 398px;
-          width: 342px;
-          /* margin: 0 20% 0 20%; */
+          width: 340px;
           display: block;
-          /* margin-left: 50px; */
-          margin-bottom: 73px;
+          margin-bottom: 75px;
         }
       }
       .BGContainer {
-        padding: 11px;
+        padding: 10px;
         border-radius: 0 20px 20px 0;
-        margin-right: 17px;
+        margin-right: 15px;
         h3 {
-          font-size: 22px;
+          font-size: 2.2em;
           font-weight: 600;
           letter-spacing: -0.8px;
           line-height: 1;
           margin: 0 0 10px;
         }
         .subdesc {
-          font-size: 14px;
+          font-size: 1.4em;
           letter-spacing: 0;
           line-height: 1.6;
         }
-        
       }
-      .right{
+      .right {
         border-radius: 20px 0 0 20px;
         margin-right: 0;
-        margin-left: 17px;
+        margin-left: 15px;
       }
-
     }
     &.Reverse {
       .StepRow {
