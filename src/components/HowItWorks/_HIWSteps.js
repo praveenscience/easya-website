@@ -38,7 +38,7 @@ const Steps = [
     Heading: "It’s easy as A, B, C",
     Text:
       "Collecting feedback is critical for the maturation of your product. Stay ahead of the competition by listening to what your Users really want. Collecting feedback is critical for the maturation of your product. Stay ahead of the competition by listening to what your Users really want.",
-    BGC: "easya-bgc-trans-supernova",
+    BGC: "easya-bgc-trans-supernova right",
     Reverse: false
   }
 ];

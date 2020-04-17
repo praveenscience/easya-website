@@ -40,4 +40,44 @@
     right: 100px;
     top: 75px;
   }
+  @media screen and (max-width: 575px) {
+    padding: 50px 0 50px 15px;
+    margin: 0;
+    background-color: $seance;
+    border-radius: 0;
+    color: $white;
+    position: relative;
+    h2 {
+      font-size: 3.2em;
+      font-weight: 600;
+      letter-spacing: -1.12px;
+      line-height: 1.12;
+      margin: 0 0 25px;
+    }
+    ul {
+      li {
+        margin: 0;
+        padding: 10px 0;
+        list-style: none;
+        font-size: 1.8em;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 1.6;
+        img {
+          position: static;
+          display: inline-block;
+          margin-top: -5px;
+          width: auto;
+          vertical-align: middle;
+          margin-right: 10px;
+          width: 15px;
+        }
+      }
+    }
+    img {
+      position: static;
+      width: 350px;
+      margin-top: 40px;
+    }
+  }
 }

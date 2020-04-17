@@ -12,6 +12,7 @@ const HIWStep = ({
 }) => {
   return (
     <div className={"HowItWorks-Steps-Step" + (Reverse ? " Reverse" : "")}>
+      <hr className="hr"></hr>
       <div className="StepRow">
         <div className="Heading">
           <h2>
