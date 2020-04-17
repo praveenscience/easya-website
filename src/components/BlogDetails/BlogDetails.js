@@ -14,7 +14,7 @@ const BlogDetails = ({ match }) => {
     <main className="BlogDetails">
       {BlogDetails ? (
         <>
-          <BDBanner />
+          <BDBanner {...BlogDetails} />
         </>
       ) : (
         <BlogLoad />

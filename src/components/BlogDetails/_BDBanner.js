@@ -1,15 +1,6 @@
 import React from "react";
 
-const BDBanner = ({
-  Title = "Hello",
-  Image = "https://i.imgur.com/uf0FjlZ.png",
-  Author = {
-    Image: "https://i.imgur.com/ISuLzIi.png",
-    Name: "Hello",
-    Role: "Hello",
-    Desc: "Hello"
-  }
-}) => {
+const BDBanner = ({ Title, Image, Author }) => {
   return (
     <section className="BlogDetails-Banner">
       <div className="BlogDetails-Banner-Wrap">
