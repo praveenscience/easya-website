@@ -3,6 +3,7 @@ import { withRouter } from "react-router";
 import BlogLoad from "./_BlogLoad";
 import BDBanner from "./_BDBanner";
 import BDContent from "./_BDContent";
+import BDSuggestion from "../Blog/_BDSuggestion";
 
 const BlogDetails = ({ match }) => {
   const [BlogDetails, setBlogDetails] = useState(null);
@@ -20,6 +21,7 @@ const BlogDetails = ({ match }) => {
         <>
           <BDBanner {...BlogDetails} />
           <BDContent {...BlogDetails} />
+          <BDSuggestion {...BlogDetails} />
         </>
       ) : (
         <BlogLoad />
