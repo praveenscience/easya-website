@@ -5,7 +5,7 @@
   align-items: center;
   h1 {
     font-size: 3.2em;
-    padding: 0 10px ;
+    padding: 0 10px;
     font-weight: 600;
     letter-spacing: -0.72px;
     line-height: 41px;
@@ -17,23 +17,22 @@
   }
   @media screen and (max-width: 575px) {
     display: flex;
-  flex-direction: column;
-  margin: 20px 0 50px;
-  align-items: center;
-  
-  h1 {
-    font-size: 3.2em;
-    padding: 0 10px ;
-    font-weight: 600;
-    letter-spacing: -0.72px;
-    line-height: 41px;
-    margin: 0 50px 0 0;
-  }
-  img {
-    height: 302px;
-    width: 452px;
-    margin-top: 30px;
-    margin-right: -80px;
-  }
+    flex-direction: column;
+    margin: 20px 0 50px;
+    align-items: center;
+    h1 {
+      font-size: 3.2em;
+      padding: 0 10px;
+      font-weight: 600;
+      letter-spacing: -0.72px;
+      line-height: 41px;
+      margin: 0 50px 0 0;
+    }
+    img {
+      height: 302px;
+      width: 452px;
+      margin-top: 30px;
+      margin-right: -80px;
+    }
   }
 }
