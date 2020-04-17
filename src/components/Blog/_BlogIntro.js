@@ -9,32 +9,32 @@ const IntroContent = {
     Time: 10,
     Title: "Myspace Layouts The Missing Element",
     Excerpt: null,
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: false
   },
   BlogList: [
     {
       Category: "Student management",
       Title: "Remote tutor management Guide: Challenges and Solutions",
-      LinkTo: "/",
+      LinkTo: "/blog/blog-new",
       Date: "21.7.2020"
     },
     {
       Category: "Student management",
       Title: "Remote tutor management Guide: Challenges and Solutions",
-      LinkTo: "/",
+      LinkTo: "/blog/blog-new",
       Date: "21.7.2020"
     },
     {
       Category: "Student management",
       Title: "Remote tutor management Guide: Challenges and Solutions",
-      LinkTo: "/",
+      LinkTo: "/blog/blog-new",
       Date: "21.7.2020"
     },
     {
       Category: "Student management",
       Title: "Remote tutor management Guide: Challenges and Solutions",
-      LinkTo: "/",
+      LinkTo: "/blog/blog-new",
       Date: "21.7.2020"
     }
   ]

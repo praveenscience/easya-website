@@ -10,7 +10,7 @@ const TMIntro = () => {
       <BasicPrinciples />
       <h2>Want to get to know our tutoring team?</h2>
       <div className="action-button">
-        <Link className="easya-btn-nav" to={Paths.Home}>
+        <Link className="easya-btn-nav" to={Paths.ATBT}>
           Meet Our Tutors
         </Link>
       </div>

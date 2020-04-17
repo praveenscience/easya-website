@@ -58,7 +58,7 @@ const Cols = [
     Links: [
       {
         Label: "Blogs",
-        Link: Paths.Home
+        Link: Paths.Blog
       },
       {
         Label: "Privacy Policies",

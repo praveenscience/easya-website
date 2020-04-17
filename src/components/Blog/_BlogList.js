@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BlogPost from "./_BlogPost";
 import ArrowRight from "../../assets/arrow-right.svg";
-import { Link } from "react-router-dom";
+import Paths from "../../constants/Paths";
 
 const BlogPosts = [
   {
@@ -11,7 +12,7 @@ const BlogPosts = [
     Title: "Director of Academics Kreg Moccia Discusses",
     Excerpt:
       "The best way to foster a connection and inspire loyalty? A thoughtful and comprehensive onboarding experience.",
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: false
   },
   {
@@ -21,7 +22,7 @@ const BlogPosts = [
     Title: "How We Built an Engaging Onboarding Process",
     Excerpt:
       "The best way to foster a connection and inspire loyalty? A thoughtful and comprehensive onboarding experience.",
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: false
   },
   {
@@ -31,7 +32,7 @@ const BlogPosts = [
     Title: "EasyA’s innovative approach",
     Excerpt:
       "The best way to foster a connection and inspire loyalty? A thoughtful and comprehensive onboarding experience.",
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: false
   },
   {
@@ -41,7 +42,7 @@ const BlogPosts = [
     Title: "Director of Academics Kreg Moccia Discusses",
     Excerpt:
       "The best way to foster a connection and inspire loyalty? A thoughtful and comprehensive onboarding experience.",
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: false
   },
   {
@@ -51,7 +52,7 @@ const BlogPosts = [
     Title: "How We Built an Engaging Onboarding Process",
     Excerpt:
       "The best way to foster a connection and inspire loyalty? A thoughtful and comprehensive onboarding experience.",
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: false
   },
   {
@@ -61,7 +62,7 @@ const BlogPosts = [
     Title: "EasyA’s innovative approach",
     Excerpt:
       "The best way to foster a connection and inspire loyalty? A thoughtful and comprehensive onboarding experience.",
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: false
   }
 ];
@@ -74,7 +75,7 @@ const BlogList = () => {
         ))}
       </section>
       <p>
-        <Link to="/">
+        <Link to={Paths.Blog}>
           Older Posts <img src={ArrowRight} alt="Older Posts" />
         </Link>
       </p>

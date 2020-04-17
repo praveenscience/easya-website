@@ -19,7 +19,7 @@ const TeachingMethods = () => {
         Image={WhizImg}
         Title="Still wondering if EasyA is right for your family?"
         Action="View pricing"
-        ActionLink={Paths.Home}
+        ActionLink={Paths.MonthlyPricing}
       />
     </main>
   );

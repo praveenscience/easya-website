@@ -8,7 +8,7 @@ const BlogPosts = [
     Time: null,
     Title: "Director of Academics Kreg Moccia Discusses",
     Excerpt: null,
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: true
   },
   {
@@ -17,7 +17,7 @@ const BlogPosts = [
     Time: null,
     Title: "How We Built an Engaging Onboarding Process",
     Excerpt: null,
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: true
   },
   {
@@ -26,7 +26,7 @@ const BlogPosts = [
     Time: null,
     Title: "EasyA’s innovative approach",
     Excerpt: null,
-    LinkTo: "/",
+    LinkTo: "/blog/blog-new",
     ShowReadNow: true
   }
 ];
