@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router";
 import BlogLoad from "./_BlogLoad";
 import BDBanner from "./_BDBanner";
+import BDContent from "./_BDContent";
 
 const BlogDetails = ({ match }) => {
   const [BlogDetails, setBlogDetails] = useState(null);
@@ -15,6 +16,7 @@ const BlogDetails = ({ match }) => {
       {BlogDetails ? (
         <>
           <BDBanner {...BlogDetails} />
+          <BDContent {...BlogDetails} />
         </>
       ) : (
         <BlogLoad />

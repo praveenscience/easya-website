@@ -63,4 +63,41 @@
       }
     }
   }
+  &-Content {
+    @include PageWrap(60px);
+    color: $nvgum;
+    h2 {
+      margin: 0 0 40px;
+      font-size: 3.8em;
+      font-weight: 500;
+      letter-spacing: -0.2px;
+      line-height: 1.18;
+    }
+    blockquote,
+    ul,
+    ol,
+    p {
+      margin: 0 auto 35px;
+      font-size: 2em;
+      letter-spacing: 0.4px;
+      line-height: 1.6;
+      a {
+        color: $tango;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: underline;
+      }
+    }
+    *:last-child {
+      margin-bottom: 0;
+    }
+    blockquote {
+      background: url("../../assets/bq.svg") top left no-repeat;
+      padding: 70px 0;
+      max-width: 500px;
+      p {
+        font-size: 1.4em;
+      }
+    }
+  }
 }
