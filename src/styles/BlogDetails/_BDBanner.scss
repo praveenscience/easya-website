@@ -26,6 +26,9 @@
   &-Meta {
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 575px) {
+      display: block;
+    }
     &-Image {
       flex-grow: 1;
       img {

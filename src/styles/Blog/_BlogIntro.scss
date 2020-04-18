@@ -3,6 +3,9 @@
   flex-direction: row;
   margin: 0 0 65px;
   color: $white;
+  @media screen and (max-width: 575px) {
+    display: block;
+  }
   @import "BlogFeatured";
   @import "BlogRecentList";
 }

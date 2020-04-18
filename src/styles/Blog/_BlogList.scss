@@ -20,6 +20,22 @@
       }
     }
   }
+  @media screen and (max-width: 575px) {
+    display: block;
+    .BlogPost {
+      width: auto;
+      margin: 0;
+      &-Content {
+        position: relative;
+        top: -100px;
+        left: 0;
+        margin: 25px 25px -50px;
+        bottom: auto;
+        h3 {
+        }
+      }
+    }
+  }
 }
 > p {
   margin: 0 0 65px;
@@ -35,6 +51,13 @@
       top: -2px;
       vertical-align: middle;
       margin-left: 5px;
+    }
+  }
+}
+
+> p {
+  a {
+    img {
     }
   }
 }
