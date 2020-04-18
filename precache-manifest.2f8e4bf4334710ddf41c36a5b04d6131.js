@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efd0a914eafaba9ea1377f382ad371dd",
+    "revision": "5fbf21e679d5178200b0053129fa9e65",
     "url": "/index.html"
   },
   {
-    "revision": "cc1f2b0e2bb52d8d2932",
-    "url": "/static/css/main.e9fa1ef3.chunk.css"
+    "revision": "97e408a7ad76033ff71c",
+    "url": "/static/css/main.dc847b98.chunk.css"
   },
   {
     "revision": "9ae670891037d81a5037",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.fd3e408d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc1f2b0e2bb52d8d2932",
-    "url": "/static/js/main.b4328beb.chunk.js"
+    "revision": "97e408a7ad76033ff71c",
+    "url": "/static/js/main.445efd75.chunk.js"
   },
   {
     "revision": "4b0b8649b9ba65f2c80b",
@@ -52,28 +52,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AceTestWithEasyA.621ea811.png"
   },
   {
-    "revision": "8438e65838bbf03a289819fff521b01e",
-    "url": "/static/media/BasicPrinciples-1.8438e658.svg"
+    "revision": "4f1586bf798a331e2d4336af9acb6d05",
+    "url": "/static/media/BasicPrinciples-1.4f1586bf.svg"
   },
   {
-    "revision": "ce1def09fa133f00d2cf3913ec834cd9",
-    "url": "/static/media/BasicPrinciples-2.ce1def09.svg"
+    "revision": "777e89a366fa04d06feaaffc89e9b4f9",
+    "url": "/static/media/BasicPrinciples-2.777e89a3.svg"
   },
   {
-    "revision": "0b5bf778ca2ccbacacf2589602f0f6d0",
-    "url": "/static/media/BasicPrinciples-3.0b5bf778.svg"
+    "revision": "9ad29e799113c7d7fb56278ce1fa45ef",
+    "url": "/static/media/BasicPrinciples-3.9ad29e79.svg"
   },
   {
     "revision": "8659082b878e8007793903866fd2f5c0",
     "url": "/static/media/ContactUsImg.8659082b.png"
   },
   {
-    "revision": "49a071dc7664c9df137bf6192f32e4d1",
-    "url": "/static/media/FAQClosed.49a071dc.svg"
+    "revision": "645c35a49266bbca621fbc6e09be8796",
+    "url": "/static/media/FAQClosed.645c35a4.svg"
   },
   {
-    "revision": "85c9c319b5262deb83596c0c7204d08f",
-    "url": "/static/media/FAQOpen.85c9c319.svg"
+    "revision": "893d3eb762a60d9b6d1f6f3107ca7053",
+    "url": "/static/media/FAQOpen.893d3eb7.svg"
   },
   {
     "revision": "a2f00d58c19a285f53bf253d38854a35",
@@ -96,24 +96,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/HomeParentTestimonialImg.f5378bf8.png"
   },
   {
-    "revision": "30c6d69d8a66c82b650b2e817234d38b",
-    "url": "/static/media/HowItWorks-1.30c6d69d.svg"
+    "revision": "8aeff98ffd7bc7e6dbd9ed687ca6e947",
+    "url": "/static/media/HowItWorks-1.8aeff98f.svg"
   },
   {
-    "revision": "e84b9bd76ba2fe7a0297cad870c759da",
-    "url": "/static/media/HowItWorks-2.e84b9bd7.svg"
+    "revision": "52a58bcb3c0d6e38fc52a845269f8159",
+    "url": "/static/media/HowItWorks-2.52a58bcb.svg"
   },
   {
-    "revision": "b2b53f89aeea3e581350924b315d570a",
-    "url": "/static/media/HowItWorks-3.b2b53f89.svg"
+    "revision": "cab69826c0f0b01d8ea103c5ba1104b1",
+    "url": "/static/media/HowItWorks-3.cab69826.svg"
   },
   {
-    "revision": "2a6401b77590dd968281bb6bc3e70958",
-    "url": "/static/media/Loading.2a6401b7.svg"
+    "revision": "315711f37e7f3d9a7ca5a5773089a3f6",
+    "url": "/static/media/Loading.315711f3.svg"
   },
   {
-    "revision": "da859744c7fafc6895d2fac18bf925cf",
-    "url": "/static/media/TestimonialsBanner.da859744.svg"
+    "revision": "195ce5323a159cb0c20e116cb6f65a8f",
+    "url": "/static/media/TestimonialsBanner.195ce532.svg"
   },
   {
     "revision": "bce765d86e7b8384cdf7aa4c838e444e",
@@ -124,16 +124,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aboutlearnachieve.907bfc8a.png"
   },
   {
-    "revision": "b87a506a8fe5758407d3336124234361",
-    "url": "/static/media/algebra.b87a506a.svg"
+    "revision": "d31e185d5b7eb2fdbc6b9340d0cafc7d",
+    "url": "/static/media/algebra.d31e185d.svg"
   },
   {
-    "revision": "e6a3bc3b75cd7c554b8290ca3962bceb",
-    "url": "/static/media/apple.e6a3bc3b.svg"
+    "revision": "c10c031457b5c92e708de51ca348987a",
+    "url": "/static/media/apple.c10c0314.svg"
   },
   {
-    "revision": "d58a476f1587e06a2af2a9ce3e2bac1d",
-    "url": "/static/media/arrow-right.d58a476f.svg"
+    "revision": "43e58451b149ee8231276f13b6b0676f",
+    "url": "/static/media/arrow-right.43e58451.svg"
   },
   {
     "revision": "a187ef6388db0ba675988d15828957be",
@@ -148,36 +148,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ball.a978f17c.png"
   },
   {
-    "revision": "f3ba2500f37c0f6594dd05a1b5699db8",
-    "url": "/static/media/beast.f3ba2500.svg"
+    "revision": "5154471046c810757d8b781555f350bf",
+    "url": "/static/media/beast.51544710.svg"
   },
   {
-    "revision": "78ae1e99cd0e114f9ddbb9ab073c4017",
-    "url": "/static/media/bq.78ae1e99.svg"
+    "revision": "eb32c9daa3d827433b62bad707768b8b",
+    "url": "/static/media/bq.eb32c9da.svg"
   },
   {
     "revision": "47173c9cbeab3f35cdf990dd072b4b06",
     "url": "/static/media/brainsbg.47173c9c.png"
   },
   {
-    "revision": "fc1bb3de97fd40efd3885eda298bebc8",
-    "url": "/static/media/child-expert.fc1bb3de.svg"
+    "revision": "91d02b4a5dc12c9ca69ed2cdb9e41d09",
+    "url": "/static/media/child-expert.91d02b4a.svg"
   },
   {
-    "revision": "f6c3ce4158a66c3646dc2fb4cf1b6df0",
-    "url": "/static/media/error.f6c3ce41.svg"
+    "revision": "1acbaccee4e86d9b6fcc262dbf98fcbc",
+    "url": "/static/media/error.1acbacce.svg"
   },
   {
     "revision": "ee7f2b392a756b034407da9cff4c5bf7",
     "url": "/static/media/featuredtutorsimg.ee7f2b39.png"
   },
   {
-    "revision": "91188fe36ad167b45811009a15b9204e",
-    "url": "/static/media/google.91188fe3.svg"
+    "revision": "a6bb82c96d3c2337aa6e6cdff301ac84",
+    "url": "/static/media/google.a6bb82c9.svg"
   },
   {
-    "revision": "390fe28f9f959fbf9fc100b10027a2bc",
-    "url": "/static/media/highachiever.390fe28f.svg"
+    "revision": "40da4b7b9c67e564f1610743c19d3e5a",
+    "url": "/static/media/highachiever.40da4b7b.svg"
   },
   {
     "revision": "2cfa3b950d0de63aa7d7f81f0afce6a5",
@@ -192,19 +192,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/icons.4314eae4.png"
   },
   {
-    "revision": "42eb4cd9b2b132bb913538d8a3cc5048",
-    "url": "/static/media/logo.42eb4cd9.svg"
+    "revision": "6b8b4221e336f7a08db9683f2cc707e2",
+    "url": "/static/media/logo.6b8b4221.svg"
   },
   {
     "revision": "6bbc31dae3a2dbc03b192f7bd5fb47df",
     "url": "/static/media/subjects-banner.6bbc31da.png"
   },
   {
-    "revision": "9a95a1e9c28957a21489a30666572df3",
-    "url": "/static/media/thunder.9a95a1e9.svg"
+    "revision": "277f3e493eff75bcc2764e55aac5b3f7",
+    "url": "/static/media/thunder.277f3e49.svg"
   },
   {
-    "revision": "f6c02d44e8a92ce577876aa2a94db710",
-    "url": "/static/media/whiz.f6c02d44.svg"
+    "revision": "2607f9fdaa9944b3d8c04dbd8dfdf070",
+    "url": "/static/media/whiz.2607f9fd.svg"
   }
 ]);
