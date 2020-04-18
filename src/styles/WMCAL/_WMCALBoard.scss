@@ -36,17 +36,20 @@
   }
   @media screen and (max-width: 575px) {
     margin: 50px 0;
+    text-align: left;
     img {
       &:first-child {
         width: 80px;
-        margin: 0 auto 8px;
+        margin: 0 16px 8px;
+        display: inline-block;
       }
     }
     h2 {
+      text-align: left;
       font-size: 3.2em;
       letter-spacing: -0.72px;
       line-height: 1.28;
-      margin: 0 0 36px;
+      margin: 0 16px 36px;
     }
     .RoundIconRight {
       margin-bottom: -75px;
