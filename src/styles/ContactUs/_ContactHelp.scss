@@ -25,9 +25,6 @@
       letter-spacing: 0.2px;
       font-weight: 600;
       line-height: 1.2;
-      & ~ p {
-        margin-right: -75px;
-      }
     }
   }
   &-Form {
@@ -37,6 +34,45 @@
     border-radius: 20px;
     .easya-btn-nav {
       width: 250px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    display: flex;
+    flex-direction: column;
+    &-Text {
+      width: 100%;
+      padding: 0 32px 50px 15px;
+      h3 {
+        font-size: 3.2em;
+        font-weight: 500;
+      }
+      p {
+        font-size: 1.4em;
+        letter-spacing: 0.14px;
+        line-height: 1.714;
+        strong {
+          font-weight: 600;
+        }
+      }
+      h4 {
+        margin: 30px 0 10px;
+        font-size: 2em;
+        letter-spacing: 0.2px;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+    }
+    &-Form {
+      width: 100%;
+      padding: 45px 30px;
+      background-color: $shellpeach;
+      border-radius: 20px;
+      .easya-btn-nav {
+        font-size: 1.7em;
+        margin: 0 auto;
+        display: block;
+        width: 250px;
+      }
     }
   }
 }

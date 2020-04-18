@@ -18,6 +18,9 @@ body {
   a {
     text-decoration: none;
   }
+  img {
+    max-width: 100%;
+  }
   .App {
     @import "Utils";
     @import "Shared/Sprites";

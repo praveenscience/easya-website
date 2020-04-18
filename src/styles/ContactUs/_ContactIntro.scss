@@ -25,4 +25,19 @@
     bottom: 25px;
     width: 480px;
   }
+  @media screen and (max-width: 575px) {
+    padding: 200px 50px 50px 20px;
+    h1 {
+      font-size: 3.2em;
+      font-weight: 500;
+    }
+    p {
+    }
+    img {
+      position: absolute;
+      left: -0.5px;
+      top: -170px;
+      width: 380px;
+    }
+  }
 }

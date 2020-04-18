@@ -18,4 +18,35 @@
       }
     }
   }
+  @media screen and (max-width: 575px) {
+    margin: 50px 0 60px;
+
+    h2 {
+      font-size: 3.2em;
+      font-weight: 500;
+
+      margin: 0 0 20px 15px;
+      text-align: left;
+    }
+    .FAQs-List {
+      padding: 50px 16px;
+
+      margin: 0 0 50px;
+
+      &-Item {
+        &.Open {
+          h3 {
+            background-color: $seance;
+          }
+        }
+        p {
+          padding: 30px;
+          margin: 0;
+          font-size: 1.8em;
+          letter-spacing: 0.18px;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
 }
