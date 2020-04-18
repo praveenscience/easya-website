@@ -17,7 +17,12 @@ const Ham = ({ List }) => {
         <span />
         <span />
       </div>
-      {MobileMenuOpen && <MobileHeaderMenu List={List} />}
+      {MobileMenuOpen && (
+        <MobileHeaderMenu
+          List={List}
+          onClick={() => setMobileMenuOpen(!MobileMenuOpen)}
+        />
+      )}
     </>
   );
 };
