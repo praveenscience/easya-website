@@ -25,9 +25,6 @@
       letter-spacing: 0.2px;
       font-weight: 600;
       line-height: 1.2;
-      & ~ p {
-        margin-right: -75px;
-      }
     }
   }
   &-Form {
@@ -44,7 +41,7 @@
     flex-direction: column;
     &-Text {
       width: 100%;
-      padding: 50px 32px 50px 15px;
+      padding: 0 32px 50px 15px;
       h3 {
         font-size: 3.2em;
         font-weight: 500;
@@ -63,9 +60,6 @@
         letter-spacing: 0.2px;
         font-weight: 600;
         line-height: 1.2;
-        & ~ p {
-          margin-right: -75px;
-        }
       }
     }
     &-Form {
