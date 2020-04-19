@@ -2,6 +2,9 @@
   border: 5px solid $shellpeach;
   border-radius: 5px;
   padding: 60px 60px 40px;
+  @media screen and (max-width: 575px) {
+    padding: 12px 12px 12px !important;
+  }
   box-shadow: 0 1px 2px 0 rgba($black, 0.14);
   h2 {
     font-size: 5em;
@@ -15,6 +18,9 @@
   &-Cols {
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 575px) {
+      flex-direction: column !important;
+    }
     &-Text {
       flex-grow: 1;
     }
@@ -23,6 +29,9 @@
       padding: 30px 0 0;
       .easya-btn-nav {
         width: 250px;
+      }
+      @media screen and (max-width: 575px) {
+        min-width: 100% !important;
       }
     }
     .Questions {
