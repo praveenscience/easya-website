@@ -6,6 +6,7 @@ import TeacherSlider from "../Shared/Banners/TeacherSlider";
 const WMCALBoard = () => {
   return (
     <section className="WMCAL-Board">
+      <img src={FeaturedTutorsImg} alt="Featured Tutors" />
       <link
         rel="stylesheet"
         type="text/css"
@@ -17,7 +18,6 @@ const WMCALBoard = () => {
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
-      <img src={FeaturedTutorsImg} alt="Featured Tutors" />
       <h2>Academic Advisory Board</h2>
       <div className="WMCAL-Board-Slider easya-bgc-seance">
         <TeacherSlider />
