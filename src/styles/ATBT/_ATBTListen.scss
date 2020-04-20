@@ -59,4 +59,11 @@
       }
     }
   }
+  @media screen and (max-width: 575px) {
+    padding: 16px;
+    h2 {
+      font-size: 3.6em;
+      margin: 0 0 16px;
+    }
+  }
 }

@@ -64,21 +64,16 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-right: 32px;
-        &-Index {
-          flex: 0 0 calc(500% - 25px);
-        }
-
+        padding: 0 32px;
+        text-align: center;
+        align-items: center;
         h3 {
-          width: calc(50% - 25px);
           flex: 1;
         }
-
         p {
           font-size: 1.8em;
           letter-spacing: -0.4px;
           line-height: 1.44;
-          width: calc(50% - 25px);
           flex: 1;
         }
         &-Index,

@@ -17,7 +17,7 @@ const List = [
     Title: "Get paid fast",
     Text:
       "We leave old-timey clock-in and clock-out schedules behind. You decide when and how often you tutor.",
-    Reverse: false
+    Reverse: true
   },
   {
     Image: ATBTEmp3,
