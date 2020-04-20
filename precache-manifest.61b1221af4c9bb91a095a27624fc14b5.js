@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12e4efd52c8af874b3ca172d7df4c690",
+    "revision": "a0791f3db257850621814f9878c91057",
     "url": "/index.html"
   },
   {
-    "revision": "dd51201467272ffec821",
-    "url": "/static/css/main.6c4647bc.chunk.css"
+    "revision": "b6ecda866b80c19ed18d",
+    "url": "/static/css/main.c1119643.chunk.css"
   },
   {
-    "revision": "9ae670891037d81a5037",
-    "url": "/static/js/2.fd3e408d.chunk.js"
+    "revision": "138e61a9d157757b9a0a",
+    "url": "/static/js/2.609bb84f.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.fd3e408d.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/static/js/2.609bb84f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd51201467272ffec821",
-    "url": "/static/js/main.445efd75.chunk.js"
+    "revision": "b6ecda866b80c19ed18d",
+    "url": "/static/js/main.4c2163eb.chunk.js"
   },
   {
     "revision": "4b0b8649b9ba65f2c80b",
@@ -46,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1f8c62dcde369d9ae4093a2d41a4baf0",
     "url": "/static/media/AboutGPSBG.1f8c62dc.png"
+  },
+  {
+    "revision": "b4eb4cbb7efa7b802af4cca3eaa672ab",
+    "url": "/static/media/AboutLeft.b4eb4cbb.png"
+  },
+  {
+    "revision": "923d4acb752073568397b21bee4da059",
+    "url": "/static/media/AboutRight.923d4acb.png"
   },
   {
     "revision": "621ea811f38417a4f19f5cec2a0d8065",
@@ -112,6 +120,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Loading.315711f3.svg"
   },
   {
+    "revision": "4a9309274d1914e591989d01ea77599b",
+    "url": "/static/media/Snap.4a930927.svg"
+  },
+  {
     "revision": "195ce5323a159cb0c20e116cb6f65a8f",
     "url": "/static/media/TestimonialsBanner.195ce532.svg"
   },
@@ -144,20 +156,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/backedinstitutes.dd9ecbac.png"
   },
   {
-    "revision": "a978f17c1ec26a4371d2cd3323e3e15c",
-    "url": "/static/media/ball.a978f17c.png"
-  },
-  {
     "revision": "5154471046c810757d8b781555f350bf",
     "url": "/static/media/beast.51544710.svg"
   },
   {
     "revision": "eb32c9daa3d827433b62bad707768b8b",
     "url": "/static/media/bq.eb32c9da.svg"
-  },
-  {
-    "revision": "47173c9cbeab3f35cdf990dd072b4b06",
-    "url": "/static/media/brainsbg.47173c9c.png"
   },
   {
     "revision": "91d02b4a5dc12c9ca69ed2cdb9e41d09",
@@ -180,12 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/highachiever.40da4b7b.svg"
   },
   {
-    "revision": "2cfa3b950d0de63aa7d7f81f0afce6a5",
-    "url": "/static/media/home-banner-balloon.2cfa3b95.png"
-  },
-  {
-    "revision": "d10ed3104fafa12de90a61049dd6f9af",
-    "url": "/static/media/home-banner-mobile.d10ed310.png"
+    "revision": "8d45fac7dcded1f1f352541130aecbb3",
+    "url": "/static/media/home-banner-mobile.8d45fac7.png"
   },
   {
     "revision": "4314eae44771f0a0204b73687db26dd0",
