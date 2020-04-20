@@ -22,6 +22,7 @@ body {
     max-width: 100%;
   }
   .App {
+    @import "Overrides";
     @import "Utils";
     @import "Shared/Sprites";
     @import "Shared/InfoPage";
@@ -31,6 +32,7 @@ body {
     @import "Shared/Banners/BackgroundBannerWithImage";
     @import "Shared/Banners/AceTestWithEasyA";
     @import "Shared/Banners/BasicPrinciples";
+    @import "Shared/Banners/TeacherSlider";
     @import "Home/Home";
     @import "About/About";
     @import "Subjects/Subjects";

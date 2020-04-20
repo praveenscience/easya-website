@@ -1,0 +1,19 @@
+.slick-dots {
+  bottom: -50px;
+  li {
+    button {
+      &::before {
+        font-size: 16px;
+        color: $seance;
+        opacity: 0.3;
+      }
+    }
+    &.slick-active {
+      button {
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

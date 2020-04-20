@@ -1,7 +1,7 @@
 &-Board {
   margin: 120px 0 0;
   color: $nvgum;
-  img {
+  > img {
     &:first-child {
       width: 100px;
       display: block;
@@ -20,10 +20,6 @@
     padding: 64px;
     border-radius: 20px;
     color: $white;
-    // Temp!
-    text-align: center;
-    font-size: 3.5em;
-    // End Temp!
   }
   .RoundIconRight {
     transform-origin: left top;
