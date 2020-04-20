@@ -1,6 +1,9 @@
 &-PlanList {
   display: flex;
   flex-direction: row;
+  @media screen and (max-width: 575px) {
+    flex-direction: column;
+  }
   &-Item {
     background-color: rgba($tango, 0.15);
     margin: 15px;
@@ -8,10 +11,16 @@
     border: 1px solid $tango;
     border-radius: 20px;
     text-align: left;
+    @media screen and (max-width: 575px) {
+      flex-direction: column;
+    }
     .easya-bgc-white {
       margin: -32px -36px 0;
       padding: 32px 36px 0;
       border-radius: 20px 20px 0 0;
+      @media screen and (max-width: 575px) {
+        max-width: 100%;
+      }
     }
     h3 {
       margin: 0 0 12px;
@@ -69,6 +78,9 @@
         right: -1px;
         top: 0;
         transform: translateY(-100%);
+        @media screen and (max-width: 575px) {
+          width: 100%;
+        }
       }
     }
     ul {

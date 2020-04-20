@@ -5,8 +5,16 @@
   margin: 0 0 100px;
   border-radius: 20px;
   padding: 95px 75px;
+  @media screen and (max-width: 575px) {
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 0 10px;
+  }
   &-Col {
     width: 50%;
+    @media screen and (max-width: 575px) {
+      width: 100%;
+    }
     flex-grow: 1;
     img {
       display: block;
@@ -19,6 +27,11 @@
       line-height: 1.12;
       max-width: 450px;
       margin: 0 0 35px;
+      @media screen and (max-width: 575px) {
+        font-size: 3em;
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
     }
     p {
       font-size: 1.8em;
@@ -26,6 +39,10 @@
       line-height: 1.6;
       max-width: 450px;
       margin: 0;
+      @media screen and (max-width: 575px) {
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
     }
     .ReasonsIcon {
       transform: scale(0.5);

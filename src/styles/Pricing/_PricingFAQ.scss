@@ -6,11 +6,20 @@
     letter-spacing: -1.07px;
     line-height: 1.16;
     max-width: 425px;
+    @media screen and (max-width: 575px) {
+      margin: 0 0 10px;
+      font-size: 3em;
+      margin-left: 10px;
+    }
   }
   &-List {
     &-Section {
       display: flex;
       flex-direction: row;
+      @media screen and (max-width: 575px) {
+        flex-direction: column;
+        margin: 5px 0 0;
+      }
       margin: 35px 0 0;
       &:first-child {
         margin: 0;
@@ -23,6 +32,10 @@
         letter-spacing: -0.54px;
         line-height: 1.5;
         padding-right: 150px;
+        @media screen and (max-width: 575px) {
+          min-width: auto;
+          padding-right: 10px;
+        }
       }
       &-Questions {
         flex-grow: 1;

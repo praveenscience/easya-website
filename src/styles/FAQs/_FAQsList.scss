@@ -3,6 +3,9 @@
   border-radius: 20px;
   background-color: $shellpeach;
   margin: 0 0 50px;
+  @media screen and (max-width: 575px) {
+    padding: 12px;
+  }
   &-Item {
     border-top: 1px solid rgba($seance, 0.2);
     h3 {
@@ -26,6 +29,10 @@
       letter-spacing: 0.18px;
       line-height: 1.6;
       margin-right: 75px;
+      @media screen and (max-width: 575px) {
+        padding: 12px;
+        margin-right: 12px;
+      }
     }
     &.Open {
       background-color: $white;

@@ -7,6 +7,11 @@
     line-height: 1.16;
     text-align: center;
     margin: 0 0 15px;
+    @media screen and (max-width: 575px) {
+      font-size: 3em;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
   }
   p {
     font-size: 2em;
@@ -17,9 +22,16 @@
   }
   &-List {
     columns: 4;
+    @media screen and (max-width: 575px) {
+      columns: 1;
+    }
     &-Item {
       margin: 0 55px 50px 0;
       display: inline-block;
+      @media screen and (max-width: 575px) {
+        margin: 0 10px 10px 10px;
+        text-align: justify;
+      }
       &-Meta {
         display: flex;
         img {

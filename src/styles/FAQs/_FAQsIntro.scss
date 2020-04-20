@@ -3,4 +3,8 @@ h1 {
   font-weight: 600;
   margin-bottom: 60px;
   letter-spacing: -1.56px;
+  @media screen and (max-width: 575px) {
+    font-size: 3em;
+    margin: auto auto 10px 10px;
+  }
 }
