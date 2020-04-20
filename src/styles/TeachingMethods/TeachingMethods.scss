@@ -136,9 +136,12 @@
           li {
             padding: 0 0 20px;
             margin-left: 22px;
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
             p {
-              text-align: left;
+              text-align: center;
               font-size: 1.8em;
             }
           }

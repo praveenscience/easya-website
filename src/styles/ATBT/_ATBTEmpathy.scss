@@ -54,4 +54,41 @@
       }
     }
   }
+  @media screen and (max-width: 575px) {
+    margin: 0;
+    h2 {
+      font-size: 3.2em;
+      font-weight: 500;
+      line-height: 1.2;
+      margin: 15px 16px 30px;
+      text-align: left;
+    }
+    &-List-Item {
+      display: flex;
+      flex-direction: column;
+      margin-top: 35px;
+      &-Image {
+        padding: 0 16px;
+        width: 100%;
+        order: 2;
+      }
+      &-Text {
+        width: 100%;
+        padding: 20px 16px;
+        h3 {
+          font-size: 2.2em;
+          font-weight: 500;
+          margin: 0 0 18px;
+        }
+        p {
+          font-size: 1.4em;
+        }
+        .action-button .easya-btn-nav {
+          font-size: 1.7em;
+          padding: 12px 20px;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
