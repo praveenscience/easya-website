@@ -94,16 +94,14 @@
     @media screen and (max-width: 575px) {
       padding: 0;
       position: relative;
-      width: 100%;
-      min-height: 440px;
       img {
-        position: absolute;
-        left: 56%;
-        width: 410px;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        transform: translateX(-50%);
+        position: static;
+        width: 100%;
+        display: block;
+      }
+      .Home-Banner-Image-Snap,
+      &-Slider {
+        display: none;
       }
     }
     img {
