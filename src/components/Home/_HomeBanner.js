@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
 import HomeBannerImg from "../../assets/home-banner-mobile.png";
 import HomeBannerSnap from "../../assets/Snap.svg";
 
@@ -11,6 +12,17 @@ const Rotator = [
 const HomeBanner = () => {
   return (
     <section className="Home-Banner">
+      <link
+        rel="stylesheet"
+        type="text/css"
+        charset="UTF-8"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+      />
       <div className="Home-Banner-Text">
         <h1>
           Make
@@ -36,12 +48,14 @@ const HomeBanner = () => {
           alt="Snap"
         />
         <div className="Home-Banner-Image-Slider">
-          {Rotator.map((slide, key) => (
-            <div className="Home-Banner-Image-Slider-Slide" key={key}>
-              <h3>{slide[0]}</h3>
-              <p>{slide[1]}</p>
-            </div>
-          ))}
+          <Slider>
+            {Rotator.map((slide, key) => (
+              <div className="Home-Banner-Image-Slider-Slide" key={key}>
+                <h3>{slide[0]}</h3>
+                <p>{slide[1]}</p>
+              </div>
+            ))}
+          </Slider>
         </div>
         <img src={HomeBannerImg} alt="Home Banner" />
       </div>
