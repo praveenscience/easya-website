@@ -45,10 +45,4 @@ body {
     @import "FAQs/FAQs";
     @import "ContactUs/ContactUs";
   }
-
-  @media only screen and (max-width: 575px) {
-    body .App .FAQs-Help-Cols {
-      flex-direction: column !important;
-    }
-  }
 }
