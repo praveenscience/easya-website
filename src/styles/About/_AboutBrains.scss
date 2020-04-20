@@ -10,13 +10,14 @@
     margin: 0 0 60px;
   }
   &-Wrap {
-    background-color: rgba($tango, 0.2);
     border-radius: 20px;
     padding: 120px;
     display: flex;
     justify-content: space-around;
-    background-image: url("../../assets/brainsbg.png");
-    background-repeat: repeat;
+    background: no-repeat rgba($tango, 0.2);
+    background-image: url("../../assets/AboutLeft.png"),
+      url("../../assets/AboutRight.png");
+    background-position: 15px center, right bottom;
   }
   &-Profile {
     background-color: $white;
