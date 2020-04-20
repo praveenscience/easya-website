@@ -56,6 +56,41 @@
   &-Image {
     float: left;
     padding: 48px 0 0;
+    position: relative;
+    &-Snap {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      z-index: 1;
+      top: 90px;
+      left: 15px;
+    }
+    &-Slider {
+      position: absolute;
+      overflow: hidden;
+      top: 75px;
+      left: 0;
+      border-radius: 16px;
+      padding: 15px 15px 15px 90px;
+      background-color: rgba($white, 0.9);
+      width: 275px;
+      color: $nvgum;
+      &-Slide {
+        h3 {
+          margin: 0;
+          font-size: 1.8em;
+          font-weight: bold;
+          letter-spacing: -0.4px;
+          line-height: 1.77;
+        }
+        p {
+          font-size: 1.4em;
+          letter-spacing: 0.14px;
+          line-height: 1.42;
+          margin: 0;
+        }
+      }
+    }
     @media screen and (max-width: 575px) {
       padding: 0;
       position: relative;

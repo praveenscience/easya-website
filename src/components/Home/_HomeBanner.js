@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HomeBannerImg from "../../assets/home-banner-mobile.png";
+import HomeBannerSnap from "../../assets/Snap.svg";
 
+const Rotator = [
+  ["Snap", "Students open the app, click and ready to go"],
+  ["Learn", "Students will learn with the app"],
+  ["Connect", "Students can connect with the tutors"]
+];
 const HomeBanner = () => {
   return (
     <section className="Home-Banner">
@@ -24,6 +30,19 @@ const HomeBanner = () => {
         </div>
       </div>
       <div className="Home-Banner-Image">
+        <img
+          src={HomeBannerSnap}
+          className="Home-Banner-Image-Snap"
+          alt="Snap"
+        />
+        <div className="Home-Banner-Image-Slider">
+          {Rotator.map((slide, key) => (
+            <div className="Home-Banner-Image-Slider-Slide" key={key}>
+              <h3>{slide[0]}</h3>
+              <p>{slide[1]}</p>
+            </div>
+          ))}
+        </div>
         <img src={HomeBannerImg} alt="Home Banner" />
       </div>
     </section>
