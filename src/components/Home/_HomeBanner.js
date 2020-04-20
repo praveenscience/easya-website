@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HomeBannerBalloon from "../../assets/home-banner-balloon.png";
-import HomeBannerMobile from "../../assets/home-banner-mobile.png";
+import HomeBannerImg from "../../assets/home-banner-mobile.png";
 
 const HomeBanner = () => {
   return (
@@ -25,12 +24,7 @@ const HomeBanner = () => {
         </div>
       </div>
       <div className="Home-Banner-Image">
-        <img
-          src={HomeBannerBalloon}
-          className="desktop-only"
-          alt="Home Banner"
-        />
-        <img src={HomeBannerMobile} className="mobile-only" alt="Home Banner" />
+        <img src={HomeBannerImg} alt="Home Banner" />
       </div>
     </section>
   );

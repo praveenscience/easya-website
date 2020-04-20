@@ -2,20 +2,8 @@
   @include EasyABanner;
   margin-top: 0;
   background-color: $supernova;
-  .desktop-only {
-    display: block;
-  }
-  .mobile-only {
-    display: none;
-  }
   @media screen and (max-width: 575px) {
     margin-top: 0;
-    .desktop-only {
-      display: none;
-    }
-    .mobile-only {
-      display: block;
-    }
   }
   &-Text {
     float: left;
