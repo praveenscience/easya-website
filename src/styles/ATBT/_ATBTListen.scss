@@ -15,4 +15,48 @@
     line-height: 1.44;
     margin: 0 0 36px;
   }
+  &-Slides {
+    .TeacherSlider {
+      &-Slide {
+        display: inline-block !important;
+        &-Text {
+          text-align: center;
+          h3 {
+            font-size: 1.8em;
+            letter-spacing: 0.18px;
+            line-height: 1.61;
+            font-weight: 300;
+            max-width: 850px;
+            margin: 0 auto 25px;
+          }
+          h4 {
+            margin: 0 auto;
+            font-size: 1.8em;
+            font-weight: 600;
+            letter-spacing: 0.22px;
+            line-height: 1.318;
+            max-width: 850px;
+          }
+          p {
+            margin: 0 auto;
+            font-size: 1.6em;
+            font-weight: normal;
+            letter-spacing: 0.16px;
+            line-height: 1.25;
+            max-width: 850px;
+          }
+        }
+        &-Image {
+          min-width: 0;
+          text-align: center;
+          img {
+            width: 128px;
+            margin: 30px;
+            display: inline-block;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+  }
 }

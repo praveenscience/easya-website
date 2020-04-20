@@ -1,10 +1,13 @@
 import React from "react";
+import TeacherSlider from "../Shared/Banners/TeacherSlider";
 
 const ATBTListen = () => {
   return (
     <section className="ATBT-Listen easya-bgc-trans-seance">
       <h2>Listen to them, not us</h2>
-      <p>Slider will be implemented once converted into static.</p>
+      <div className="ATBT-Listen-Slides">
+        <TeacherSlider />
+      </div>
     </section>
   );
 };
