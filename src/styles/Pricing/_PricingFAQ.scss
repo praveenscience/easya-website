@@ -17,7 +17,7 @@
       display: flex;
       flex-direction: row;
       @media screen and (max-width: 575px) {
-        flex-direction: column !important;
+        flex-direction: column;
         margin: 5px 0 0;
       }
       margin: 35px 0 0;
@@ -33,7 +33,7 @@
         line-height: 1.5;
         padding-right: 150px;
         @media screen and (max-width: 575px) {
-          min-width: 100% !important;
+          min-width: auto;
           padding-right: 10px;
         }
       }

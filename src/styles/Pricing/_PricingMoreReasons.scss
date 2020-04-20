@@ -6,9 +6,9 @@
   border-radius: 20px;
   padding: 95px 75px;
   @media screen and (max-width: 575px) {
-    flex-direction: column !important;
-    padding: 10px !important;
-    margin: 0 0 10px !important;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 0 10px;
   }
   &-Col {
     width: 50%;
