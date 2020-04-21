@@ -15,7 +15,7 @@
         top: 4px;
         box-shadow: 0 0 0 0 rgba($tango, 0.26);
       }
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         font-size: 1.15em;
         padding: 12px 20px;
       }
@@ -48,7 +48,7 @@
   justify-content: space-between;
   border-radius: 20px;
   overflow: hidden;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     border-radius: 0;
     margin: 50px 0;
     flex-direction: column;
@@ -86,7 +86,7 @@
         display: inline-block;
       }
     }
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       max-width: none;
       padding: 25px 5px;
       text-align: center;
@@ -118,7 +118,7 @@
 @mixin PageWrap($my) {
   max-width: 1260px;
   margin: $my auto;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     max-width: none;
   }
 }

@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     li {
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         display: none;
       }
       padding: 0;
@@ -29,7 +29,7 @@
       }
       &.download {
         display: none;
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: 1200px) {
           display: inline-block;
         }
       }

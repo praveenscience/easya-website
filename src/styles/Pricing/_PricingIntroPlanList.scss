@@ -1,7 +1,7 @@
 &-PlanList {
   display: flex;
   flex-direction: row;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     flex-direction: column;
   }
   &-Item {
@@ -15,14 +15,14 @@
       margin: -32px -36px 0;
       padding: 32px 36px 0;
       border-radius: 20px 20px 0 0;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         max-width: 100%;
       }
     }
     h3 {
       margin: 0 0 12px;
       font-size: 3.8em;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         font-size: 3em;
       }
       font-weight: 600;
@@ -35,7 +35,7 @@
       letter-spacing: 0.03px;
       line-height: 1.2;
       margin: 0 0 5px;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         width: 300px;
       }
       span {
@@ -81,7 +81,7 @@
         right: -1px;
         top: 0;
         transform: translateY(-100%);
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: 1200px) {
           width: 100%;
         }
       }

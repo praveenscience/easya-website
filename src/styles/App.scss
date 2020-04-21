@@ -22,7 +22,7 @@ body {
     max-width: 100%;
   }
   .App {
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       overflow-x: hidden;
     }
     @import "Overrides";

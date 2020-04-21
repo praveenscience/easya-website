@@ -8,7 +8,7 @@
     line-height: 1.12;
     max-width: 825px;
     margin: 0 auto 70px;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       font-size: 3.2em;
       margin-bottom: 26px;
       padding: 0 16px;
@@ -34,7 +34,7 @@
       position: relative;
       overflow: hidden;
       cursor: pointer;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         width: 40%;
         margin: 10px;
       }
@@ -65,14 +65,14 @@
     font-size: 18px;
     letter-spacing: 0.18px;
     line-height: 1.61;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       margin: 32px 16px;
     }
   }
   .action-button {
     .easya-btn-nav {
       display: inline-block;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         font-size: 1.5em;
         text-align: center;
         width: 200px;

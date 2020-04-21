@@ -2,13 +2,13 @@
   @include EasyABanner;
   margin-top: 0;
   background-color: $supernova;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     margin-top: 0;
   }
   &-Text {
     float: left;
     padding: 115px 0 115px 115px;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       float: none;
       padding: 48px 25px 50px;
       text-align: center;
@@ -23,7 +23,7 @@
       font-weight: 900;
       letter-spacing: -1.97px;
       line-height: 0.9;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         font-size: 5.65em;
         letter-spacing: 1px;
         margin-bottom: 15px;
@@ -38,7 +38,7 @@
         font-size: 1.8em;
         letter-spacing: 0.5px;
       }
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         margin: 0;
         line-height: 1.65;
         font-size: 1.35em;
@@ -46,7 +46,7 @@
     }
     .action-button {
       margin: 33px 0 0;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         .easya-btn-banner {
           display: block;
         }
@@ -91,7 +91,7 @@
         }
       }
     }
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       padding: 0;
       position: relative;
       img {

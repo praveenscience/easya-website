@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 60px 90px;
   background-color: rgba($footerbg, 0.05);
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     padding: 15px;
     flex-direction: column;
   }

@@ -5,7 +5,7 @@
     @include PageWrap(60px);
     margin-top: 0;
     padding: 60px 0;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       padding: 45px 16px;
       margin: 0;
     }
@@ -16,7 +16,7 @@
     line-height: 1.15;
     font-weight: 400;
     margin: 0 0 55px;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       font-size: 3.6em;
       letter-spacing: -0.8px;
       line-height: 1.27;
@@ -26,7 +26,7 @@
   &-Meta {
     display: flex;
     flex-direction: row;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       display: block;
     }
     &-Image {
@@ -69,7 +69,7 @@
         }
       }
     }
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       display: block;
       &-Image {
         margin-bottom: 20px;

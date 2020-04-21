@@ -44,7 +44,7 @@
       line-height: 1.7;
     }
   }
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     width: auto;
     margin: 45px auto 0 auto;
     padding: 0 16px;
@@ -57,14 +57,13 @@
       border-radius: 0;
       padding: 36px 16px;
       margin: 0 -16px;
-      p{
+      p {
         font-size: 14px;
       }
-      h2{
+      h2 {
         font-size: 20px;
         font-weight: 500;
       }
     }
-    
   }
 }

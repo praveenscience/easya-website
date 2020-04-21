@@ -2,7 +2,7 @@
   border: 5px solid $shellpeach;
   border-radius: 5px;
   padding: 60px 60px 40px;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     padding: 12px 12px 12px;
   }
   box-shadow: 0 1px 2px 0 rgba($black, 0.14);
@@ -18,7 +18,7 @@
   &-Cols {
     display: flex;
     flex-direction: row;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       flex-direction: column;
     }
     &-Text {
@@ -30,7 +30,7 @@
       .easya-btn-nav {
         width: 250px;
       }
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         width: auto;
         min-width: auto;
       }
@@ -61,7 +61,7 @@
       }
     }
   }
-  @media only screen and (max-width: 575px) {
+  @media only screen and (max-width: 1200px) {
     body .App .FAQs-Help-Cols {
       flex-direction: column;
     }

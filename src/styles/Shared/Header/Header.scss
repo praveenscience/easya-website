@@ -4,7 +4,7 @@
     overflow: hidden;
     @include PageWrap(auto);
     padding: 20px 0;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       padding: 16px;
     }
   }

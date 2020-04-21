@@ -1,7 +1,7 @@
 &-Content {
   max-width: 740px;
   margin: 60px auto;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     max-width: none;
   }
   color: $nvgum;
@@ -41,7 +41,7 @@
       font-size: 1.4em;
     }
   }
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     margin: 30px auto;
     padding: 16px;
     h2 {

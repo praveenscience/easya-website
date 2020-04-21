@@ -5,14 +5,14 @@
   margin: 0 0 100px;
   border-radius: 20px;
   padding: 95px 75px;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     flex-direction: column;
     padding: 10px;
     margin: 10px;
   }
   &-Col {
     width: 50%;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       width: 100%;
     }
     flex-grow: 1;
@@ -27,7 +27,7 @@
       line-height: 1.12;
       max-width: 450px;
       margin: 0 0 35px;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         font-size: 3em;
         margin: 0 10px 10px;
       }
@@ -38,7 +38,7 @@
       line-height: 1.6;
       max-width: 450px;
       margin: 0;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         margin: 0 10px 10px;
       }
     }

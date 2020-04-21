@@ -1,6 +1,6 @@
 .WMCAL {
   @include PageWrap(120px);
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     margin: 40px auto;
   }
   @import "WMCALIntro";

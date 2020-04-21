@@ -7,7 +7,7 @@
     line-height: 1.16;
     text-align: center;
     margin: 0 0 15px;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       font-size: 3em;
       margin: 0 10px 10px;
     }
@@ -21,19 +21,19 @@
   }
   &-List {
     columns: 4;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       columns: 1;
     }
     &-Item {
       margin: 0 55px 50px 0;
       display: inline-block;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         margin: 0 10px 10px 10px;
         text-align: justify;
       }
       &-Meta {
         display: flex;
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: 1200px) {
           margin-top: 15px;
         }
         img {

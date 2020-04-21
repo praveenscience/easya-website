@@ -10,7 +10,7 @@
     background-color: $nvgum;
     margin-left: -105px;
     margin-bottom: 45px;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       margin-left: 0;
     }
   }
@@ -22,7 +22,7 @@
       top: 0;
     }
   }
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     padding-left: 0;
   }
   &-Icon {
@@ -33,7 +33,7 @@
       transform: scale(0.5);
       transform-origin: top left;
     }
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       .RoundIconMouse {
         transform: scale(0.4);
         transform-origin: top left;
@@ -56,7 +56,7 @@
       font-size: 1.8em;
       columns: 2;
       overflow: hidden;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         columns: 1;
         font-size: 1.6em;
       }
@@ -68,7 +68,7 @@
         position: relative;
         padding-left: 35px;
         padding-top: 2px;
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: 1200px) {
           padding-top: 0;
           margin: 0 0 20px;
         }
@@ -78,13 +78,13 @@
           top: 0;
           transform: scale(0.2605);
           transform-origin: top left;
-          @media screen and (max-width: 575px) {
+          @media screen and (max-width: 1200px) {
             transform: scale(0.20829);
           }
         }
       }
     }
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       h3 {
         font-size: 3.2em;
         letter-spacing: -0.72px;

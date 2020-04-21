@@ -1,7 +1,7 @@
 .Subjects {
   @include PageWrap(60px);
   padding: 0 95px;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     max-width: none;
     margin: 45px auto;
     padding: 0 16px;

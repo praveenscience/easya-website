@@ -2,7 +2,7 @@
   @include EasyABanner;
   &-Image {
     padding: 0 105px;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       padding: 20px 94px;
       img {
         max-width: 100%;
@@ -10,7 +10,7 @@
     }
   }
   &-Text {
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       order: 2;
     }
   }

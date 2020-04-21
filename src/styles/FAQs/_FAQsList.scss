@@ -3,7 +3,7 @@
   border-radius: 20px;
   background-color: $shellpeach;
   margin: 0 0 50px;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     padding: 12px;
   }
   &-Item {
@@ -29,7 +29,7 @@
       letter-spacing: 0.18px;
       line-height: 1.6;
       margin-right: 75px;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         padding: 12px;
         margin-right: 12px;
       }

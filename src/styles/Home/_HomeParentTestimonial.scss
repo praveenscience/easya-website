@@ -2,13 +2,13 @@
   &-Banner {
     @include EasyABanner;
     color: $white;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       display: block;
     }
     &-Image {
       width: 32%;
       padding: 60px 40px;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         padding: 16px;
         width: 100%;
       }
@@ -25,7 +25,7 @@
         line-height: 1.42;
         font-weight: normal;
       }
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         padding: 50px 16px;
         width: auto;
         text-align: left;

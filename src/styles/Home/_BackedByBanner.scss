@@ -3,14 +3,14 @@
   background-color: $tango;
   color: $white;
   overflow: visible;
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     margin-bottom: 115px;
   }
   &-OverlayImage {
     &.Bottom {
       max-width: 385px;
       bottom: 15px;
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 1200px) {
         max-width: 295px;
       }
     }
@@ -23,7 +23,7 @@
       display: block;
       width: 100%;
     }
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       padding: 0 15px;
       order: 2;
       width: auto;
@@ -34,7 +34,7 @@
   }
   &-Text {
     padding: 125px 65px 0;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 1200px) {
       padding: 60px 16px 50px;
       text-align: left;
       h2 {

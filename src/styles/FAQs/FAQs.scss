@@ -1,7 +1,7 @@
 .FAQs {
   color: $nvgum;
   @include PageWrap(60px);
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 1200px) {
     margin: 40px auto;
   }
   @import "FAQsIntro";
