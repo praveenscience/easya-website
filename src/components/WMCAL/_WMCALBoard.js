@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
 import FeaturedTutorsImg from "../../assets/featuredtutorsimg.png";
 import TeacherSlider from "../Shared/Banners/TeacherSlider";
 
