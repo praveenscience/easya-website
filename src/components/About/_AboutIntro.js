@@ -1,6 +1,6 @@
 import React from "react";
 import BackgroundBannerWithImage from "../Shared/Banners/BackgroundBannerWithImage";
-import AboutIntroChat from "../../assets/aboutintrochat.png";
+import AboutIntroChat from "../../assets/aboutintrochat.svg";
 
 const AboutIntro = () => {
   return (
