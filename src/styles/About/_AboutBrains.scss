@@ -17,7 +17,8 @@
     background: no-repeat rgba($tango, 0.2);
     background-image: url("../../assets/AboutLeft.png"),
       url("../../assets/AboutRight.png");
-    background-position: 15px center, right bottom;
+    background-size: 100px, 200px;
+    background-position: 75px center, right center;
   }
   &-Profile {
     background-color: $white;
