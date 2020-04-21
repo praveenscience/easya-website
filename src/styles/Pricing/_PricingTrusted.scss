@@ -34,6 +34,9 @@
       }
       &-Meta {
         display: flex;
+        @media screen and (max-width: 575px) {
+          margin-top: 15px;
+        }
         img {
           width: 42px;
           height: 42px;

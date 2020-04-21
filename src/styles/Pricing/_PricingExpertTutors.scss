@@ -25,6 +25,9 @@
       img {
         width: 95px;
         margin-right: 20px;
+        @media screen and (max-width: 575px) {
+          margin-left: 20px;
+        }
       }
       p {
         font-size: 1.8em;

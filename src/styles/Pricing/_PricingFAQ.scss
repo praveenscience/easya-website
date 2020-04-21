@@ -10,6 +10,7 @@
       margin: 0 0 10px;
       font-size: 3em;
       margin-left: 10px;
+      margin-top: 50px;
     }
   }
   &-List {
@@ -35,6 +36,7 @@
         @media screen and (max-width: 575px) {
           min-width: auto;
           padding-right: 10px;
+          padding-left: 10px;
         }
       }
       &-Questions {
@@ -48,6 +50,10 @@
             line-height: 2;
             position: relative;
             margin: 0;
+            @media screen and (max-width: 575px) {
+              margin-left: 10px;
+              margin-right: 10px;
+            }
             cursor: pointer;
             img {
               filter: grayscale(1);
@@ -71,6 +77,9 @@
               font-size: 1.6em;
               letter-spacing: -0.36px;
               line-height: 1.8125;
+              @media screen and (max-width: 575px) {
+                margin: 10px 10px;
+              }
             }
           }
         }
