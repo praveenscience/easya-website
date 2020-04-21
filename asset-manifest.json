@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.448ec6e9.chunk.css",
-    "main.js": "/static/js/main.0935dbaf.chunk.js",
-    "main.js.map": "/static/js/main.0935dbaf.chunk.js.map",
+    "main.css": "/static/css/main.5b146c5a.chunk.css",
+    "main.js": "/static/js/main.11fc6f46.chunk.js",
+    "main.js.map": "/static/js/main.11fc6f46.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.966c5448.js",
     "runtime-main.js.map": "/static/js/runtime-main.966c5448.js.map",
     "static/js/2.98f69518.chunk.js": "/static/js/2.98f69518.chunk.js",
     "static/js/2.98f69518.chunk.js.map": "/static/js/2.98f69518.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2b4efc74b5fd0024840d827a0f99536d.js": "/precache-manifest.2b4efc74b5fd0024840d827a0f99536d.js",
+    "precache-manifest.ef2a1eed4f125b176503c16e084c3523.js": "/precache-manifest.ef2a1eed4f125b176503c16e084c3523.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.448ec6e9.chunk.css.map": "/static/css/main.448ec6e9.chunk.css.map",
+    "static/css/main.5b146c5a.chunk.css.map": "/static/css/main.5b146c5a.chunk.css.map",
     "static/js/2.98f69518.chunk.js.LICENSE.txt": "/static/js/2.98f69518.chunk.js.LICENSE.txt",
     "static/media/ATBTEmp-1.png": "/static/media/ATBTEmp-1.8e63938a.png",
     "static/media/ATBTEmp-2.png": "/static/media/ATBTEmp-2.c201a6db.png",
@@ -31,12 +31,12 @@
     "static/media/HomeParentTestimonialBG.png": "/static/media/HomeParentTestimonialBG.b53eae45.png",
     "static/media/HomeParentTestimonialImg.png": "/static/media/HomeParentTestimonialImg.f5378bf8.png",
     "static/media/HowItWorks-1.svg": "/static/media/HowItWorks-1.8aeff98f.svg",
-    "static/media/HowItWorks-2.svg": "/static/media/HowItWorks-2.52a58bcb.svg",
-    "static/media/HowItWorks-3.svg": "/static/media/HowItWorks-3.cab69826.svg",
+    "static/media/HowItWorks-2.svg": "/static/media/HowItWorks-2.a398fdb3.svg",
+    "static/media/HowItWorks-3.svg": "/static/media/HowItWorks-3.7d721e5b.svg",
     "static/media/Loading.svg": "/static/media/Loading.315711f3.svg",
     "static/media/Snap.svg": "/static/media/Snap.f55160e9.svg",
     "static/media/TestimonialsBanner.svg": "/static/media/TestimonialsBanner.195ce532.svg",
-    "static/media/aboutintrochat.png": "/static/media/aboutintrochat.bce765d8.png",
+    "static/media/aboutintrochat.svg": "/static/media/aboutintrochat.fa3522c2.svg",
     "static/media/aboutlearnachieve.png": "/static/media/aboutlearnachieve.907bfc8a.png",
     "static/media/algebra.svg": "/static/media/algebra.d31e185d.svg",
     "static/media/apple.svg": "/static/media/apple.c10c0314.svg",
@@ -58,7 +58,7 @@
   "entrypoints": [
     "static/js/runtime-main.966c5448.js",
     "static/js/2.98f69518.chunk.js",
-    "static/css/main.448ec6e9.chunk.css",
-    "static/js/main.0935dbaf.chunk.js"
+    "static/css/main.5b146c5a.chunk.css",
+    "static/js/main.11fc6f46.chunk.js"
   ]
 }
