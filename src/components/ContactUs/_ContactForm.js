@@ -16,7 +16,7 @@ const FormElements = [
     Type: "select",
     Label: "Admission",
     Name: "admission",
-    Options: ["Undergraduate", "Postgraduate"]
+    Options: ["Student", "Parent"]
   },
   {
     Type: "textarea",
