@@ -19,6 +19,10 @@
   &-Slider {
     padding: 64px;
     border-radius: 20px;
+    @media screen and (max-width: 1200px) {
+      padding: 16px;
+      border-radius: 0;
+    }
   }
   .RoundIconRight {
     transform-origin: left top;

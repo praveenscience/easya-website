@@ -35,4 +35,29 @@
       }
     }
   }
+  @media screen and (max-width: 1200px) {
+    &-Slide {
+      display: inline-block !important;
+      &-Text {
+        h3 {
+          font-size: 2.25em;
+          margin: 0 0 16px;
+        }
+        h4 {
+          font-size: 2em;
+        }
+        p {
+          margin: 0 0 10px;
+        }
+      }
+      &-Image.TeacherSlider-Slide-Image {
+        padding: 30px 50px 35px;
+        text-align: center;
+        img:first-child {
+          width: auto;
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
