@@ -17,6 +17,24 @@
   }
   &-Slides {
     .TeacherSlider {
+      .slick-arrow {
+        left: auto;
+        right: auto;
+        width: 48px;
+        height: 48px;
+        &::before {
+          color: rgba($seance, 0.2);
+          font-size: 48px;
+        }
+        &.slick- {
+          &prev {
+            left: -5px;
+          }
+          &next {
+            right: -5px;
+          }
+        }
+      }
       &-Slide {
         display: inline-block !important;
         &-Text {
