@@ -10,16 +10,19 @@
       margin: 80px 0 60px;
       max-width: 980px;
     }
-    .BasicPrinciples {
-      margin-bottom: 60px;
-    }
     h2 {
       font-size: 3.6em;
       font-weight: 600;
       letter-spacing: -0.8px;
       line-height: 1.55;
       margin: 0 0 40px;
-      text-align: left;
+      text-align: center;
+    }
+    .BasicPrinciples {
+      margin-bottom: 60px;
+      h2 {
+        text-align: left;
+      }
     }
     .action-button {
       text-align: center;
