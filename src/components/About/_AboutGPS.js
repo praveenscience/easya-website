@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AboutGPSBG from "../../assets/AboutGPSBG.png";
+import Paths from "../../constants/Paths";
 
 const AboutGPS = () => {
   return (
@@ -12,7 +13,7 @@ const AboutGPS = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="action-button">
-          <Link to="#" className="easya-btn-nav">
+          <Link to={Paths.ATBT} className="easya-btn-nav">
             Become a Tutor
           </Link>
         </div>

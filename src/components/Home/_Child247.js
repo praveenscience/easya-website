@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ChildExpert from "../../assets/child-expert.svg";
+import Paths from "../../constants/Paths";
 
 const Child247 = () => {
   return (
@@ -14,7 +15,7 @@ const Child247 = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="action-button">
-          <Link to="#" className="easya-btn-nav">
+          <Link to={Paths.HowItWorks} className="easya-btn-nav">
             How it works
           </Link>
         </div>
