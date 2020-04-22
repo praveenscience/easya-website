@@ -1,8 +1,12 @@
 &-Featured {
   flex-grow: 1;
   position: relative;
+  border-radius: 20px;
+  overflow: hidden;
   img {
-    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
   }
   &-Meta {
     position: absolute;
