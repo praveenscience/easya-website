@@ -75,7 +75,13 @@
           font-weight: 600;
           letter-spacing: 0.22px;
           line-height: 1.318;
-          margin-bottom: 10px;
+          margin: 0 0 10px;
+        }
+        a {
+          font-size: 22px;
+          font-weight: bold;
+          letter-spacing: 0;
+          line-height: 29px;
         }
         p {
           font-size: 1.8em;
@@ -114,6 +120,7 @@
           left: 50%;
           min-width: 110%;
           min-height: 110%;
+          max-width: none;
           transform: translate(-50%, -50%);
           position: absolute;
         }
@@ -223,7 +230,7 @@
             font-weight: 600;
             letter-spacing: 0.22px;
             line-height: 1.318;
-            margin-bottom: 10px;
+            margin: 10px 0;
           }
           p {
             font-size: 1.8em;
