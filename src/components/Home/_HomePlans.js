@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Paths from "../../constants/Paths";
 
 const Questions = [
   "Is your student enrolled in 3rd – 12th grade math?",
@@ -19,7 +20,7 @@ const HomePlans = () => {
         ))}
       </ul>
       <div className="action-button">
-        <Link to="#" className="easya-btn-nav">
+        <Link to={Paths.MonthlyPricing} className="easya-btn-nav">
           See Plans
         </Link>
       </div>

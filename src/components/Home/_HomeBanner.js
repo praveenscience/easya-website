@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import HomeBannerImg from "../../assets/home-banner-mobile.png";
 import HomeBannerSnap from "../../assets/Snap.svg";
+import Paths from "../../constants/Paths";
 
 const Rotator = [
   ["Snap", "Students open the app, click and ready to go"],
@@ -36,7 +37,7 @@ const HomeBanner = () => {
           <p>Download mobile App</p>
         </div>
         <div className="action-button">
-          <Link to="#" className="easya-btn-banner">
+          <Link to={Paths.MonthlyPricing} className="easya-btn-banner">
             See Plans
           </Link>
         </div>

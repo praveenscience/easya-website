@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
+import Paths from "../../../constants/Paths";
 
-const PrimaryNav = ({ List }) => {
+const PrimaryNav = ({ List, history }) => {
   return (
     <nav className="Header-Nav">
       <ul>
@@ -11,7 +12,14 @@ const PrimaryNav = ({ List }) => {
           </li>
         ))}
         <li>
-          <button className="easya-btn-nav">Start for free</button>
+          <button
+            className="easya-btn-nav"
+            onClick={e => {
+              history.push(Paths.MonthlyPricing);
+            }}
+          >
+            Start for free
+          </button>
         </li>
         <li className="download">
           <button className="easya-btn-nav">Download App</button>
@@ -21,4 +29,4 @@ const PrimaryNav = ({ List }) => {
   );
 };
 
-export default PrimaryNav;
+export default withRouter(PrimaryNav);
