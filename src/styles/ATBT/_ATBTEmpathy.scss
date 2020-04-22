@@ -83,10 +83,13 @@
         p {
           font-size: 1.4em;
         }
-        .action-button .easya-btn-nav {
-          font-size: 1.7em;
-          padding: 12px 20px;
-          text-align: center;
+        .action-button {
+          margin-bottom: 35px;
+          .easya-btn-nav {
+            font-size: 1.5em;
+            padding: 12px 20px;
+            text-align: center;
+          }
         }
       }
     }

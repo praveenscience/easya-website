@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HomeSubjectsItem from "./_HomeSubjectsItem";
+import Paths from "../../constants/Paths";
 
 const Subjects = [
   {
@@ -65,7 +66,7 @@ const HomeSubjects = () => {
         includes GCSE and anything earlier than that!
       </p>
       <div className="action-button">
-        <Link to="#" className="easya-btn-nav">
+        <Link to={Paths.Subjects} className="easya-btn-nav">
           All Subjects
         </Link>
       </div>
