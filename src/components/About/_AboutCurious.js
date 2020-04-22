@@ -20,7 +20,7 @@ const AboutCurious = ({ Image, Title, Action, ActionLink }) => {
       <h2>{Title ? Title : "Curious about how we teach these topics?"}</h2>
       <div className="action-button">
         <Link
-          to={ActionLink ? ActionLink : Paths.About}
+          to={ActionLink ? ActionLink : Paths.TeachingMethods}
           className="easya-btn-banner"
         >
           {Action ? Action : "View Teaching methods"}
