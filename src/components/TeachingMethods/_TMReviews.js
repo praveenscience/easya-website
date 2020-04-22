@@ -1,5 +1,7 @@
 import React from "react";
 import TMReview from "./_TMReview";
+import { Link } from "react-router-dom";
+import Paths from "../../constants/Paths";
 
 const TMReviews = () => {
   const List = [
@@ -65,12 +67,17 @@ const TMReviews = () => {
     }
   ];
   return (
-    <section className="TeachingMethods-Reviews">
-      <h2>Real EasyA reviews, real learning</h2>
-      {List.map((review, key) => (
-        <TMReview {...review} key={key} />
-      ))}
-    </section>
+    <>
+      <section className="TeachingMethods-Reviews">
+        <h2>Real EasyA reviews, real learning</h2>
+        {List.map((review, key) => (
+          <TMReview {...review} key={key} />
+        ))}
+      </section>
+      <p className="TeachingMethods-ReadMore">
+        <Link to={Paths.Testimonials}>Read More Reviews</Link>
+      </p>
+    </>
   );
 };
 

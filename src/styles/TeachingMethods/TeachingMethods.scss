@@ -127,6 +127,18 @@
       }
     }
   }
+  &-ReadMore {
+    font-size: 2.2em;
+    font-weight: 600;
+    letter-spacing: 0.22px;
+    line-height: 1.318;
+    text-align: center;
+    margin: 0 0 60px;
+    padding-bottom: 30px;
+    a {
+      color: $tango;
+    }
+  }
   @media screen and (max-width: 1200px) {
     color: $nvgum;
     &-Intro {

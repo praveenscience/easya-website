@@ -2,13 +2,20 @@
   h2 {
     display: none;
   }
-  padding-bottom: 60px;
-  border-bottom: 1px solid rgba($seance, 0.2);
+  + p {
+    padding-bottom: 60px;
+    margin-bottom: 150px;
+    border-bottom: 1px solid rgba($seance, 0.2);
+  }
   @media screen and (max-width: 1200px) {
     display: flex;
+    margin-bottom: 0;
     flex-direction: column;
-    padding-bottom: 0;
-    border-bottom: 1px solid rgba($seance, 0.2);
+    + p {
+      padding-bottom: 48px;
+      margin-bottom: 120px;
+      border-bottom: 1px solid rgba($seance, 0.2);
+    }
     .TeachingMethods-Reviews-Review {
       margin: 0 12px 60px 16px;
       border-radius: 20px;
