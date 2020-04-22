@@ -1,41 +1,23 @@
 import React from "react";
 import BlogPost from "../Blog/_BlogPost";
+import { FeaturedBlogMapper } from "../Blog/BlogHelpers";
 
-const BlogPosts = [
-  {
-    Image: "https://i.imgur.com/9VSywT9.png",
-    Category: "Research Paper",
-    Time: null,
-    Title: "Director of Academics Kreg Moccia Discusses",
-    Excerpt: null,
-    LinkTo: "/blog/blog-new",
-    ShowReadNow: true
-  },
-  {
-    Image: "https://i.imgur.com/QbEQoky.png",
-    Category: "Studies",
-    Time: null,
-    Title: "How We Built an Engaging Onboarding Process",
-    Excerpt: null,
-    LinkTo: "/blog/blog-new",
-    ShowReadNow: true
-  },
-  {
-    Image: "https://i.imgur.com/9mGyTrC.png",
-    Category: "Research Paper",
-    Time: null,
-    Title: "EasyA’s innovative approach is here now!",
-    Excerpt: null,
-    LinkTo: "/blog/blog-new",
-    ShowReadNow: true
-  }
-];
 const WMCALBlogs = () => {
+  const [BlogPosts, setBlogPosts] = React.useState(null);
+  React.useEffect(() => {
+    fetch(
+      "https://easya-blog.ghost.io/ghost/api/v3/content/posts/?key=d7b8fdfc693c73defc6f7bf301&include=tags,authors"
+    )
+      .then(res => res.json())
+      .then(data => {
+        data.posts = data.posts.reverse();
+        data.posts.length = 3;
+        setBlogPosts(data.posts.map(FeaturedBlogMapper));
+      });
+  }, []);
   return (
     <section className="WMCAL-Blogs">
-      {BlogPosts.map((bp, key) => (
-        <BlogPost key={key} {...bp} />
-      ))}
+      {BlogPosts && BlogPosts.map((bp, key) => <BlogPost key={key} {...bp} />)}
     </section>
   );
 };

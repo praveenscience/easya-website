@@ -3,6 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 120px 0;
+  .BlogPost {
+    padding: 0 10px;
+  }
   @media screen and (max-width: 1200px) {
     display: flex;
     flex-direction: column;
