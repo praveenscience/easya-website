@@ -121,11 +121,12 @@
     color: $nvgum;
     &-Intro {
       h1 {
+        text-align: center;
         line-height: 1.1;
-        margin: 30px 16px;
+        margin: 30px 0 30px 40px;
         width: 340px;
         font-size: 3.2em;
-        font-weight: bold;
+        font-weight: 600;
         letter-spacing: -0.72px;
         line-height: 40px;
       }
@@ -153,7 +154,7 @@
         text-align: center;
         width: 340px;
         font-size: 3.2em;
-        font-weight: bold;
+        font-weight: 600;
         letter-spacing: -0.72px;
         line-height: 40px;
         text-align: center;
