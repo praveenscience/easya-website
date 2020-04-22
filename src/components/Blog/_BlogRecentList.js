@@ -1,4 +1,5 @@
 import React from "react";
+import Moment from "moment";
 import { Link } from "react-router-dom";
 
 const BlogRecentList = ({ BlogList }) => {
@@ -14,7 +15,7 @@ const BlogRecentList = ({ BlogList }) => {
             <h3>
               <Link to={item.LinkTo}>{item.Title}</Link>
             </h3>
-            <p className="date">{item.Date}</p>
+            <p className="date">{Moment(item.Date).format("DD.MM.YYYY")}</p>
           </li>
         ))}
     </ul>
