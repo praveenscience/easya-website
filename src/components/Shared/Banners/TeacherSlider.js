@@ -9,7 +9,7 @@ const SliderSettings = {
   slidesToScroll: 1,
   arrows: false
 };
-const TeacherSlider = () => {
+const TeacherSlider = ({ ExtraSettings = {} }) => {
   return (
     <div className="TeacherSlider">
       <link
@@ -23,7 +23,7 @@ const TeacherSlider = () => {
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
-      <Slider {...SliderSettings}>
+      <Slider {...{ ...SliderSettings, ...ExtraSettings }}>
         {[
           {
             Text:

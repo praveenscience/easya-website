@@ -20,6 +20,13 @@
     padding: 64px;
     border-radius: 20px;
     color: $white;
+    .slick-dots {
+      li {
+        button::before {
+          color: $white;
+        }
+      }
+    }
     @media screen and (max-width: 1200px) {
       padding: 16px;
       border-radius: 0;
