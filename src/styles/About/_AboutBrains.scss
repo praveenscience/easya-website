@@ -49,6 +49,9 @@
         letter-spacing: 0.16px;
         line-height: 1.25;
         margin: 5px 0 15px;
+        @media screen and (max-width: 1200px) {
+          margin: 10px 0 30px;
+        }
       }
     }
   }

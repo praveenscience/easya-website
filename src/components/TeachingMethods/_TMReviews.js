@@ -11,7 +11,7 @@ const TMReviews = () => {
         "Evie's struggled with generally low confidence for years now. Using EasyA was our last-ditch attempt to break out of this vicious cycle. ",
       Author: "Jasmine E.",
       ParentRole: "Year 13 Mum",
-      Place: "belgravia, london"
+      Place: "belgravia, london",
     },
     {
       Background: "easya-bgc-trans-tango",
@@ -21,7 +21,7 @@ const TMReviews = () => {
         "I honestly couldn't believe my eyes when John brought home an A in Maths. It's always been his weakest subject by far, so I wasad to call the teacher to double check the grade was correct.",
       Author: "clarissa r.",
       ParentRole: "year 13 mum",
-      Place: "barnes, london"
+      Place: "barnes, london",
     },
     {
       Background: "easya-bgc-trans-supernova",
@@ -31,7 +31,7 @@ const TMReviews = () => {
       Text: "",
       Author: "patrick h.",
       ParentRole: "year 11 dad",
-      Place: "kensington, london"
+      Place: "kensington, london",
     },
     {
       Background: "easya-bgc-trans-tango",
@@ -41,7 +41,7 @@ const TMReviews = () => {
       Text: "",
       Author: "arthur a.",
       ParentRole: "year 11 dad",
-      Place: "kensington, london"
+      Place: "kensington, london",
     },
     {
       Background: "easya-bgc-trans-supernova",
@@ -51,7 +51,7 @@ const TMReviews = () => {
         "I honestly couldn't believe my eyes when John brought home an A in Maths. It's always been his weakest so I was truly shocked. I had to call the teacher to double check the grade was correct. ",
       Author: "clarissa r.",
       ParentRole: "year 13 mum",
-      Place: "barnes, london"
+      Place: "barnes, london",
     },
     {
       Background: "easya-bgc-trans-seance",
@@ -61,8 +61,8 @@ const TMReviews = () => {
         "Evie's struggled with generally low confidence for years now. Using EasyA was our last-ditch attempt to break out of this vicious cycle. ",
       Author: "jasmine e.",
       ParentRole: "year 13 mum",
-      Place: "belgravia, london"
-    }
+      Place: "belgravia, london",
+    },
   ];
   return (
     <section className="TeachingMethods-Reviews">
