@@ -126,8 +126,9 @@
       h1 {
         text-align: center;
         line-height: 1.1;
-        margin: 30px 0 30px 40px;
-        width: 340px;
+        margin: 30px 16px;
+        width: auto;
+        max-width: none;
         font-size: 3.2em;
         font-weight: 600;
         letter-spacing: -0.72px;
@@ -136,6 +137,12 @@
       .BasicPrinciples {
         margin-bottom: 60px;
         padding: 45px 15px;
+        h2 {
+          margin: 0 16px 25px;
+          width: auto;
+          text-align: center;
+          font-size: 3em;
+        }
         ul {
           display: block;
           li {
@@ -154,8 +161,9 @@
         }
       }
       h2 {
-        margin: 20px 40px;
-        width: 340px;
+        margin: 20px 16px;
+        width: auto;
+        max-width: none;
         font-size: 3.2em;
         font-weight: 600;
         letter-spacing: -0.72px;
