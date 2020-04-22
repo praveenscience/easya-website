@@ -60,6 +60,9 @@
       }
     }
   }
+  .hr {
+    display: none;
+  }
   @media screen and (max-width: 1200px) {
     .hr {
       margin: 0 10px 0px 10px;
