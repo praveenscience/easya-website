@@ -10,7 +10,7 @@
     font-weight: 300;
     @media screen and (max-width: 1200px) {
       font-size: 2em;
-      margin: 0 10px;
+      margin: 0 10px 60px;
     }
   }
   .Pricing-Intro-PlanList-Item {
@@ -22,6 +22,10 @@
     }
     .BestValue-Banner {
       max-width: 435px;
+      @media screen and (max-width: 1200px) {
+        max-width: none;
+        width: auto;
+      }
     }
     p {
       font-weight: normal;
