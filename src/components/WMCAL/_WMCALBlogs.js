@@ -24,7 +24,7 @@ const BlogPosts = [
     Image: "https://i.imgur.com/9mGyTrC.png",
     Category: "Research Paper",
     Time: null,
-    Title: "EasyA’s innovative approach",
+    Title: "EasyA’s innovative approach is here now!",
     Excerpt: null,
     LinkTo: "/blog/blog-new",
     ShowReadNow: true
