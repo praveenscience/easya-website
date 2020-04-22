@@ -35,6 +35,9 @@
           }
         }
       }
+      .slick-dots li button::before {
+        font-size: 7px;
+      }
       &-Slide {
         display: inline-block !important;
         &-Text {
