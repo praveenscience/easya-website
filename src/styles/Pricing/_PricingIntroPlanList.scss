@@ -35,9 +35,6 @@
       letter-spacing: 0.03px;
       line-height: 1.2;
       margin: 0 0 5px;
-      @media screen and (max-width: 1200px) {
-        width: 300px;
-      }
       span {
         color: $tango;
       }
