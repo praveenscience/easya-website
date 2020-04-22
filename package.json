@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "gh-pages": "^2.2.0",
     "markdown-to-jsx": "^6.11.1",
+    "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
