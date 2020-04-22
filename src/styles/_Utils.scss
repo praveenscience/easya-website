@@ -1,3 +1,13 @@
+@mixin SquishyButtons($colour, $op, $depth) {
+  box-shadow: 0 $depth 0 0 rgba($colour, $op);
+  transition: all 0.15s linear;
+  position: relative;
+  top: 0;
+  &:hover {
+    top: $depth;
+    box-shadow: 0 0 0 0 rgba($colour, $op);
+  }
+}
 .easya {
   &-btn {
     &-nav {
