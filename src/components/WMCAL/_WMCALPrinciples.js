@@ -9,7 +9,7 @@ const WMCALPrinciples = () => {
       <BasicPrinciples />
       <h2>Want to get to know our teaching method?</h2>
       <div className="action-button">
-        <Link className="easya-btn-nav" to={Paths.Home}>
+        <Link className="easya-btn-nav" to={Paths.TeachingMethods}>
           How We Teach
         </Link>
       </div>
