@@ -7,7 +7,7 @@
   }
   &-Text {
     float: left;
-    padding: 115px 0 115px 115px;
+    padding: 115px 0 50px 115px;
     @media screen and (max-width: 1200px) {
       float: none;
       padding: 48px 25px 50px;
@@ -91,6 +91,10 @@
         }
       }
     }
+    img {
+      max-width: 550px;
+      display: block;
+    }
     @media screen and (max-width: 1200px) {
       padding: 0;
       position: relative;
@@ -103,9 +107,6 @@
       &-Slider {
         display: none;
       }
-    }
-    img {
-      max-width: 550px;
     }
   }
 }
