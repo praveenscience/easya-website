@@ -110,7 +110,8 @@ export default {
   },
   AboutCurious: {
     CurTitle: "Curious about how we teach these topics?",
-    ViewTeachingMethods: "View Teaching methods"
+    ViewTeachingMethods: "View Teaching methods",
+    Achievements: "Achievements"
   },
   AboutFeatTutors: {},
   AboutGPS: {}

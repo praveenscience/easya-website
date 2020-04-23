@@ -7,7 +7,7 @@ import BeastImg from "../../assets/achievements/beast.svg";
 import _ from "../../constants/Translations/Translations";
 
 const AboutCurious = ({ Image, Title, Action, ActionLink }) => {
-  const { CurTitle, ViewTeachingMethods } = _.About.AboutCurious;
+  const { CurTitle, ViewTeachingMethods, Achievements } = _.About.AboutCurious;
   return (
     <BackgroundBannerWithImage
       Image={AboutCuriousBG}
@@ -17,7 +17,7 @@ const AboutCurious = ({ Image, Title, Action, ActionLink }) => {
       <img
         src={Image ? Image : BeastImg}
         className="About-Curious-OverlayImage"
-        alt="Achievements"
+        alt={Achievements}
       />
       <h2>{Title ? Title : CurTitle}</h2>
       <div className="action-button">
