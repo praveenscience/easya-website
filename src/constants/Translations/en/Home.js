@@ -36,5 +36,59 @@ export default {
     Title: "EasyA is backed by the best institutes in education",
     Text: "Backed by leading institutes like Cambridge Uni and Stanford Uni.",
     BackedByInstitutes: "Backed by Institutes"
+  },
+  HomeSubjects: {
+    Subjects: [
+      {
+        Name: "Early Maths",
+        Icon: "Early",
+        Colour: "tango"
+      },
+      {
+        Name: "Algebra and functions",
+        Icon: "Algebra",
+        Colour: "seance"
+      },
+      {
+        Name: "Geometry",
+        Icon: "Geometry",
+        Colour: "supernova"
+      },
+      {
+        Name: "Sequences and series",
+        Icon: "Series",
+        Colour: "tango"
+      },
+      {
+        Name: "Stats and Probability",
+        Icon: "Stats",
+        Colour: "seance"
+      },
+      {
+        Name: "Trigonometry",
+        Icon: "Trigonometry",
+        Colour: "supernova"
+      },
+      {
+        Name: "Graphs",
+        Icon: "Graphs",
+        Colour: "tango"
+      },
+      {
+        Name: "Integration",
+        Icon: "Integration",
+        Colour: "seance"
+      },
+      {
+        Name: "Differentiation",
+        Icon: "Differentiation",
+        Colour: "supernova"
+      }
+    ],
+    Title:
+      "EasyA's tutors are geniuses at Maths, from GCSE to A-level and beyond",
+    Text:
+      "EasyA currently teaches all Maths up to A-level further Maths. That includes GCSE and anything earlier than that!",
+    AllSubjects: "All Subjects"
   }
 };
