@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //import React from "react";
 >>>>>>> 93ac151... ATBT/Tranlastions
+=======
+>>>>>>> 5a4cb01... HowItWorks/Tranlations
 import ATBTEmp1 from "../../../assets/ATBTEmp-1.png";
 import ATBTEmp2 from "../../../assets/ATBTEmp-2.png";
 import ATBTEmp3 from "../../../assets/ATBTEmp-3.png";
