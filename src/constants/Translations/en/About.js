@@ -113,6 +113,8 @@ export default {
     ViewTeachingMethods: "View Teaching methods",
     Achievements: "Achievements"
   },
-  AboutFeatTutors: {},
+  AboutFeatTutors: {
+    FeaturedTutors: "Featured Tutors"
+  },
   AboutGPS: {}
 };
