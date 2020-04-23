@@ -4,13 +4,18 @@ import Slider from "react-slick";
 import HomeBannerImg from "../../assets/home-banner-mobile.png";
 import HomeBannerSnap from "../../assets/Snap.svg";
 import Paths from "../../constants/Paths";
+import _ from "../../constants/Translations/Translations";
 
-const Rotator = [
-  ["Snap", "Students open the app, click and ready to go"],
-  ["Learn", "Students will learn with the app"],
-  ["Connect", "Students can connect with the tutors"]
-];
 const HomeBanner = () => {
+  const {
+    Rotator,
+    Title,
+    Text,
+    DownloadMobApp,
+    SeePlans,
+    Snap,
+    TitleText
+  } = _.Home.HomeBanner;
   return (
     <section className="Home-Banner">
       <link
@@ -25,20 +30,14 @@ const HomeBanner = () => {
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
       <div className="Home-Banner-Text">
-        <h1>
-          Make
-          <br /> math easy.
-        </h1>
-        <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur
-          <br /> adipiscing elit, sed do eiusmod
-        </p>
+        <h1>{Title}</h1>
+        <p className="lead">{Text}</p>
         <div className="desktop-only">
-          <p>Download mobile App</p>
+          <p>{DownloadMobApp}</p>
         </div>
         <div className="action-button">
           <Link to={Paths.MonthlyPricing} className="easya-btn-banner">
-            See Plans
+            {SeePlans}
           </Link>
         </div>
       </div>
@@ -46,19 +45,20 @@ const HomeBanner = () => {
         <img
           src={HomeBannerSnap}
           className="Home-Banner-Image-Snap"
-          alt="Snap"
+          alt={Snap}
         />
         <div className="Home-Banner-Image-Slider">
           <Slider>
-            {Rotator.map((slide, key) => (
-              <div className="Home-Banner-Image-Slider-Slide" key={key}>
-                <h3>{slide[0]}</h3>
-                <p>{slide[1]}</p>
-              </div>
-            ))}
+            {Rotator &&
+              Rotator.map((slide, key) => (
+                <div className="Home-Banner-Image-Slider-Slide" key={key}>
+                  <h3>{slide[0]}</h3>
+                  <p>{slide[1]}</p>
+                </div>
+              ))}
           </Slider>
         </div>
-        <img src={HomeBannerImg} alt="Home Banner" />
+        <img src={HomeBannerImg} alt={TitleText} />
       </div>
     </section>
   );
