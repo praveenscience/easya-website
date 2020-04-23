@@ -1,6 +1,7 @@
 import React from "react";
 
-const BDBanner = ({ Title, Image, Author }) => {
+const BDBanner = Details => {
+  const { Title, Image, Author } = Details;
   return (
     <section className="BlogDetails-Banner">
       <div className="BlogDetails-Banner-Wrap">

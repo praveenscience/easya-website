@@ -1,3 +1,1 @@
-export default {
-  EasyA: "EasyA"
-};
+export default {};

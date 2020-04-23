@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import _ from "../../constants/Translations/Translations";
 
-const BlogFeatured = ({
-  Image,
-  Category,
-  Time,
-  Title,
-  LinkTo,
-  ShowReadNow
-}) => {
+const BlogFeatured = () => {
+  const {
+    Image,
+    Category,
+    Time,
+    Title,
+    LinkTo,
+    ShowReadNow
+  } = _.Home.BlogFeatured;
   return (
     <div className="Blog-Intro-Featured">
       <img src={Image} alt={Title} />

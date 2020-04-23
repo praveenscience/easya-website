@@ -1,3 +1,5 @@
 export default {
-  EasyA: "EasyA"
+  BlogList: {
+    Alt: "Older Posts"
+  }
 };
