@@ -2,8 +2,10 @@ import React from "react";
 import BackgroundBannerWithImage from "../Shared/Banners/BackgroundBannerWithImage";
 import HomeParentTestimonialBG from "../../assets/HomeParentTestimonialBG.png";
 import HomeParentTestimonialImg from "../../assets/HomeParentTestimonialImg.png";
+import _ from "../../constants/Translations/Translations";
 
 const HomeParentTestimonial = () => {
+  const { Parent, ParentText, ParentName } = _.Home.HomeParentTestimonial;
   return (
     <section className="Home-ParentTestimonial">
       <BackgroundBannerWithImage
@@ -12,15 +14,11 @@ const HomeParentTestimonial = () => {
         className="Home-ParentTestimonial-Banner easya-bgc-seance"
       >
         <div className="Home-ParentTestimonial-Banner-Image">
-          <img src={HomeParentTestimonialImg} alt="Backed By" />
+          <img src={HomeParentTestimonialImg} alt={Parent} />
         </div>
         <div className="Home-ParentTestimonial-Banner-Text">
-          <h2>
-            “Yup tutors take the time to make sure my daughter understands
-            concepts behind problems, in a way that is supportive and
-            encouraging.”
-          </h2>
-          <p>- Maria, Mother</p>
+          <h2>{ParentText}</h2>
+          <p>{ParentName}</p>
         </div>
       </BackgroundBannerWithImage>
     </section>

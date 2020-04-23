@@ -90,5 +90,11 @@ export default {
     Text:
       "EasyA currently teaches all Maths up to A-level further Maths. That includes GCSE and anything earlier than that!",
     AllSubjects: "All Subjects"
+  },
+  HomeParentTestimonial: {
+    Parent: "Parent",
+    ParentText:
+      "“Yup tutors take the time to make sure my daughter understands concepts behind problems, in a way that is supportive and encouraging.”",
+    ParentName: "- Maria, Mother"
   }
 };
