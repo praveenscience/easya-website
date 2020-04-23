@@ -116,5 +116,11 @@ export default {
   AboutFeatTutors: {
     FeaturedTutors: "Featured Tutors"
   },
-  AboutGPS: {}
+  AboutGPS: {
+    Title: "You think you’re a great Problem solver?",
+    Text:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    BecomeATutor: "Become a Tutor",
+    ChildExpert: "Child Expert"
+  }
 };
