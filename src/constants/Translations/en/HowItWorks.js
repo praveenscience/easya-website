@@ -1,3 +1,3 @@
 export default {
-  EasyA: "EasyA"
+  Title: "How it Works"
 };

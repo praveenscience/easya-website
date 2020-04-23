@@ -1,4 +1,5 @@
 export default {
+  Child247ChildExpert: "Child Expert",
   Child247Heading:
     "Give your child 24/7 unlimited access to expert tutors for a flat fee",
   Child247Text:

@@ -12,12 +12,12 @@ const Child247 = () => {
         <p>{_.Home.Child247Text}</p>
         <div className="action-button">
           <Link to={Paths.HowItWorks} className="easya-btn-nav">
-            How it works
+            {_.HowItWorks.Title}
           </Link>
         </div>
       </div>
       <div className="Home-Child247-Image">
-        <img src={ChildExpert} alt="Child Expert" />
+        <img src={ChildExpert} alt={_.Home.Child247ChildExpert} />
       </div>
     </section>
   );
