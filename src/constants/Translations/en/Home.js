@@ -96,5 +96,14 @@ export default {
     ParentText:
       "“Yup tutors take the time to make sure my daughter understands concepts behind problems, in a way that is supportive and encouraging.”",
     ParentName: "- Maria, Mother"
+  },
+  HomePlans: {
+    Questions: [
+      "Is your student enrolled in 3rd – 12th grade math?",
+      "Does your student have access to a smartphone or tablet?",
+      "Do you want your student to actually learn concepts for long-term math success?"
+    ],
+    Title: "Still wondering if EasyA is right for your family?",
+    SeePlans: "See Plans"
   }
 };

@@ -1,16 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Paths from "../../constants/Paths";
+import _ from "../../constants/Translations/Translations";
 
-const Questions = [
-  "Is your student enrolled in 3rd – 12th grade math?",
-  "Does your student have access to a smartphone or tablet?",
-  "Do you want your student to actually learn concepts for long-term math success?"
-];
 const HomePlans = () => {
+  const { Questions, Title, SeePlans } = _.Home.HomePlans;
   return (
     <section className="Home-Plans">
-      <h2>Still wondering if EasyA is right for your family?</h2>
+      <h2>{Title}</h2>
       <ul className="Home-Plans-List">
         {Questions.map((que, key) => (
           <li key={key}>
@@ -21,7 +18,7 @@ const HomePlans = () => {
       </ul>
       <div className="action-button">
         <Link to={Paths.MonthlyPricing} className="easya-btn-nav">
-          See Plans
+          {SeePlans}
         </Link>
       </div>
     </section>
