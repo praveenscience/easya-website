@@ -24,7 +24,7 @@ const AllTranslations = {
     About: EnAbout,
     Subjects: EnSubjects,
     HowItWorks: EnHowItWorks,
-    Ace: EnAce,
+    AceTestWithEasyA: EnAce,
     TeachingMethods: EnTeachingMethods,
     ATBT: EnATBT,
     Testimonials: EnTestimonials,
