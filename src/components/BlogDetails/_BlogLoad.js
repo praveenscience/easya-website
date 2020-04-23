@@ -1,10 +1,12 @@
 import React from "react";
 import LoadingSVG from "../../assets/Loading.svg";
+import _ from "../../constants/Translations/Translations";
 
 const BlogLoad = () => {
+  const { LoadingAlt } = _.BlogDetails;
   return (
     <div className="BlogDetails-Loading">
-      <img src={LoadingSVG} alt="Loading Blog Post" />
+      <img src={LoadingSVG} alt={LoadingAlt} />
     </div>
   );
 };

@@ -15,6 +15,7 @@ import EnBlog from "./en/Blog";
 import EnBlogDetails from "./en/BlogDetails";
 import EnTerms from "./en/Terms";
 import EnPrivacy from "./en/Privacy";
+import EnAce from "./en/AceTestWithEasyA";
 
 const AllTranslations = {
   en: {
@@ -23,6 +24,7 @@ const AllTranslations = {
     About: EnAbout,
     Subjects: EnSubjects,
     HowItWorks: EnHowItWorks,
+    AceTestWithEasyA: EnAce,
     TeachingMethods: EnTeachingMethods,
     ATBT: EnATBT,
     Testimonials: EnTestimonials,

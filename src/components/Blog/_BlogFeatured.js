@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import _ from "../../constants/Translations/Translations";
 
 const BlogFeatured = ({
   Image,
@@ -9,6 +10,7 @@ const BlogFeatured = ({
   LinkTo,
   ShowReadNow
 }) => {
+  const { MinRead, ReadNow } = _.Blog.BlogFeatured;
   return (
     <div className="Blog-Intro-Featured">
       <img src={Image} alt={Title} />
@@ -18,13 +20,13 @@ const BlogFeatured = ({
           {Time && (
             <>
               <span>&middot;</span>
-              {Time} min read
+              {Time} {MinRead}
             </>
           )}
           {ShowReadNow && (
             <>
               <span>&middot;</span>
-              <Link to={LinkTo}>Read Now</Link>
+              <Link to={LinkTo}>{ReadNow}</Link>
             </>
           )}
         </p>

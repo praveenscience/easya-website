@@ -1,3 +1,3 @@
 export default {
-  EasyA: "EasyA"
+  LoadingAlt: "Loading Blog Post"
 };
