@@ -30,5 +30,11 @@ export default {
       "Give your child 24/7 unlimited access to expert tutors for a flat fee",
     Text:
       "Give your child 24/7 unlimited access to expert tutors always available for a flat fee. This is the text they have given."
+  },
+  BackedByBanner: {
+    BackedBy: "Backed By",
+    Title: "EasyA is backed by the best institutes in education",
+    Text: "Backed by leading institutes like Cambridge Uni and Stanford Uni.",
+    BackedByInstitutes: "Backed by Institutes"
   }
 };
