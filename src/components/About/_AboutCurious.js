@@ -4,8 +4,10 @@ import Paths from "../../constants/Paths";
 import BackgroundBannerWithImage from "../Shared/Banners/BackgroundBannerWithImage";
 import AboutCuriousBG from "../../assets/AboutCuriousBG.png";
 import BeastImg from "../../assets/achievements/beast.svg";
+import _ from "../../constants/Translations/Translations";
 
 const AboutCurious = ({ Image, Title, Action, ActionLink }) => {
+  const { CurTitle, ViewTeachingMethods } = _.About.AboutCurious;
   return (
     <BackgroundBannerWithImage
       Image={AboutCuriousBG}
@@ -17,13 +19,13 @@ const AboutCurious = ({ Image, Title, Action, ActionLink }) => {
         className="About-Curious-OverlayImage"
         alt="Achievements"
       />
-      <h2>{Title ? Title : "Curious about how we teach these topics?"}</h2>
+      <h2>{Title ? Title : CurTitle}</h2>
       <div className="action-button">
         <Link
           to={ActionLink ? ActionLink : Paths.TeachingMethods}
           className="easya-btn-banner"
         >
-          {Action ? Action : "View Teaching methods"}
+          {Action ? Action : ViewTeachingMethods}
         </Link>
       </div>
     </BackgroundBannerWithImage>

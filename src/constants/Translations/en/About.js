@@ -108,7 +108,10 @@ export default {
     ],
     BallAlt: "Ball"
   },
-  AboutCurious: {},
+  AboutCurious: {
+    CurTitle: "Curious about how we teach these topics?",
+    ViewTeachingMethods: "View Teaching methods"
+  },
   AboutFeatTutors: {},
   AboutGPS: {}
 };
