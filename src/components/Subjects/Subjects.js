@@ -5,11 +5,11 @@ import HomeParentTestimonial from "../Home/_HomeParentTestimonial";
 import AboutCurious from "../About/_AboutCurious";
 import _ from "../../constants/Translations/Translations";
 
-const { SubjectContents } = _.Subjects.Subjects;
 const Subjects = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const { SubjectContents } = _.Subjects.Subjects;
   return (
     <main className="Home Subjects">
       <SubjectsIntro />
