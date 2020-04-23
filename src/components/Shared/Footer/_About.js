@@ -11,7 +11,7 @@ const FooterAbout = () => {
         The EasyA Math Tutoring App is built for students on their platform of
         choice - smartphones!
       </p>
-      <div class="Footer-About-Vendors">
+      <div className="Footer-About-Vendors">
         <a href="https://itunes.apple.com/us/app/easya/id1478549100">
           <img src={FooterAppleLogo} alt="Apple" />
         </a>
