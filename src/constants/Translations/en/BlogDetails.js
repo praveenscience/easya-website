@@ -1,1 +1,3 @@
-export default {};
+export default {
+  LoadingAlt: "Loading Blog Post"
+};

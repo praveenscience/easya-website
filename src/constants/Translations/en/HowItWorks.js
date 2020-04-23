@@ -9,7 +9,7 @@ import HIW3 from "../../../assets/HIW-3.png";
 export default {
   Intro: {
     Title: "EasyA is a modern student tutor platform.",
-    Div: [
+    Steps: [
       {
         Image: HIWIntro1,
         Title: "Submit",
