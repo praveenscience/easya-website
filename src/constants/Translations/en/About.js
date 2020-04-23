@@ -30,7 +30,84 @@ export default {
       }
     ]
   },
-  AboutTeam: {},
+  AboutTeam: {
+    Title: "Meet our Team",
+    Team: [
+      {
+        Image: "https://i.imgur.com/ATGQbXg.png",
+        Name: "Edgar Morris",
+        Role: "CTO",
+        Desc: [
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge.",
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge."
+        ]
+      },
+      {
+        Image: "https://i.imgur.com/ATGQbXg.png",
+        Name: "Hannah Martinez",
+        Role: "General Manager",
+        Desc: [
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge.",
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge."
+        ]
+      },
+      {
+        Image: "https://i.imgur.com/ATGQbXg.png",
+        Name: "Duane Mendez",
+        Role: "Marketing Head",
+        Desc: [
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge.",
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge."
+        ]
+      },
+      {
+        Image: "https://i.imgur.com/ATGQbXg.png",
+        Name: "Luella Holmes",
+        Role: "Insight Manager",
+        Desc: [
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge.",
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge."
+        ]
+      },
+      {
+        Image: "https://i.imgur.com/ATGQbXg.png",
+        Name: "Mary Leonard",
+        Role: "General Manager",
+        Desc: [
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge.",
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge."
+        ]
+      },
+      {
+        Image: "https://i.imgur.com/ATGQbXg.png",
+        Name: "Delia Robertson",
+        Role: "Marketing Head",
+        Desc: [
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge.",
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge."
+        ]
+      },
+      {
+        Image: "https://i.imgur.com/ATGQbXg.png",
+        Name: "Shane Wood",
+        Role: "Marketing Head",
+        Desc: [
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge.",
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge."
+        ]
+      },
+      {
+        Image: "https://i.imgur.com/ATGQbXg.png",
+        Name: "Adam Walton",
+        Role: "Marketing Head",
+        Desc: [
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge.",
+          "Oliver is currently studying towards a Master’s Degree in Maths at Cambridge."
+        ]
+      }
+    ],
+    BallAlt: "Ball"
+  },
   AboutCurious: {},
   AboutFeatTutors: {},
   AboutGPS: {}
