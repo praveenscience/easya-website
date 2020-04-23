@@ -5,7 +5,11 @@ import Paths from "../../constants/Paths";
 import _ from "../../constants/Translations/Translations";
 
 const TMIntro = () => {
-  const { Title, BasicPrinciplesTitle, Links } = _.TeachingMethods.TMIntro;
+  const {
+    Title,
+    BasicPrinciplesTitle,
+    MeetOurTutors
+  } = _.TeachingMethods.TMIntro;
   return (
     <section className="TeachingMethods-Intro">
       <h1>{Title}</h1>
@@ -13,7 +17,7 @@ const TMIntro = () => {
       <h2>{BasicPrinciplesTitle}</h2>
       <div className="action-button">
         <Link className="easya-btn-nav" to={Paths.ATBT}>
-          {Links}
+          {MeetOurTutors}
         </Link>
       </div>
     </section>

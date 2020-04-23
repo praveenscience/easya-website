@@ -5,7 +5,7 @@ import Paths from "../../constants/Paths";
 import _ from "../../constants/Translations/Translations";
 
 const TMReviews = () => {
-  const { List, Title, Links } = _.TeachingMethods.TMReviews;
+  const { List, Title, ReadMoreReviews } = _.TeachingMethods.TMReviews;
   return (
     <>
       <section className="TeachingMethods-Reviews">
@@ -15,7 +15,7 @@ const TMReviews = () => {
         ))}
       </section>
       <p className="TeachingMethods-ReadMore">
-        <Link to={Paths.Testimonials}>{Links}</Link>
+        <Link to={Paths.Testimonials}>{ReadMoreReviews}</Link>
       </p>
     </>
   );

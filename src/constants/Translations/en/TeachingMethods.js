@@ -2,7 +2,7 @@ export default {
   TMIntro: {
     Title: "EasyA's revolutionary approach to learning",
     BasicPrinciplesTitle: "Want to get to know our tutoring team?",
-    Links: "Meet Our Tutors"
+    MeetOurTutors: "Meet Our Tutors"
   },
   TMStudies: {
     Title: "Our Studies",
@@ -17,7 +17,7 @@ export default {
   },
   TMReviews: {
     Title: "Real EasyA reviews, real learning",
-    Links: "Read More Reviews",
+    ReadMoreReviews: "Read More Reviews",
     List: [
       {
         Background: "easya-bgc-trans-seance",
