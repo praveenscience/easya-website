@@ -2,16 +2,22 @@ import React from "react";
 import { Link } from "react-router-dom";
 import BasicPrinciples from "../Shared/Banners/BasicPrinciples";
 import Paths from "../../constants/Paths";
+import _ from "../../constants/Translations/Translations";
 
 const TMIntro = () => {
+  const {
+    Title,
+    BasicPrinciplesTitle,
+    MeetOurTutors
+  } = _.TeachingMethods.TMIntro;
   return (
     <section className="TeachingMethods-Intro">
-      <h1>EasyA's revolutionary approach to learning</h1>
+      <h1>{Title}</h1>
       <BasicPrinciples />
-      <h2>Want to get to know our tutoring team?</h2>
+      <h2>{BasicPrinciplesTitle}</h2>
       <div className="action-button">
         <Link className="easya-btn-nav" to={Paths.ATBT}>
-          Meet Our Tutors
+          {MeetOurTutors}
         </Link>
       </div>
     </section>

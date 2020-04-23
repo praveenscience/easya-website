@@ -4,8 +4,10 @@ import TMReviews from "../TeachingMethods/_TMReviews";
 import Paths from "../../constants/Paths";
 import AboutCurious from "../About/_AboutCurious";
 import WhizImg from "../../assets/achievements/whiz.svg";
+import _ from "../../constants/Translations/Translations";
 
 const Testimonials = () => {
+  const { Title, Action } = _.Testimonials.Testimonials;
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -15,8 +17,8 @@ const Testimonials = () => {
       <TMReviews />
       <AboutCurious
         Image={WhizImg}
-        Title="Still wondering if EasyA is right for your family?"
-        Action="How we teach"
+        Title={Title}
+        Action={Action}
         ActionLink={Paths.TeachingMethods}
       />
     </main>
