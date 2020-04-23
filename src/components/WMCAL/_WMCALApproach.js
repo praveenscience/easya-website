@@ -1,21 +1,17 @@
 import React from "react";
 import Approach from "../../assets/HIW-3.png";
+import _ from "../../constants/Translations/Translations";
 
 const WMCALApproach = () => {
+  const { Title, Text, EasyAsInnovativeApproachAlt } = _.WMCAL.WMCALApproach;
   return (
     <section className="WMCAL-Approach">
       <div className="WMCAL-Approach-Text">
-        <h2>EasyA’s innovative approach</h2>
-        <p>
-          EasyA super tutors are all trained to make sure students actually
-          learn. Designed by current and former Cambridge and Oxford University
-          students, EasyA's teaching methodology is built on years of extensive
-          research. In conjunction with our top academics how they thought
-          students learn as the basis for how tutors teach on our app.
-        </p>
+        <h2>{Title}</h2>
+        <p>{Text}</p>
       </div>
       <div className="WMCAL-Approach-Image">
-        <img src={Approach} alt="EasyA’s innovative approach" />
+        <img src={Approach} alt={EasyAsInnovativeApproachAlt} />
       </div>
     </section>
   );

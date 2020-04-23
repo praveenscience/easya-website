@@ -1,3 +1,6 @@
 export default {
-  EasyA: "EasyA"
+  SubjectsIntro: {
+    Title: "We’ve got you covered.",
+    SubjectsBannerImgAlt: "Banner"
+  }
 };

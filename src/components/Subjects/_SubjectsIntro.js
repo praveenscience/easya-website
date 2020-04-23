@@ -2,13 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Paths from "../../constants/Paths";
 import SubjectsBannerImg from "../../assets/subjects-banner.png";
+import _ from "../../constants/Translations/Translations";
 
 const SubjectsIntro = () => {
+  const { Title, SubjectsBannerImgAlt } = _.Subjects.SubjectsIntro;
   return (
     <>
-      <h1>We’ve got you covered.</h1>
+      <h1>{Title}</h1>
       <div className="Subjects-Banner">
-        <img src={SubjectsBannerImg} alt="Banner" />
+        <img src={SubjectsBannerImg} alt={SubjectsBannerImgAlt} />
       </div>
       <p>
         EasyA provides students with the highest quality learning experience
