@@ -12,12 +12,8 @@ const FooterAbout = () => {
         choice - smartphones!
       </p>
       <div className="Footer-About-Vendors">
-        <a href="https://itunes.apple.com/us/app/easya/id1478549100">
-          <img src={FooterAppleLogo} alt="Apple" />
-        </a>
-        <a href="https://play.google.com/store/apps/details?id=io.easya.easya">
-          <img src={FooterGoogleLogo} alt="Google" />
-        </a>
+        <img src={FooterAppleLogo} alt="Apple" />
+        <img src={FooterGoogleLogo} alt="Google" />
       </div>
       <p>Copyright &copy; 2020 EasyA Ltd.</p>
     </section>
