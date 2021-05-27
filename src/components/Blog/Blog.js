@@ -1,7 +1,7 @@
 import React from "react";
 import BlogList from "./_BlogList";
 import BlogIntro from "./_BlogIntro";
-
+import Scrolltop from "../Home/_scrolltop";
 const Blog = () => {
   const [Blogs, setBlogs] = React.useState(null);
   React.useEffect(() => {
@@ -16,6 +16,7 @@ const Blog = () => {
     <main className="Blog">
       <BlogIntro Blogs={Blogs} />
       <BlogList Blogs={Blogs} />
+      <Scrolltop/>
     </main>
   );
 };

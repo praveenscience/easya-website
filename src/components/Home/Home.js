@@ -5,6 +5,7 @@ import BackedByBanner from "./_BackedByBanner";
 import HomeSubjects from "./_HomeSubjects";
 import HomeParentTestimonial from "./_HomeParentTestimonial";
 import HomePlans from "./_HomePlans";
+import Scrolltop from "./_scrolltop";
 
 const Home = () => {
   React.useEffect(() => {
@@ -18,6 +19,7 @@ const Home = () => {
       <HomeSubjects />
       <HomeParentTestimonial />
       <HomePlans />
+      <Scrolltop/>
     </main>
   );
 };

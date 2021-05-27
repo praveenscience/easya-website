@@ -5,7 +5,7 @@ import BDBanner from "./_BDBanner";
 import BDContent from "./_BDContent";
 import BDSuggestion from "../Blog/_BDSuggestion";
 import { BlogDetailsMapper } from "../Blog/BlogHelpers";
-
+import Scrolltop from "../Home/_scrolltop";
 const BlogDetails = ({ match }) => {
   const [BlogDetails, setBlogDetails] = useState(null);
   useEffect(() => {
@@ -33,6 +33,7 @@ const BlogDetails = ({ match }) => {
           <BDBanner {...BlogDetails} />
           <BDContent {...BlogDetails} />
           <BDSuggestion {...BlogDetails} />
+          <Scrolltop/>
         </>
       ) : (
         <BlogLoad />

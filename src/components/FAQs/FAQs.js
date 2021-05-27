@@ -1,7 +1,7 @@
 import React from "react";
 import FAQList from "./_FAQList";
 import FAQHelp from "./_FAQHelp";
-
+import Scrolltop from "../Home/_scrolltop";
 const FAQs = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -56,6 +56,7 @@ const FAQs = () => {
       <h1>Frequently Asked Questions</h1>
       <FAQList List={List} />
       <FAQHelp />
+      <Scrolltop/>
     </main>
   );
 };
