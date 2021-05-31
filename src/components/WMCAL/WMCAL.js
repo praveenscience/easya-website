@@ -5,7 +5,7 @@ import WMCALApproach from "./_WMCALApproach";
 import WMCALBlogs from "./_WMCALBlogs";
 import TMReviews from "../TeachingMethods/_TMReviews";
 import WMCALPrinciples from "./_WMCALPrinciples";
-
+import Scrolltop from "../Home/_scrolltop";
 const WMCAL = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -18,6 +18,7 @@ const WMCAL = () => {
       <WMCALApproach />
       <TMReviews />
       <WMCALPrinciples />
+      <Scrolltop/>
     </main>
   );
 };

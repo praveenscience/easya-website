@@ -4,7 +4,7 @@ import SubjectBlock from "./_SubjectBlock";
 import HomeParentTestimonial from "../Home/_HomeParentTestimonial";
 import AboutCurious from "../About/_AboutCurious";
 import _ from "../../constants/Translations/Translations";
-
+import Scrolltop from "../Home/_scrolltop";
 const Subjects = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,6 +25,7 @@ const Subjects = () => {
         ))}
       </div>
       <AboutCurious />
+      <Scrolltop/>
     </main>
   );
 };

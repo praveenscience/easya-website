@@ -5,6 +5,7 @@ import Paths from "../../constants/Paths";
 import AboutCurious from "../About/_AboutCurious";
 import WhizImg from "../../assets/achievements/whiz.svg";
 import _ from "../../constants/Translations/Translations";
+import Scrolltop from "../Home/_scrolltop";
 
 const Testimonials = () => {
   const { Title, Action } = _.Testimonials.Testimonials;
@@ -21,6 +22,7 @@ const Testimonials = () => {
         Action={Action}
         ActionLink={Paths.TeachingMethods}
       />
+      <Scrolltop/>
     </main>
   );
 };

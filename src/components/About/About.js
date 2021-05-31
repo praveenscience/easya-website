@@ -6,7 +6,7 @@ import AboutTeam from "./_AboutTeam";
 import AboutCurious from "./_AboutCurious";
 import AboutFeatTutors from "./_AboutFeatTutors";
 import AboutGPS from "./_AboutGPS";
-
+import Scrolltop from "../Home/_scrolltop";
 const About = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,6 +20,7 @@ const About = () => {
       <AboutCurious />
       <AboutFeatTutors />
       <AboutGPS />
+      <Scrolltop/>
     </main>
   );
 };

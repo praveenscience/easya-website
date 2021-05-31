@@ -4,7 +4,7 @@ import PricingExpertTutors from "./_PricingExpertTutors";
 import PricingTrusted from "./_PricingTrusted";
 import PricingMoreReasons from "./_PricingMoreReasons";
 import PricingFAQ from "./_PricingFAQ";
-
+import Scrolltop from "../Home/_scrolltop";
 const Pricing = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -16,6 +16,8 @@ const Pricing = () => {
       <PricingTrusted />
       <PricingMoreReasons />
       <PricingFAQ />
+      <Scrolltop/>
+
     </main>
   );
 };

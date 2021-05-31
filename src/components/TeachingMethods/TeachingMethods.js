@@ -5,7 +5,7 @@ import TMReviews from "./_TMReviews";
 import AboutCurious from "../About/_AboutCurious";
 import WhizImg from "../../assets/achievements/whiz.svg";
 import Paths from "../../constants/Paths";
-
+import Scrolltop from "../Home/_scrolltop";
 const TeachingMethods = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -21,6 +21,7 @@ const TeachingMethods = () => {
         Action="View pricing"
         ActionLink={Paths.MonthlyPricing}
       />
+      <Scrolltop/>
     </main>
   );
 };
