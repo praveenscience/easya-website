@@ -3,16 +3,19 @@
   flex-direction: row;
   &-Text {
     width: 40%;
-    padding: 100px 100px 0;
+    padding: 100px 45px 0;
     h3 {
       font-size: 5em;
       font-weight: 600;
-      letter-spacing: -1.12px;
+      letter-spacing: -0.72px;
       line-height: 1.12;
       margin: 0 0 24px;
     }
     p {
       font-size: 1.4em;
+      font-style: normal;
+      font-weight:lighter;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       letter-spacing: 0.14px;
       line-height: 1.714;
       strong {
@@ -32,6 +35,7 @@
     padding: 45px 30px;
     background-color: $shellpeach;
     border-radius: 20px;
+    margin-right: 45px;
     .easya-btn-nav {
       width: 250px;
     }

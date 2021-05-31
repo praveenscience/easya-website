@@ -1,7 +1,7 @@
 &-RecentList {
   min-width: 400px;
   margin: 0 0 0 30px;
-  background-color: $seance;
+  background-color: #5f74d1;
   border-radius: 20px;
   padding: 40px;
   li {
@@ -28,7 +28,7 @@
         text-transform: uppercase;
       }
       &.date {
-        opacity: 0.3;
+        opacity: 0.6;
       }
     }
     h3 {

@@ -1,4 +1,6 @@
 .WMCAL {
+  margin-left: 45px;
+  margin-right: 45px;
   @include PageWrap(120px);
   @media screen and (max-width: 1200px) {
     margin: 40px auto;

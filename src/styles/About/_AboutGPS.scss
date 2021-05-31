@@ -1,5 +1,6 @@
 &-GPS {
-  margin: 5px 0;
+  margin: 0px 0;
+  margin-left: 45px;
   color: $nvgum;
   .Home-Child247 {
     &-Image {
@@ -9,13 +10,14 @@
       }
     }
     &-Text {
-      max-width: 685px;
+      max-width: 600px;
       h2 {
-        font-size: 6em;
+        font-size: 5em;
         margin: 125px 0 25px;
       }
       p {
-        max-width: 460px;
+        font-weight: 300;
+        max-width: 450px;
       }
     }
   }

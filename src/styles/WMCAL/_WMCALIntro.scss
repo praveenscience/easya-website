@@ -1,4 +1,5 @@
 &-Intro {
+  margin-left: 45px;
   color: $nvgum;
   display: flex;
   padding-bottom: 80px;
@@ -31,9 +32,9 @@
     background-color: $sun;
     position: relative;
     flex-grow: 1;
-    border-radius: 70px 0 0 70px;
+    border-radius: 70px;
     margin-left: 15px;
-    margin-right: -85px;
+    margin-right: 35px;
     img {
       position: absolute;
       border-radius: 10px;

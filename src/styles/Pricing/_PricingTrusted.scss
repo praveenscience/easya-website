@@ -1,5 +1,6 @@
 &-Trusted {
-  margin: 0 0 30px;
+  margin: 0 0 45px;
+  margin-left: 45px;
   h2 {
     font-size: 4.8em;
     font-weight: 600;
@@ -20,12 +21,13 @@
     margin: 0 0 70px;
   }
   &-List {
-    columns: 4;
+    columns: 3;
     @media screen and (max-width: 1200px) {
       columns: 1;
     }
     &-Item {
-      margin: 0 55px 50px 0;
+      margin: 0 115px 50px 0;
+      max-width: 300px;
       display: inline-block;
       @media screen and (max-width: 1200px) {
         margin: 0 10px 10px 10px;

@@ -1,5 +1,7 @@
 &-Step {
   margin: 64px 0;
+  margin-left: 45px;
+  margin-right: 45px;
   color: $nvgum;
   &:first-child {
     margin-top: 50px;
@@ -37,7 +39,7 @@
     }
     .BGContainer {
       padding: 55px;
-      border-radius: 20px 0 0 20px;
+      border-radius: 20px;
       h3 {
         font-size: 3.6em;
         font-weight: 600;
@@ -56,7 +58,7 @@
     .StepRow {
       flex-direction: row-reverse;
       .BGContainer {
-        border-radius: 0 20px 20px 0;
+        border-radius: 20px;
       }
     }
   }
@@ -117,7 +119,7 @@
       }
       .BGContainer {
         padding: 10px;
-        border-radius: 0 20px 20px 0;
+        border-radius: 20px;
         margin-right: 10px;
         h3 {
           font-size: 2.2em;

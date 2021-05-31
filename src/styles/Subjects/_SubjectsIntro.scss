@@ -1,14 +1,17 @@
 h1 {
   color: $nvgum;
   font-size: 7em;
+  text-align: center;
   font-weight: 600;
   margin-bottom: 60px;
   letter-spacing: -1.56px;
 }
 &-Banner {
+  margin-left: -45px;
+  margin-right: -45px;
   margin-bottom: 40px;
   background-color: $seance;
-  border-radius: 20px 0 0 20px;
+  border-radius: 20px;
   overflow: hidden;
   img {
     width: 100%;
@@ -16,8 +19,13 @@ h1 {
   }
 }
 p {
+  margin-top: 35px ;
+  margin-left: -05px;
+  margin-right: -05px;
   font-size: 1.8em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.61;
+  letter-spacing: 0.72px;
   color: $nvgum;
   a {
     color: $tango;
@@ -26,6 +34,8 @@ p {
 }
 @media screen and (max-width: 1200px) {
   h1 {
+    margin-left: -45px;
+    margin-right: -45px;
     font-size: 3.2em;
     margin-bottom: 24px;
     letter-spacing: -0.72px;

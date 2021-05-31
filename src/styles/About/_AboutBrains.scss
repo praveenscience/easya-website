@@ -2,31 +2,33 @@
   margin: 120px 0 95px;
   color: $nvgum;
   h2 {
-    font-size: 7em;
-    line-height: 1.1;
+    font-family: "Garamond", Times, serif;
+    font-size: 5em;
+    line-height: 1.12;
     font-weight: 600;
-    letter-spacing: -1.56px;
-    max-width: 665px;
-    margin: 0 0 60px;
+    letter-spacing: -0.72px;
+    max-width: 625px;
+    margin: 60px;
   }
   &-Wrap {
-    border-radius: 20px;
-    padding: 120px;
+    margin: 40px;
+    border-radius: 50px;
+    padding: 100px;
     display: flex;
     justify-content: space-around;
-    background: no-repeat rgba($tango, 0.2);
+    background: no-repeat rgba($tango, 0.33);
     background-image: url("../../assets/AboutLeft.png"),
       url("../../assets/AboutRight.png");
     background-size: 100px, 200px;
-    background-position: 75px center, right center;
+    background-position: 65px center, right center;
   }
   &-Profile {
-    background-color: $white;
-    border-radius: 5px;
-    padding: 24px;
-    width: 430px;
+    background-color: #f0eaea;
+    border-radius: 10px;
+    padding: 22px;
+    width: 400px;
     img {
-      border-radius: 5px;
+      border-radius: 10px;
       overflow: hidden;
       display: block;
       width: 100%;
@@ -35,15 +37,21 @@
     h3 {
       margin: 0;
       font-size: 2.2em;
-      font-weight: 600;
+      font-weight: 550;
       letter-spacing: 0.22px;
-      line-height: 1.318;
+      line-height: 1.12;
     }
     p {
+      
       font-size: 1.4em;
+      font-style: italic;
+      font-weight: 50;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       letter-spacing: 0.14px;
       line-height: 1.715;
       &.lead {
+        font-family: 'Times New Roman', Times, serif;
+        font-style:normal;
         font-weight: 600;
         font-size: 1.6em;
         letter-spacing: 0.16px;

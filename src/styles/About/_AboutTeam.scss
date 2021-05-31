@@ -1,10 +1,11 @@
 &-Team {
   color: $nvgum;
+  margin: 45px;
   h2 {
     margin: 0 0 75px;
     font-size: 5em;
     font-weight: 600;
-    letter-spacing: -1.12px;
+    letter-spacing: -0.72px;
     line-height: 1.12;
     text-align: center;
   }
@@ -40,28 +41,36 @@
       }
       p {
         transition: all 0.25s linear;
-        font-size: 1.4em;
+        font-family:serif;
+        font-size: 1.6em;
         line-height: 1.714;
+        font-style: italic;
         margin: 0;
         & + p + p + p {
           margin-top: 15px;
         }
         &.Name {
-          font-size: 2.2em;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 3.0em;
           line-height: 1.318;
+          font-style:normal;
           font-weight: bold;
           margin: 0 0 8px;
         }
         &.Role {
+          font-family:'Courier New', Courier, monospace;
           font-size: 1.8em;
+          font-style: normal;
           line-height: 1.3;
-          font-weight: normal;
+          font-weight:500;
           margin: 0 0 15px;
         }
       }
       &:hover {
         p {
-          &.Name,
+          &.Name{
+            color: #a00909;
+          }
           &.Role {
             color: $tango;
           }

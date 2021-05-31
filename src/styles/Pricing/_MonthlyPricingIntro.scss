@@ -1,5 +1,7 @@
 &.MonthlyPricing-Intro {
   margin-bottom: 100px;
+  margin-left: 45px;
+  margin-right: 45px;
   h1 {
     margin: 0 0 30px;
   }
@@ -40,11 +42,11 @@
       max-width: 61.5%;
       margin: 0;
       padding: 40px;
-      border-radius: 0 0 0 20px;
+      border-radius: 20px;
       @media screen and (max-width: 1200px) {
         min-width: 0;
         max-width: none;
-        border-radius: 0;
+        border-radius: 20px;
       }
       ul {
         columns: 2;
