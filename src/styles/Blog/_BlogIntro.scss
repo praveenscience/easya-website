@@ -1,8 +1,9 @@
 &-Intro {
   display: flex;
   flex-direction: row;
-  margin: 0 0 65px;
+  margin:45px;
   color: $white;
+  
   @media screen and (max-width: 1200px) {
     display: block;
   }

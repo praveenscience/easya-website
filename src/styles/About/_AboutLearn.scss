@@ -6,12 +6,13 @@
     color: $nvgum;
     padding-top: 50px;
     h2 {
-      margin: 45px 0 0;
+      margin: 20px 0 0;
       letter-spacing: -1.56px;
     }
     p {
       margin: 20px 0 0;
       font-size: 1.8em;
+      font-weight: 300;
       letter-spacing: 0.18px;
       line-height: 1.61;
     }
@@ -19,9 +20,10 @@
   &-Image {
     width: 525px;
     img {
+      margin-top: -5px;
       width: 740px;
       position: relative;
-      left: -215px;
+      left: -45px;
     }
   }
   @media screen and (max-width: 1200px) {

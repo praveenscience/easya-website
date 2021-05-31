@@ -1,6 +1,7 @@
 &-Banner {
   background-color: $seance;
   color: $white;
+  margin:45px;
   &-Wrap {
     @include PageWrap(60px);
     margin-top: 0;

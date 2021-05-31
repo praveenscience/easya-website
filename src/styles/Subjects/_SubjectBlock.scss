@@ -2,6 +2,8 @@
   position: relative;
   padding-left: 105px;
   margin: 60px 0;
+  margin-left: -45px;
+  margin-right: -45px;
   &::before {
     content: "";
     display: block;

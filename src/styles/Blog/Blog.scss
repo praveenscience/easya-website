@@ -1,4 +1,5 @@
 .Blog {
+  
   @include PageWrap(25px);
   @media screen and (max-width: 1200px) {
     margin: 0;

@@ -1,5 +1,7 @@
 &-Child247 {
   @include EasyABanner;
+  margin-left: 45px;
+
   &-Image {
     padding: 0 105px;
     @media screen and (max-width: 1200px) {

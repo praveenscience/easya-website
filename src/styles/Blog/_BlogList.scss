@@ -2,17 +2,21 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 45px;
+  margin-right: 45px;
+  //background-color: #000000;
   .BlogPost {
     width: 50%;
-    padding: 0 10px;
-    margin: 0 0 75px;
+    padding: 0 25px;
+    margin: 0 0 100px;
+  
     img {
       display: block;
       width: 100%;
     }
     &-Content {
-      left: 50px;
-      right: 50px;
+      left: 70px;
+      right: 70px;
       padding: 20px 30px;
       h3 {
         font-weight: 600;

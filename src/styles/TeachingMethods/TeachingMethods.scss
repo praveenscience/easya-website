@@ -1,9 +1,11 @@
 .TeachingMethods {
   @include PageWrap(0);
+  margin-left: 45px;
+  margin-right: 45px;
   color: $nvgum;
   &-Intro {
     h1 {
-      font-size: 7em;
+      font-size: 6em;
       font-weight: 600;
       letter-spacing: -1.56px;
       line-height: 1.1;
@@ -11,7 +13,7 @@
       max-width: 980px;
     }
     h2 {
-      font-size: 3.6em;
+      font-size: 5.0em;
       font-weight: 600;
       letter-spacing: -0.8px;
       line-height: 1.55;
@@ -39,15 +41,18 @@
     overflow: hidden;
     margin: 0 0 60px;
     h3 {
-      font-size: 2.2em;
+      
+      text-align: center;
+      font-size: 5.0em;
       font-weight: 600;
       letter-spacing: 0.22px;
       line-height: 1.318;
       margin: 0 0 10px;
     }
     p {
-      margin: 20px 0 0;
+      margin: 10px 0 0;
       font-size: 1.8em;
+      font-family:'Times New Roman', Times, serif;
       letter-spacing: 0.18px;
       line-height: 1.6;
     }

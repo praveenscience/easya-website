@@ -1,9 +1,12 @@
 &-MoreReasons {
+
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 0 0 100px;
-  border-radius: 20px;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-radius: 100px;
   padding: 95px 75px;
   @media screen and (max-width: 1200px) {
     flex-direction: column;
