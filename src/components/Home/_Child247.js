@@ -13,7 +13,7 @@ const Child247 = () => {
         <p>{Text}</p>
         <div className="action-button">
           <Link to={Paths.HowItWorks} className="easya-btn-nav">
-            {_.HowItWorks.Title}
+           How It works
           </Link>
         </div>
       </div>
