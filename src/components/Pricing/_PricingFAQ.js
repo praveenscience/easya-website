@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PricingFAQSection from "./_PricingFAQSection";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const Answer =
   "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati a ipsa natus veniam esse odit facilis quibusdam animi voluptates qui. Optio rerum in expedita tenetur laborum consequatur, inventore atque officia.";
 const Data = [
@@ -40,8 +41,11 @@ const Data = [
   }
 ];
 const PricingFAQ = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <section className="Pricing-FAQ">
+    <section className="Pricing-FAQ" data-aos="slide-right">
       <h2>Frequently asked questions.</h2>
       <div className="Pricing-FAQ-List">
         {Data.map((section, key) => (

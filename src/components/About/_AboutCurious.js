@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Paths from "../../constants/Paths";
 import BackgroundBannerWithImage from "../Shared/Banners/BackgroundBannerWithImage";
 import AboutCuriousBG from "../../assets/AboutCuriousBG.png";
 import BeastImg from "../../assets/achievements/beast.svg";
 import _ from "../../constants/Translations/Translations";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const AboutCurious = ({ Image, Title, Action, ActionLink }) => {
   const { CurTitle, ViewTeachingMethods, Achievements } = _.About.AboutCurious;
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
     <BackgroundBannerWithImage
       Image={AboutCuriousBG}

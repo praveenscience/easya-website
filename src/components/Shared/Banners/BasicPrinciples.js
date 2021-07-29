@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BPImg1 from "../../../assets/BasicPrinciples-1.svg";
 import BPImg2 from "../../../assets/BasicPrinciples-2.svg";
 import BPImg3 from "../../../assets/BasicPrinciples-3.svg";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const BasicPrinciples = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <section className="BasicPrinciples">
+    <section className="BasicPrinciples" data-aos="slide-right">
       <h2>All EasyA tutors follow 3 basic principles</h2>
       <ul>
         {[

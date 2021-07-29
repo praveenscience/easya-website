@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PricingTrustedListItem from "./_PricingTrustedListItem";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const List = [
   {
     Image: "https://i.imgur.com/2Tgm21F.png",
@@ -106,8 +107,11 @@ const List = [
   }
 ];
 const PricingTrusted = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <section className="Pricing-Trusted">
+    <section className="Pricing-Trusted" data-aos="fade-up-right">
       <h2>Trusted by parents</h2>
       <p>See how parents and students get value from EasyA.</p>
       <div className="Pricing-Trusted-List">

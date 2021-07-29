@@ -1,5 +1,6 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const HIWStep = ({
   Order,
   Title,
@@ -10,8 +11,11 @@ const HIWStep = ({
   BGC,
   Reverse
 }) => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <div className={"HowItWorks-Steps-Step" + (Reverse ? " Reverse" : "")}>
+    <div className={"HowItWorks-Steps-Step" + (Reverse ? " Reverse" : "")} data-aos="fade-up-right">
       <hr className="hr"></hr>
       <div className="StepRow">
         <div className="Heading">

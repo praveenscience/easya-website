@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Check from "../../assets/check-trans.png";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const List = [
   "Priority Support",
   "Voice Notes",
@@ -8,8 +9,11 @@ const List = [
   "EasyA Parental Control"
 ];
 const MonthlyPricingIntro = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000});
+  },[])
   return (
-    <section className="Pricing-Intro MonthlyPricing-Intro">
+    <section className="Pricing-Intro MonthlyPricing-Intro" data-aos="flip-up">
       <h1>Something for everyone</h1>
       <p>Start with 5 sessions for free. No Credit Card required.</p>
       <div className="Pricing-Intro-PlanList">
