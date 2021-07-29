@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Whiz from "../../assets/achievements/whiz.svg";
 import PricingMoreReasonsListItem from "./_PricingMoreReasonsListItem";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const List = [
   {
     Icon: "Heart",
@@ -29,8 +30,11 @@ const List = [
   }
 ];
 const PricingMoreReasons = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <section className="Pricing-MoreReasons easya-bgc-trans-seance">
+    <section className="Pricing-MoreReasons easya-bgc-trans-seance"data-aos="fade-right">
       <div className="Pricing-MoreReasons-Col">
         <img src={Whiz} alt="Even more reasons you’ll love EasyA" />
         <h2>Even more reasons you’ll love EasyA</h2>

@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import HomeBannerImg from "../../assets/home-banner-mobile.png";
 import HomeBannerSnap from "../../assets/Snap.svg";
 import Paths from "../../constants/Paths";
 import _ from "../../constants/Translations/Translations";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const HomeBanner = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   const {
     Rotator,
     Title,
@@ -17,7 +21,7 @@ const HomeBanner = () => {
     TitleText
   } = _.Home.HomeBanner;
   return (
-    <section className="Home-Banner">
+    <section className="Home-Banner" data-aos="fade-right">
       <link
         rel="stylesheet"
         type="text/css"

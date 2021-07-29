@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slider from "react-slick";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const SliderSettings = {
   dots: true,
   infinite: true,
@@ -10,8 +11,11 @@ const SliderSettings = {
   arrows: false
 };
 const TeacherSlider = ({ ExtraSettings = {} }) => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <div className="TeacherSlider">
+    <div className="TeacherSlider" data-aos="fade-up">
       <link
         rel="stylesheet"
         type="text/css"

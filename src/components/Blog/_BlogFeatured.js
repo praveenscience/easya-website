@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import _ from "../../constants/Translations/Translations";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const BlogFeatured = ({
   Image,
   Category,
@@ -10,9 +11,12 @@ const BlogFeatured = ({
   LinkTo,
   ShowReadNow
 }) => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   const { MinRead, ReadNow } = _.Blog.BlogFeatured;
   return (
-    <div className="Blog-Intro-Featured">
+    <div className="Blog-Intro-Featured" data-aos="flip-up">
       <img src={Image} alt={Title} />
       <div className="Blog-Intro-Featured-Meta">
         <p className="Meta">

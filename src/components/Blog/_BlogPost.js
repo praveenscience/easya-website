@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const BlogPost = ({
   Image,
   Category,
@@ -10,10 +11,13 @@ const BlogPost = ({
   LinkTo,
   ShowReadNow
 }) => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <div className="BlogPost">
+    <div className="BlogPost" data-aos="fade-up">
       <img src={Image} alt={Title} />
-      <div className="BlogPost-Content">
+      <div className="BlogPost-Content" data-aos="fade-down">
         <p className="Meta">
           {Category}
           {Time && (

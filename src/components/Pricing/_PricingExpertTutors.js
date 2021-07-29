@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PricingExpertTutorsListItem from "./_PricingExpertTutorsListItem";
 import Thunder from "../../assets/achievements/thunder.svg";
 import Grow from "../../assets/achievements/highachiever.svg";
 import Coaching from "../../assets/achievements/algebra.svg";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const List = [
   {
     Image: Thunder,
@@ -22,8 +23,11 @@ const List = [
   }
 ];
 const PricingExpertTutors = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <section className="Pricing-ExpertTutors">
+    <section className="Pricing-ExpertTutors" data-aos="slide-up">
       <h2>
         Our Expert Tutors have helped thousands of students grow... you’re next.
       </h2>
