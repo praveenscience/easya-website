@@ -48,6 +48,57 @@ This project was opened to anyone to upgrade it however they want, and it still 
 Set up an issue, we will look into it and assign it to you.
 Styling was done using SCSS.
 And it is based on React framework.
+## Contribution Guidelines
+If you don't know how to work with Git and GitHub don't worry!  
+Follow these steps carefully:
+
+**1. Fork**  
+You'd see a button at upper right side of this page to `fork` this repo.
+
+**2. Clone**  
+You'd be redirected to your forked copy of the project. Click on the bright green `Code` button and click on copy.
+Open your teminal and change its directory to desired project directory.
+```bash
+git clone https://github.com/<your-username>/easya-website.git
+cd easya-website
+```
+
+**3. Add a reference to the original repository**  
+```bash
+git remote add upstream https://github.com/praveenscience/easya-website.git
+```
+
+**4. Create new branch**  
+```bash
+git checkout -b <branch-name>
+```
+
+Start working on your issue and push your code to your forked repo to track changes.  
+
+**5. Track Changes**  
+```bash
+git add .
+git commit -m "<relevant message"
+git push -u origin <branch-name>
+```
+
+Your code is pushed to your forked remote branch. If you want to create a pull request, follow these steps:  
+
+**6. Open your pushed branch from GitHub Web.**  
+
+**7. Click on `compare and pull request`.**  
+
+**8. Add appropriate title and description to your pull request explaining your changes and efforts.**  
+
+> There might be some templates or guidelines you might have to follow.
+
+**9. Click on `Create Pull Request`.**  
+
+**10. Check if there are no conflicts available and wait for maintainers to review your PR :)**
+> If there are merge conflicts, dont panic! Try to resolve the issue and make another PR.
+
+
+
 ## Challenges we ran into
 We have lots of people requesting to contribute a new feature onto this. 
 So it becomes hard to accept the reuests while at the same time make sure the application wouldnt deviate from the main idea.
