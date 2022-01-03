@@ -78,7 +78,7 @@ Start working on your issue and push your code to your forked repo to track chan
 **5. Track Changes**  
 ```bash
 git add .
-git commit -m"<relevant message"
+git commit -m "<relevant message"
 git push -u origin <branch-name>
 ```
 
